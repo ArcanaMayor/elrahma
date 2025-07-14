@@ -19,7 +19,9 @@
     <a href="{{ route('menus.index') }}" class="list-group-item list-group-item-action">
         Manajemen Menu
     </a>
-
+    <a href="{{ route('kontaks.index') }}" class="list-group-item list-group-item-action">
+    Manajemen Kontak
+    </a>
     <a href="#" class="list-group-item list-group-item-action">
         Halaman Statis
     </a>
