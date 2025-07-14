@@ -18,3 +18,5 @@ return view('admin.dashboard'); // Buat view sederhana untuk dashboard
 Route::resource('users', App\Http\Controllers\UserController::class);
 Route::resource('kategoris', KategoriController::class);
 Route::resource('infos', InfoController::class);
+Route::resource('menus', \App\Http\Controllers\MenuController::class);
+Route::resource('kontaks', \App\Http\Controllers\KontakController::class);
