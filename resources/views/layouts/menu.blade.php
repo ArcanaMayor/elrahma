@@ -25,13 +25,12 @@
     <a href="#" class="list-group-item list-group-item-action">
         Halaman Statis
     </a>
-    <a href="#" class="list-group-item list-group-item-action">
-        Galeri
+    <a href="{{ route('galeri.index') }}" class="list-group-item list-group-item-action">
+    Galeri
     </a>
-    <a href="#" class="list-group-item list-group-item-action">
+
+    <a href="{{ route('media.index') }}" class="list-group-item list-group-item-action">
         File Download
     </a>
-    <a href="#" class="list-group-item list-group-item-action">
-        Kontak
-    </a>
+
 </div>

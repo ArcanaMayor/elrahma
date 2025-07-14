@@ -3,6 +3,7 @@
 @section('content')
 <div class="container">
     <h2>Manajemen Kontak</h2>
+    <a href="{{ route('kontaks.create') }}" class="btn btn-primary mb-3">+ Tambah Kontak</a>
     @if(session('success'))
         <div class="alert alert-success">{{ session('success') }}</div>
     @endif
