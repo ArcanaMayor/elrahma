@@ -31,4 +31,9 @@ Route::resource('media', \App\Http\Controllers\MediaController::class)->paramete
 Route::resource('galeri', \App\Http\Controllers\GaleriController::class)->parameters([
     'galeri' => 'galeri'
 ]);
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('beranda');
+Route::resource('infos', \App\Http\Controllers\InfoController::class);
 
+Route::get('/user/dashboard', function () {
+    return view('users.index');
+})->middleware('auth');

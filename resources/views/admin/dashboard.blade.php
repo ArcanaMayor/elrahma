@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Data Kategori')
+@section('title', 'Dashboard')
 
 @section('content')
-<h2>Selamat datang di Dashboard!</h2>
-<p>Silakan pilih menu di atas untuk mengelola konten website.</p>
+    <h2>Selamat datang di Dashboard!</h2>
+    <p>Silakan pilih menu di samping untuk mengelola konten website.</p>
 @endsection
