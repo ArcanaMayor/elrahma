@@ -2,58 +2,30 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Kontak;
+use App\Models\Contact;
 use Illuminate\Http\Request;
 
 class KontakController extends Controller
 {
-    public function index()
-    {
-        $kontaks = Kontak::latest()->get();
-        return view('kontaks.index', compact('kontaks'));
-    }
-
-    public function create()
-    {
-        return view('kontaks.create');
-    }
-
-    public function store(Request $request)
+    public function kirim(Request $request)
     {
         $request->validate([
-            'nama' => 'required',
-            'email' => 'nullable|email',
-            'telepon' => 'nullable',
-            'pesan' => 'required',
+            'name' => 'required|string|max:100',
+            'email' => 'required|email|max:100',
+            'subject' => 'nullable|string|max:150',
+            'message' => 'required|string',
+            'phone' => 'nullable|string|max:20',
         ]);
 
-        Kontak::create($request->all());
-
-        return redirect()->route('kontaks.index')->with('success', 'Pesan berhasil dikirim.');
-    }
-
-    public function edit(Kontak $kontak)
-    {
-        return view('kontaks.edit', compact('kontak'));
-    }
-
-    public function update(Request $request, Kontak $kontak)
-    {
-        $request->validate([
-            'nama' => 'required',
-            'email' => 'nullable|email',
-            'telepon' => 'nullable',
-            'pesan' => 'required',
+        Contact::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'message' => $request->message,
+            'phone' => $request->phone,
+            'status' => 'new',
         ]);
 
-        $kontak->update($request->all());
-
-        return redirect()->route('kontaks.index')->with('success', 'Kontak berhasil diperbarui.');
-    }
-
-    public function destroy(Kontak $kontak)
-    {
-        $kontak->delete();
-        return redirect()->route('kontaks.index')->with('success', 'Kontak berhasil dihapus.');
+        return back()->with('success', 'Pesan Anda berhasil dikirim.');
     }
 }
