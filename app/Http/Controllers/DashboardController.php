@@ -19,7 +19,12 @@ class DashboardController extends Controller
             ->whereYear('visited_at', Carbon::now()->year)
             ->whereMonth('visited_at', Carbon::now()->month)
             ->count();
+        $recentVisitors = DB::table('visitors')
+            ->orderByDesc('visited_at')
+            ->limit(10)
+            ->get();
 
-        return view('admin.dashboard', compact('totalVisitors', 'todayVisitors', 'monthlyVisitors'));
+        return view('admin.dashboard', compact('totalVisitors', 'todayVisitors', 'monthlyVisitors', 'recentVisitors'));
+
     }
 }

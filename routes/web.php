@@ -42,8 +42,6 @@ Route::get('/user/dashboard', function () {
 
 
 
-// Halaman statis dinamis
-Route::get('/halaman/{slug}', [HalamanController::class, 'show'])->name('halaman.show');
 
 // Form kirim kontak (khusus halaman kontak)
 Route::post('/kontak/kirim', [KontakController::class, 'kirim'])->name('kontak.kirim');
@@ -53,4 +51,6 @@ Route::middleware([LogVisitor::class])->group(function () {
     Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 });
 Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-
+Route::get('/tentang', function () {
+    return view('about');
+});

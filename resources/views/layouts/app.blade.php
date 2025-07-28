@@ -348,7 +348,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="{{ url('/tentang') }}">
                                     <i data-feather="layout"></i>
                                     <span data-key="t-horizontal">Halaman Statis</span>
                                 </a>
