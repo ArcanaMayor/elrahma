@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\InfoController;
 use App\Http\Controllers\MenuController;
@@ -46,3 +47,10 @@ Route::get('/halaman/{slug}', [HalamanController::class, 'show'])->name('halaman
 
 // Form kirim kontak (khusus halaman kontak)
 Route::post('/kontak/kirim', [KontakController::class, 'kirim'])->name('kontak.kirim');
+use App\Http\Middleware\LogVisitor;
+
+Route::middleware([LogVisitor::class])->group(function () {
+    Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+});
+Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+

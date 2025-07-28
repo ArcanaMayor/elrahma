@@ -17,7 +17,7 @@ class KontakController extends Controller
             'phone' => 'nullable|string|max:20',
         ]);
 
-        Contact::create([
+        KontakController::create([
             'name' => $request->name,
             'email' => $request->email,
             'subject' => $request->subject,
@@ -27,5 +27,12 @@ class KontakController extends Controller
         ]);
 
         return back()->with('success', 'Pesan Anda berhasil dikirim.');
+    }
+    public function index()
+    {
+        return view('kontaks.index'); // Pastikan file kontak/index.blade.php ada
+         $kontaks = Kontak::all(); // Ambil semua data kontak
+
+    return view('kontaks.index', compact('kontaks'));
     }
 }
