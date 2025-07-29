@@ -325,13 +325,13 @@
                             </li>
                             <li>
                                 <a href="{{ route('kategoris.index') }}">
-                                    <i data-feather="grid"></i>
+                                    <i data-feather="hash"></i>
                                     <span data-key="t-horizontal">Manajemen Kategori</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="{{ route('infos.index') }}">
-                                    <i data-feather="book"></i>
+                                    <i data-feather="alert-octagon"></i>
                                     <span data-key="t-horizontal">Manajemen Informasi</span>
                                 </a>
                             </li>
@@ -365,7 +365,6 @@
                                     <span data-key="t-horizontal">File Download</span>
                                 </a>
                             </li>
-
                         </ul>
                     </div>
                     <!-- Sidebar -->

@@ -3,6 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content')
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 <script>
     function updateClock() {
         const now = new Date();
@@ -17,25 +18,63 @@
         const day = now.getDate().toString().padStart(2, '0');
         const month = months[now.getMonth()];
         const year = now.getFullYear();
+
         const hour = now.getHours().toString().padStart(2, '0');
         const minute = now.getMinutes().toString().padStart(2, '0');
         const second = now.getSeconds().toString().padStart(2, '0');
 
-        const formattedTime = `${dayName}, ${day} ${month} ${year} ${hour}:${minute}:${second}`;
-        document.getElementById('clock').innerText = formattedTime;
+        const dateFormatted = `📅 ${dayName}, ${day} ${month} ${year}`;
+        const timeFormatted = `🕒 ${hour}:${minute}:${second}`;
+
+        document.getElementById('calendar').innerText = dateFormatted;
+        document.getElementById('digital-clock').innerText = timeFormatted;
     }
 
     setInterval(updateClock, 1000);
     updateClock(); // initial call
+
+    const motivasiList = [
+        "Setiap langkah kecil membawa kita lebih dekat ke tujuan besar.",
+        "Kesuksesan adalah hasil dari persiapan, kerja keras, dan belajar dari kegagalan.",
+        "Jangan pernah menyerah, karena kegagalan hanyalah kesempatan untuk memulai lagi dengan lebih baik.",
+        "Percayalah pada dirimu sendiri, kamu lebih kuat dari yang kamu kira.",
+        "Setiap hari adalah kesempatan baru untuk menjadi lebih baik."
+    ];
+    function updateMotivasi() {
+        const motivasiText = document.getElementById('motivasi-text');
+        const motivasiBox = document.getElementById('motivasi-box');
+
+        // Random motivasi
+        const randomMotivasi = motivasiList[Math.floor(Math.random() * motivasiList.length)];
+
+        // Animasi fade out, lalu ubah teks dan fade in
+        motivasiBox.classList.add('fade-out');
+        setTimeout(() => {
+            motivasiText.innerText = randomMotivasi;
+            motivasiBox.classList.remove('fade-out');
+        }, 500);
+    }
+
+    // Update setiap 60 detik
+    setInterval(updateMotivasi, 60000);
+    updateMotivasi(); // awal
 </script>
+
 
 
 <div class="container-fluid">
     <div class="d-flex justify-content-between align-items-center mb-4">
     <h2><i data-feather="home" class="me-2"></i> Dashboard Admin</h2>
     <div class="text-end">
-        <span class="badge bg-light text-dark shadow-sm" id="clock">Memuat waktu...</span>
+        <div>
+            <span id="calendar" class="badge mb-1">📅 Memuat tanggal...</span>
+        </div>
+        <div>
+            <span id="digital-clock" class="badge bg-dark text-white shadow-sm">🕒 Memuat jam...</span>
+        </div>
     </div>
+
+
 </div>
 
 
@@ -137,10 +176,26 @@
     </div>
 </div>
 <style>
-    #clock {
-    font-family: 'Courier New', monospace;
-    font-size: 0.9rem;
-}
+    #calendar, #digital-clock {
+        font-family: 'Courir New', monospace;
+        font-size: 1.1rem;
+        padding: 0.6rem 1rem;
+        letter-spacing: 0.5px;
+    }
+
+    #calendar {
+        background-color: #f8f9fa;
+        color: #212529;
+        margin-bottom: 4px;
+    }
+
+    #digital-clock {
+        background-color: #313533;
+        color: #fff;
+    }
+</style>
+
+
 
 </style>
 @endsection

@@ -49,8 +49,8 @@
                                         <form class="mt-4 pt-2" method="POST" action="{{ route('login') }}">
                                             @csrf
                                             <div class="mb-3">
-                                                <label class="form-label">Username</label>
-                                                <input type="text" class="form-control" id="username" name="email" placeholder="Enter username" required>
+                                                <label class="form-label">Email</label>
+                                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required>
                                             </div>
                                             <div class="mb-3">
                                                 <div class="d-flex align-items-start">
@@ -116,9 +116,6 @@
                                             <p class="text-muted mb-0">Don't have an account ? <a href="auth-register.html"
                                                     class="text-primary fw-semibold"> Signup now </a> </p>
                                         </div>
-                                    </div>
-                                    <div class="mt-4 mt-md-5 text-center">
-                                        <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> themes/minia   . Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
                                     </div>
                                 </div>
                             </div>

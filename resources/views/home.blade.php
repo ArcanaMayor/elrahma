@@ -655,37 +655,43 @@ h6 {
   </section><!-- End Hero -->
   <!-- INFO PMB 2025 -->
     <section id="info-pmb" class="mb-16">
-      <h2 class="text-center text-3xl font-bold text-gray-900 mb-8">
-        INFO <span class="highlight-red-underline">PMB</span> 2025
-      </h2>
-        <div class="flex-shrink-0 w-40 mx-auto md:mx-0">
-          <img 
-            src="https://files.cdn-files-a.com/uploads/3881771/400_67412156d0412_filter_6741220f88372.png" 
-            alt="Mba mas baju ijo" 
-            class="rounded-lg shadow-lg object-cover w-full h-full" 
-          />
-        </div>
-        <article class="prose prose-indigo max-w-full md:max-w-3xl">
-          <p class="font-semibold">KEMANA SETELAH LULUS SMA/SMK/MA ?, KULIAH APA LERJA?</p>
-          <p><em>“Mau kuliah sih, tapi takutnya habis lulus nganggur.<br />
-            Buktinya banyak sarjana yang nganggur.”</em></p>
-          <p><em>“Mau kuliah tapi yang bisa sambil kerja.”</em></p>
-          <p><em>“Mau kuliah... tapi apa ada kuliah yang biayanya ringan/terjangkau?, lagian bingung juga mau jurusan apa ?”.</em></p>
-          <p class="font-semibold">SEGERA AMBIL KEPUTUSAN</p>
-          <p>......</p>
-          <p><strong>“KULIAH pada program studi yang memiliki prospek cerah, luas bidang pekerjaan setelah lulus, biaya terjangkau dan cocok dengan minatmu.”</strong></p>
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-center text-3xl font-bold text-gray-900 mb-8">
+      INFO <span class="highlight-red-underline">PMB</span> 2025
+    </h2>
 
-          <p>
-            DAFTAR SEKARANG….. KLIK 
-            <a href="#daftar" class="text-red-600 font-semibold hover:text-red-800">DAFTAR ONLINE</a> 
-            <br />
-            BROSUR DIGITAL, JALUR PENDAFTARAN, RINCIAN BIAYA KLIK 
-            <a href="https://stmikelrahma.ac.id/info-daftar-biaya-studi/biaya-pendidikan" target="_blank" rel="noopener" class="text-red-600 font-semibold hover:text-red-800">PMB EL RAHMA</a>
-          </p>
-        </article>
+    <div class="md:flex md:items-start md:gap-10">
+      <div class="flex-shrink-0 w-80 mx-auto md:mx-0 mb-6 md:mb-0">
+        <img 
+          src="https://files.cdn-files-a.com/uploads/3881771/400_67412156d0412_filter_6741220f88372.png" 
+          alt="Mba mas baju ijo" 
+          class="rounded-lg shadow-lg object-cover w-full h-full" 
+        />
       </div>
 
-      <article class="prose max-w-full md:max-w-5xl mx-auto prose-lg text-justify">
+      <article class="prose prose-indigo max-w-full md:max-w-3xl text-justify">
+        <p class="font-semibold">KEMANA SETELAH LULUS SMA/SMK/MA ?, KULIAH APA LERJA?</p>
+        <p><em>“Mau kuliah sih, tapi takutnya habis lulus nganggur.<br />
+          Buktinya banyak sarjana yang nganggur.”</em></p>
+        <p><em>“Mau kuliah tapi yang bisa sambil kerja.”</em></p>
+        <p><em>“Mau kuliah... tapi apa ada kuliah yang biayanya ringan/terjangkau?, lagian bingung juga mau jurusan apa ?”.</em></p>
+        <p class="font-semibold">SEGERA AMBIL KEPUTUSAN</p>
+        <p>......</p>
+        <p><strong>“KULIAH pada program studi yang memiliki prospek cerah, luas bidang pekerjaan setelah lulus, biaya terjangkau dan cocok dengan minatmu.”</strong></p>
+        <p>
+          DAFTAR SEKARANG….. KLIK 
+          <a href="#daftar" class="text-red-600 font-semibold hover:text-red-800">DAFTAR ONLINE</a> 
+          <br />
+          BROSUR DIGITAL, JALUR PENDAFTARAN, RINCIAN BIAYA KLIK 
+          <a href="https://stmikelrahma.ac.id/info-daftar-biaya-studi/biaya-pendidikan" target="_blank" rel="noopener" class="text-red-600 font-semibold hover:text-red-800">PMB EL RAHMA</a>
+        </p>
+      </article>
+    </div>
+
+    <article class="prose max-w-full md:max-w-5xl mx-auto prose-lg text-justify mt-10">
+    </article>
+  </div>
+  <article class="prose max-w-full md:max-w-5xl mx-auto prose-lg text-justify">
         <p><strong>PRODI APA YANG PUNYA PROSPEK CERAH SAAT INI ??</strong></p>
         <ul>
           <li>
@@ -779,6 +785,7 @@ h6 {
           <a href="https://stmikelrahma.ac.id/info-daftar-biaya-studi/biaya-pendidikan" target="_blank" rel="noopener" class="text-red-600 font-semibold underline">/info-daftar-biaya-studi/biaya-pendidikan</a>
         </p>
       </article>
-    </section>
+</section>
+
 </body>
 </html>
