@@ -10,5 +10,7 @@ class HomeController extends Controller
         $terbaru = Info::latest()->take(5)->get(); // 5 info terbaru
         $populer = Info::orderBy('views', 'desc')->take(5)->get(); // 5 info paling banyak dibaca
         return view('home', compact('terbaru', 'populer'));
+        
+        
     }
 }

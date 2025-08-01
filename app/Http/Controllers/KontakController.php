@@ -31,8 +31,7 @@ class KontakController extends Controller
     public function index()
     {
         return view('kontaks.index'); // Pastikan file kontak/index.blade.php ada
-         $kontaks = Kontak::all(); // Ambil semua data kontak
-
-    return view('kontaks.index', compact('kontaks'));
+         $kontaks = Kontak::all(); // ambil semua data dari tabel kontak
+        return view('kontaks.index', compact('kontaks'));
     }
 }
