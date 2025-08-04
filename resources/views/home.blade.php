@@ -64,14 +64,14 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto " href="#">Beranda</a></li>
-          <li><a class="nav-link scrollto" href="#">Info PMB</a></li>
-          <li><a class="nav-link scrollto" href="#">EL RAHMA NEWS</a></li>
-          <li><a class="nav-link scrollto" href="#d">INFO DAFTAR & BIAYA STUDI</a></li>
+          <li><a class="nav-link scrollto " href="#hero">Beranda</a></li>
+          <li><a class="nav-link scrollto" href="#about">Info PMB</a></li>
+          <li><a class="nav-link scrollto" href="#el-rahma-news">EL RAHMA NEWS</a></li>
+          <li><a class="nav-link scrollto" href="#services">INFO DAFTAR & BIAYA STUDI</a></li>
           <li class="dropdown"><a href="#"><span>MORE</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">PRODI INFORMATIKA(AKREDITASI BAIK SEKALI)</a></li>
-              <li><a href="#">PRODI SISTEM INFORMASI (AKREDITASI BAIK SEKALI)</a></li>
+              <li><a class="nav-link scrollto" href="#prodi-infor">PRODI INFORMATIKA(AKREDITASI BAIK SEKALI)</a></li>
+              <li><a class="nav-link scrollto" href="#prodi-informasi">PRODI SISTEM INFORMASI (AKREDITASI BAIK SEKALI)</a></li>
               <li><a href="#">TENTANG EL RAHMA</a></li>
               <li><a href="#">INFO-AKADEMIK</a></li>
               <li><a href="#">JUTAWAN SEBELUM WISUDA</a></li>
@@ -83,7 +83,7 @@
               <li><a href="#">KEGIATAN AKADEMIK & PEMBINAAN PLUS</a></li>
               <li><a href="#">DOWNLOAD</a></li>
               <li><a href="#">IKLAN PMB 2020</a></li>
-              <li><a href="#">CONTACT</a></li>
+              <li><a href="#contact">CONTACT</a></li>
               <li><a href="#">NUMBER COUNTER</a></li>
             </ul>
           </li>
@@ -306,6 +306,206 @@
       </div>
     </section><!-- End About Us Section -->
 
+    <!-- Berita Section -->
+    <section id="el-rahma-news" class="news-section" style="background-color: #f8f9fa; padding: 60px 0;">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="section-header text-center" style="margin-bottom: 50px;">
+      <h2 style="color: #2c3e50; font-weight: 700; position: relative; display: inline-block;">
+        EL RAHMA NEWS
+        <span style="display: block; width: 80px; height: 3px; background: #e74c3c; margin: 15px auto 0;"></span>
+      </h2>
+      <p class="section-subtitle" style="color: #7f8c8d; font-size: 18px; margin-top: 15px;">
+        Berita terbaru dan kegiatan terkini dari STMIK EL RAHMA
+      </p>
+    </div>
+
+    <!-- Featured News (Top) -->
+    <div class="row featured-news" style="margin-bottom: 40px;">
+      <div class="col-md-12">
+        <div class="featured-card" style="border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+          <div class="row no-gutters">
+            <div class="col-md-6">
+              <div class="featured-image" style="height: 100%; min-height: 300px; background-image: url('https://files.cdn-files-a.com/uploads/3881771/2000_688b1523a0183.png'); background-size: cover; background-position: center;"></div>
+            </div>
+            <div class="col-md-6">
+              <div class="featured-content" style="padding: 30px; background: white; height: 100%;">
+                <div class="news-badge" style="background: #e74c3c; color: white; display: inline-block; padding: 5px 15px; border-radius: 20px; font-size: 12px; margin-bottom: 15px;">
+                  FEATURED
+                </div>
+                <h3 style="color: #2c3e50; margin-top: 0; font-weight: 600;">
+                  <a href="/el-rahma-news/lulus-sarjana-tanpa-skripsi" style="color: inherit; text-decoration: none;">LULUS SARJANA TANPA SKRIPSI</a>
+                </h3>
+                <div class="news-meta" style="color: #95a5a6; font-size: 14px; margin-bottom: 15px;">
+                  <span>1 min read</span>
+                </div>
+                <p style="color: #34495e; line-height: 1.6;">
+                  Alhamdulillah, STMIK EL RAHMA Yogyakarta telah menerapkan ketentuan dalam Permendikbudristek Nomor 53 Tahun 2023 tentang Penjaminan Mutu Pendidikan Tinggi. Dalam peraturan tersebut, disebutkan bahwa bentuk tugas akhir tidak lagi wajib berupa skripsi, tetapi bisa disesuaikan dengan capaian pembelajaran lulusan dan kekhasan program studi.
+                </p>
+                <a href="/el-rahma-news/lulus-sarjana-tanpa-skripsi" class="read-more" style="color: #e74c3c; font-weight: 600; text-decoration: none; display: inline-block; margin-top: 15px;">
+                  Read More <i class="fas fa-arrow-right" style="margin-left: 5px;"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Regular News Grid -->
+    <div class="row news-grid">
+      <!-- News Item 1 -->
+      <div class="col-lg-4 col-md-6 news-item" style="margin-bottom: 30px;">
+        <div class="news-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.08); height: 100%; transition: transform 0.3s;">
+          <a href="/el-rahma-news/sertifikasi-internasional-mikrotik-stmik-el-rahma-yogyakarta" style="display: block;">
+            <div class="news-image" style="height: 200px; background-image: url('https://files.cdn-files-a.com/uploads/3881771/800_67be9477b9285.jpg'); background-size: cover; background-position: center;"></div>
+          </a>
+          <div class="news-content" style="padding: 20px;">
+            <h4 style="color: #2c3e50; margin-top: 0; font-weight: 600; font-size: 18px;">
+              <a href="/el-rahma-news/sertifikasi-internasional-mikrotik-stmik-el-rahma-yogyakarta" style="color: inherit; text-decoration: none;">SERTIFIKASI INTERNASIONAL MIKROTIK STMIK EL RAHMA</a>
+            </h4>
+            <div class="news-meta" style="color: #95a5a6; font-size: 13px; margin-bottom: 10px;">
+              <span>1 min read</span>
+            </div>
+            <p style="color: #7f8c8d; font-size: 14px; line-height: 1.5;">
+              Alhamdulillah, STMIK EL RAHMA telah sukses menyelenggarakan Pelatihan dan Sertifikasi Mikrotik. Pelatihan dan sertifikasi ini diselenggarakan dalam dua periode.
+            </p>
+            <a href="/el-rahma-news/sertifikasi-internasional-mikrotik-stmik-el-rahma-yogyakarta" class="read-more" style="color: #e74c3c; font-size: 14px; font-weight: 600; text-decoration: none; display: inline-block; margin-top: 10px;">
+              Read More <i class="fas fa-arrow-right" style="margin-left: 5px; font-size: 12px;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- News Item 2 -->
+      <div class="col-lg-4 col-md-6 news-item" style="margin-bottom: 30px;">
+        <div class="news-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.08); height: 100%; transition: transform 0.3s;">
+          <a href="/el-rahma-news/audit-mutu-internal-ami-stmik-el-rahma-yogyakarta" style="display: block;">
+            <div class="news-image" style="height: 200px; background-image: url('https://files.cdn-files-a.com/uploads/3881771/800_67b6d6d109b20.jpg'); background-size: cover; background-position: center;"></div>
+          </a>
+          <div class="news-content" style="padding: 20px;">
+            <h4 style="color: #2c3e50; margin-top: 0; font-weight: 600; font-size: 18px;">
+              <a href="/el-rahma-news/audit-mutu-internal-ami-stmik-el-rahma-yogyakarta" style="color: inherit; text-decoration: none;">AUDIT MUTU INTERNAL (AMI) STMIK EL RAHMA</a>
+            </h4>
+            <div class="news-meta" style="color: #95a5a6; font-size: 13px; margin-bottom: 10px;">
+              <span>1 min read</span>
+            </div>
+            <p style="color: #7f8c8d; font-size: 14px; line-height: 1.5;">
+              Alhamdulillah, Lembaga Penjaminan Mutu STMIK EL RAHMA Yogyakarta sukses menyelenggarakan kegiatan Audit Mutu Internal (AMI) pada tanggal 20 Desember 2024
+            </p>
+            <a href="/el-rahma-news/audit-mutu-internal-ami-stmik-el-rahma-yogyakarta" class="read-more" style="color: #e74c3c; font-size: 14px; font-weight: 600; text-decoration: none; display: inline-block; margin-top: 10px;">
+              Read More <i class="fas fa-arrow-right" style="margin-left: 5px; font-size: 12px;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- News Item 3 -->
+      <div class="col-lg-4 col-md-6 news-item" style="margin-bottom: 30px;">
+        <div class="news-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.08); height: 100%; transition: transform 0.3s;">
+          <a href="/el-rahma-news/rapat-tinjauan-manajemen-rtm-stmik-el-rahma-yogyakarta" style="display: block;">
+            <div class="news-image" style="height: 200px; background-image: url('https://files.cdn-files-a.com/uploads/3881771/800_67b6d7803d237.jpg'); background-size: cover; background-position: center;"></div>
+          </a>
+          <div class="news-content" style="padding: 20px;">
+            <h4 style="color: #2c3e50; margin-top: 0; font-weight: 600; font-size: 18px;">
+              <a href="/el-rahma-news/rapat-tinjauan-manajemen-rtm-stmik-el-rahma-yogyakarta" style="color: inherit; text-decoration: none;">RAPAT TINJAUAN MANAJEMEN (RTM) STMIK EL RAHMA</a>
+            </h4>
+            <div class="news-meta" style="color: #95a5a6; font-size: 13px; margin-bottom: 10px;">
+              <span>1 min read</span>
+            </div>
+            <p style="color: #7f8c8d; font-size: 14px; line-height: 1.5;">
+              Alhamdulillah, Lembaga Penjaminan Mutu STMIK EL RAHMA Yogyakarta sukses menyelenggarakan kegiatan RTM pada tanggal 27 Desember 2024 pukul 08.00 - 16.00 di Ruang Pertemuan.
+            </p>
+            <a href="/el-rahma-news/rapat-tinjauan-manajemen-rtm-stmik-el-rahma-yogyakarta" class="read-more" style="color: #e74c3c; font-size: 14px; font-weight: 600; text-decoration: none; display: inline-block; margin-top: 10px;">
+              Read More <i class="fas fa-arrow-right" style="margin-left: 5px; font-size: 12px;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- News Item 4 -->
+      <div class="col-lg-4 col-md-6 news-item" style="margin-bottom: 30px;">
+        <div class="news-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.08); height: 100%; transition: transform 0.3s;">
+          <a href="/el-rahma-news/satgas-ppks-stmik-el-rahma-yogyakarta" style="display: block;">
+            <div class="news-image" style="height: 200px; background-image: url('https://images.cdn-files-a.com/uploads/3881771/800_6630ea927a4e7.jpg'); background-size: cover; background-position: center;"></div>
+          </a>
+          <div class="news-content" style="padding: 20px;">
+            <h4 style="color: #2c3e50; margin-top: 0; font-weight: 600; font-size: 18px;">
+              <a href="/el-rahma-news/satgas-ppks-stmik-el-rahma-yogyakarta" style="color: inherit; text-decoration: none;">SATGAS PPKS STMIK EL RAHMA</a>
+            </h4>
+            <div class="news-meta" style="color: #95a5a6; font-size: 13px; margin-bottom: 10px;">
+              <span>1 min read</span>
+            </div>
+            <p style="color: #7f8c8d; font-size: 14px; line-height: 1.5;">
+              Satuan Tugas Pencegahan dan Penanganan Kekerasan Seksual (PPKS) telah resmi ditetapkan berdasarkan SK Ketua STMIK EL RAHMA Yogyakarta Nomor 029/KET/SKep/IV/2024.
+            </p>
+            <a href="/el-rahma-news/satgas-ppks-stmik-el-rahma-yogyakarta" class="read-more" style="color: #e74c3c; font-size: 14px; font-weight: 600; text-decoration: none; display: inline-block; margin-top: 10px;">
+              Read More <i class="fas fa-arrow-right" style="margin-left: 5px; font-size: 12px;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- News Item 5 -->
+      <div class="col-lg-4 col-md-6 news-item" style="margin-bottom: 30px;">
+        <div class="news-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.08); height: 100%; transition: transform 0.3s;">
+          <a href="/el-rahma-news/pansel-satgas-ppks-stmik-el-rahma-terbentuk" style="display: block;">
+            <div class="news-image" style="height: 200px; background-image: url('https://images.cdn-files-a.com/uploads/3881771/800_663095df7e281.jpg'); background-size: cover; background-position: center;"></div>
+          </a>
+          <div class="news-content" style="padding: 20px;">
+            <h4 style="color: #2c3e50; margin-top: 0; font-weight: 600; font-size: 18px;">
+              <a href="/el-rahma-news/pansel-satgas-ppks-stmik-el-rahma-terbentuk" style="color: inherit; text-decoration: none;">PANSEL SATGAS PPKS STMIK EL RAHMA TERBENTUK</a>
+            </h4>
+            <div class="news-meta" style="color: #95a5a6; font-size: 13px; margin-bottom: 10px;">
+              <span>1 min read</span>
+            </div>
+            <p style="color: #7f8c8d; font-size: 14px; line-height: 1.5;">
+              Alhamdulillah, setelah melewati UJI PUBLIK, akhirnya Capansel Satgas PPKS yang dinyatakan lulus ditetapkan sebagai PANSEL Satgas PPKS.
+            </p>
+            <a href="/el-rahma-news/pansel-satgas-ppks-stmik-el-rahma-terbentuk" class="read-more" style="color: #e74c3c; font-size: 14px; font-weight: 600; text-decoration: none; display: inline-block; margin-top: 10px;">
+              Read More <i class="fas fa-arrow-right" style="margin-left: 5px; font-size: 12px;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- News Item 6 -->
+      <div class="col-lg-4 col-md-6 news-item" style="margin-bottom: 30px;">
+        <div class="news-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.08); height: 100%; transition: transform 0.3s;">
+          <a href="/el-rahma-news/stmik-el-rahma-menyelenggarakan-uji-publik-capansel-satgas-ppks" style="display: block;">
+            <div class="news-image" style="height: 200px; background-image: url('https://images.cdn-files-a.com/uploads/3881771/800_6627695d441f5.jpg'); background-size: cover; background-position: center;"></div>
+          </a>
+          <div class="news-content" style="padding: 20px;">
+            <h4 style="color: #2c3e50; margin-top: 0; font-weight: 600; font-size: 18px;">
+              <a href="/el-rahma-news/stmik-el-rahma-menyelenggarakan-uji-publik-capansel-satgas-ppks" style="color: inherit; text-decoration: none;">UJI PUBLIK CAPANSEL SATGAS PPKS</a>
+            </h4>
+            <div class="news-meta" style="color: #95a5a6; font-size: 13px; margin-bottom: 10px;">
+              <span>1 min read</span>
+            </div>
+            <p style="color: #7f8c8d; font-size: 14px; line-height: 1.5;">
+              UJI PUBLIK bagi calon panitia seleksi SATGAS PPKS di STMIK EL RAHMA Yogyakarta telah dilaksanakan dengan sukses pada hari Senin, 22 April 2024.
+            </p>
+            <a href="/el-rahma-news/stmik-el-rahma-menyelenggarakan-uji-publik-capansel-satgas-ppks" class="read-more" style="color: #e74c3c; font-size: 14px; font-weight: 600; text-decoration: none; display: inline-block; margin-top: 10px;">
+              Read More <i class="fas fa-arrow-right" style="margin-left: 5px; font-size: 12px;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- See More Button -->
+    <div class="row">
+      <div class="col-12 text-center" style="margin-top: 30px;">
+        <a href="/el-rahma-news" class="see-more-btn" style="display: inline-block; padding: 12px 30px; background: #e74c3c; color: white; text-decoration: none; border-radius: 30px; font-weight: 600; transition: all 0.3s;">
+          Lihat Berita Lainnya
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
     <!-- ======= Counts Section ======= -->
     {{-- <section id="counts" class="counts">
       <div class="container" data-aos="fade-up">
@@ -452,8 +652,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Informatika Section ======= -->
-<section id="section-6401d73c907f6" class="s123-module s123-module-about layout-4 layout-4" data-module-id="6401d73c907f6" data-module-type-num="16">
-  <hr class="small">
+<section id="prodi-infor" class="s123-module s123-module-about layout-4 layout-4" data-module-id="6401d73c907f6" data-module-type-num="16">
   <div data-aos="fade-up" class="container-fluid page_header_style noBackground aos-init aos-animate">
     <div class="row">
       <div class="container moduleTitleContainer">
@@ -998,7 +1197,7 @@
 <!-- End Informatika Section -->
 
 <!-- Sistem Informasi Section -->
-<section id="section-6401d76890839" class="s123-module s123-module-about layout-4 layout-4" style="background-color: #f8f9fa;" data-module-id="6401d76890839" data-module-type-num="16">
+<section id="prodi-informasi" class="s123-module s123-module-about layout-4 layout-4" style="background-color: #f8f9fa;" data-module-id="6401d76890839" data-module-type-num="16">
   <div data-aos="fade-up" class="container-fluid page_header_style noBackground aos-init aos-animate">
     <div class="row">
       <div class="container moduleTitleContainer">
@@ -1868,7 +2067,7 @@
   </div>
 </section>
 
-    <!-- ======= Appointment Section ======= -->
+    {{-- <!-- ======= Appointment Section ======= -->
     <section id="appointment" class="appointment section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -1923,9 +2122,9 @@
         </form>
 
       </div>
-    </section><!-- End Appointment Section -->
+    </section><!-- End Appointment Section --> --}}
 
-    <!-- ======= Departments Section ======= -->
+    {{-- <!-- ======= Departments Section ======= -->
     <section id="departments" class="departments">
       <div class="container" data-aos="fade-up">
 
@@ -1994,9 +2193,9 @@
         </div>
 
       </div>
-    </section><!-- End Departments Section -->
+    </section><!-- End Departments Section --> --}}
 
-    <!-- ======= Testimonials Section ======= -->
+    {{-- <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
       <div class="container" data-aos="fade-up">
 
@@ -2078,9 +2277,9 @@
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section><!-- End Testimonials Section --> --}}
 
-    <!-- ======= Doctors Section ======= -->
+    {{-- <!-- ======= Doctors Section ======= -->
     <section id="doctors" class="doctors section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -2166,9 +2365,9 @@
         </div>
 
       </div>
-    </section><!-- End Doctors Section -->
+    </section><!-- End Doctors Section --> --}}
 
-    <!-- ======= Gallery Section ======= -->
+    {{-- <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
       <div class="container" data-aos="fade-up">
 
@@ -2192,9 +2391,9 @@
         </div>
 
       </div>
-    </section><!-- End Gallery Section -->
+    </section><!-- End Gallery Section --> --}}
 
-    <!-- ======= Pricing Section ======= -->
+    {{-- <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
@@ -2277,9 +2476,9 @@
         </div>
 
       </div>
-    </section><!-- End Pricing Section -->
+    </section><!-- End Pricing Section --> --}}
 
-    <!-- ======= Frequently Asked Questioins Section ======= -->
+    {{-- <!-- ======= Frequently Asked Questioins Section ======= -->
     <section id="faq" class="faq section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -2347,7 +2546,7 @@
         </ul>
 
       </div>
-    </section><!-- End Frequently Asked Questioins Section -->
+    </section><!-- End Frequently Asked Questioins Section --> --}}
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -2581,6 +2780,28 @@ Kodepos 55153</p>
   li {
     margin-bottom: 8px;
     line-height: 1.5;
+  }
+    .news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .read-more:hover {
+    color: #c0392b !important;
+  }
+  
+  .see-more-btn:hover {
+    background: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+  }
+  
+  .news-image {
+    transition: transform 0.3s;
+  }
+  
+  .news-card:hover .news-image {
+    transform: scale(1.03);
   }
 </style>
 </html>

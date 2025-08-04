@@ -10,7 +10,7 @@
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesbrand" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="/themes/Medicio/assets/img/favicon.png">
+        <link rel="shortcut icon" href="/themes/minia/assets/images/favicon.ico">
 
         <!-- plugin css -->
         <link href="/themes/minia/assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
@@ -45,16 +45,16 @@
                                     <img src="/themes/minia/assets/images/logo-sm.svg" alt="" height="24">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="/themes/Medicio/assets/img/logo.png" alt="logo" height="30"> <span class="logo-txt">EL RAHMA</span>
+                                    <img src="/themes/minia/assets/images/logo-sm.svg" alt="logo" height="30"> <span class="logo-txt">EL RAHMA</span>
                                 </span>
                             </a>
 
                             <a href="index.html" class="logo logo-light">
                                 <span class="logo-sm">
-                                    <img src="/themes/Medicio/assets/img/logo.png" alt="" height="24">
+                                    <img src="/themes/minia/assets/img/logo.png" alt="" height="24">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="/themes/Medicio/assets/img/logo.png" alt="" height="30"> <span class="logo-txt"></span>
+                                    <img src="/themes/minia/assets/img/logo.png" alt="" height="30"> <span class="logo-txt"></span>
                                 </span>
                             </a>
                         </div>
