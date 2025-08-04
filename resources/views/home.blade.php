@@ -58,7 +58,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <a href="index.html" class="logo me-auto"><img src="/themes/Medicio/assets/img/logo.png" alt=""></a>
+      <a href="index.html" class="logo me-auto"><img src="/themes/Medicio/assets/img/doctors/logo.webp" alt=""></a>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
 
@@ -151,9 +151,158 @@
 
         <div class="section-title">
           <h2>INFO PMB</h2>
-          
         </div>
-        <div class="col-xs-12"> <div class="responsive-handler fr-view breakable "> <div class="images"> <div class="separateImages text-center"><img class="img-rounded img-responsive" src="https://files.cdn-files-a.com/uploads/3881771/400_67412156d0412_filter_6741220f88372.png" alt="INFO PMB 2025 image"></div> </div> <strong>KEMANA SETELAH LULUS SMA/SMK/MA ?, KULIAH APA KERJA ?</strong><ul><li>“Mau kuliah sih, tapi takutnya habis lulus nganggur. Buktinya banyak sarjana yang nganggur.”</li><li>"Mau kuliah tapi yang bisa sambil kerja."</li><li>"Mau kuliah..tapi apa ada kuliah yg biayanya ringan/terjangkau ?, lagian bingung juga mau ambil jurusan apa ?".</li></ul><strong>SEGERA AMBIL KEPUTUSAN ....</strong><br><em><strong>“KULIAH pada program studi yang memiliki prospek cerah, luas bidang pekerjaan setelah lulus, biaya terjangkau dan cocok dengan minatmu.”</strong></em><br><br><strong>DAFTAR SEKARANG.....KLIK <a href="http://pmb.stmikelrahma.ac.id" target="_blank" rel="noopener noreferrer">DAFTAR ONLINE</a><br>BROSUR DIGITAL, JALUR PENDAFTARAN, RINCIAN BIAYA KLIK&nbsp;<a href="http://s.id/pmbelrahma" target="_blank" rel="noopener noreferrer">PMB EL RAHMA</a><br></strong><br><br><strong>PRODI APA YANG PUNYA PROSPEK CERAH SAAT INI ??</strong><ul><li><em><strong>Menurut www.halomoney.co.id</strong>, ada 7 jurusan kuliah yang menjanjikan masa depan cerah, yaitu INFORMATIKA, diskomvis, desain produk, desain mode, BISNIS DIGITAL, tata boga dan kewirausahaan.</em></li><li><em><strong>Menurut life.idntimes.com</strong>, ada 10 pekerjaan dengan gaji paling tinggi di INDONESIA, yaitu : ahli teknik perminyakan, dokter spesialis, ahli konstruksi, AHLI TEKNIK INFORMATIKA dan SISTEM INFORMASI, pengacara, pilot, marketing, ahli fisika, apoteker dan anggota DPR.</em></li><li><em><strong>Berdasarkan survei pekerjaan masa depan yang dilakukan oleh World Economic Forum,&nbsp;</strong>beberapa pekerjaan diproyeksikan tumbuh hingga 33% pada tahun 2022. Pekerjaan tersebut antara lain: Saintis dan Analis Data (Data Analyst and Scientist), Spesialis Kecerdasan Buatan (AI and Machine Learning Specialist), Spesialis Big Data (Big Data Specialist), Pengembang dan Analis Perangkat Lunak dan Aplikasi (Software and Application Developers and Analyst), Analis Informasi Keamanan (Information Security Analyst), Spesialis Teknologi Baru (New Technology Specialist), Spesialis Blockchain (Blockchain Specialist), Perancang Interaksi Mesin-Manusia dan Pengalaman Pengguna (User Experience and Human-Machine Interaction Designers), Profesional Penjual dan Pemasaran (Sales and Marketing Professionals)</em></li></ul><em><strong><br></strong></em><strong>TRUS PILIH PRODI APA DONG ?</strong><em><strong><br></strong></em><strong>"Pilih aja prodi yang menghasilkan lulusan dengan kemampuan akademik sekaligus ketrampilan/skill yang dapat cepat merebut peluang kerja, bisa berwirausaha sekaligus bisa studi lanjut."</strong><br><br>Pertimbangan lainnya adalah aspek legalitas institusi dan prodi, akreditasinya, kurikulumnya, masa studinya, fasilitasnya, dosennya, pembinaan tambahannya, kegiatan kemahasiswaannya dan bagaimana keterserapan lulusannya.<br><br><strong>MENGAPA KULIAH DI STMIK EL RAHMA ?</strong><br>Revolusi industri 4.0 akan melahirkan perubahan baru yang sangat cepat di bidang teknologi. Beberapa hal yang secara bertahap terjadi adalah berkembangnya kecerdasan buatan (artificial intelegent), internet berkecepatan tinggi, teknologi cloud, Internet of thing dan big data.&nbsp;<strong>Prodi INFORMATIKA dan SISTEM INFORMASI STMIK El Rahma&nbsp;</strong>adalah pilihan yang tepat sebagai tempat kuliah, karena kurikulum dan matakuliah telah disesuaikan dengan kebutuhan lapangan kerja era revolusi industri 4.0.<br><br><strong>PROGRAM STUDI DAN PROFIL LULUSAN STMIK EL RAHMA</strong><br>STMIK EL RAHMA menyelenggarakan program studi favorit dan memiliki prospek yang sangat cerah dimasa depan.<br>Program studi yang diselenggarakan antara lain :<br><strong>1. &nbsp;INFORMATIKA (Terakreditasi BAIK SEKALI-LAMINFOKOM)</strong>, Program Sarjana, gelar lulusan S.Kom, kelas Reguler Siang dan Kelas Reguler Malam. Kompetensi/Profil Lulusan INFORMATIKA :<ul><li><strong>Software Engineer</strong>&nbsp; &nbsp;: Ahli menganalisa, merekayasa, menyusun spesifikasi, mengimplementasikan dan memvalidasi suatu rancangan sistem perangkat lunak untuk menjawab permasalahan</li><li><strong>Web Developer</strong> : Ahli merancang website, melakukan coding dan mengembangkan website yang sudah ada.&nbsp;</li><li><strong>Cloud Computing Developer</strong> : Ahli bidang komputasi awan, merancang infrastruktur cloud dari suatu perusahaan, menjaga keamanan penyimpanan cloud.&nbsp;</li><li><strong>Advance Mobile Computing</strong> : Ahli membangun aplikasi berbasis mobile</li><li><strong>AI Engineer</strong> : Ahli melakukan pengembangan, pengujian dan penerapan terhadap model AI yang diterapkan. Ahli melakukan analisis statistik untuk pengembangan bisnis perusahaan.</li><li><strong>Helpdesk Analyst</strong> : Ahli perancangan, pembuatan, dukungan dan pengelolaan siklus hidup layanan IT, menjawab berbagai pertanyaan dari pengguna terkait hal teknis.</li></ul><strong>Peluang/Lapangan Kerja Prodi Informatika STMIK El Rahma Yogyakarta</strong><br>Berdasarkan survei pekerjaan masa depan yang dilakukan oleh World Economic Forum, beberapa pekerjaan diproyeksikan tumbuh hingga 33% pada tahun 2022 dan seterusnya, dan pekerjaan ini merupakan peluang besar lulusan INFORMATIKA. Pekerjaan tersebut antara lain:<br><ul><li>Saintis dan Analis Data (Data Analyst and Scientist)</li><li>Spesialis Kecerdasan Buatan (AI and Machine Learning Specialist)</li><li>Spesialis Big Data (Big Data Specialist)</li><li>Pengembang dan Analis Perangkat Lunak dan Aplikasi (Software and Application Developers and Analyst)</li><li>Analis Informasi Keamanan (Information Security Analyst)</li><li>Spesialis Teknologi Baru (New Technology Specialist)</li><li>Spesialis Blockchain (Blockchain Specialist)</li><li>Perancang Interaksi Mesin-Manusia dan Pengalaman Pengguna (User Experience and Human-Machine Interaction Designers)</li><li>Profesional Penjual dan Pemasaran (Sales and Marketing Professionals)</li></ul><br><strong>2. SISTEM INFORMASI (Terakreditasi BAIK SEKALI-LAMINFOKOM),</strong>Program Sarjana, gelar lulusan S.Kom, kelas Reguler Siang. Kompetensi/Profil Lulusan SISTEM INFORMASI :<ul><li><strong>Database Analyst&nbsp;</strong>: Ahli dalam menganalisis data yang ada di perusahaan dalam rangka keberlangsungan perusahaan tersebut.</li><li><strong>System &nbsp;Analyst&nbsp;</strong>: Ahli menganalisa, menyusun, dan menerapkan sistem. Mengurus aplikasi, sistem, dan penyimpanan data, serta meningkatkan kinerja sistem yang ada.</li><li><strong>IT Auditor</strong> : Profesi yang tugasnya melakukan evaluasi, pengawasan dan pengendalian infrastruktur IT secara menyeluruh.</li><li><strong>Digital Business Developer</strong> : Ahli dalam meningkatkan kemampuan digital organisasi dan menyelaraskan aktivitas strategis, pemasaran, dan penjualan untuk mendekati pasar dan pelanggan, serta memungkinkan pertumbuhan yang menciptakan nilai.</li></ul><strong>Peluang/Lapangan Kerja Prodi Sistem Informasi STMIK El Rahma Yogyakarta</strong><br><ol><li>Business Analyst adalah seseorang yang merupakan bagian dari operasi bisnis dan bekerja dalam bidang yang berkaitan dengan Teknologi Informasi untuk meningkatkan kualitas layanan. Membantu dalam Integrasi dan pengujian solusi baru di perusahaan, instansi maupun organisasi. Bisnis analis tidak harus selalu bekerja dalam proyek-proyek yang berkaitan dengan IT, keahliannya juga sering diperlukan dalam bidang pemasaran dan keuangan juga. &nbsp;Perusahaan atau industri yang membutuhkan jasa dari bisnis analis biasanya yang bergerak di bidang keuangan, perbankan, asuransi, telekomunikasi, utilitas, layanan perangkat lunak dan sebagainya.</li><li>Data Analyst&nbsp;adalah profesi yang tugasnya menganalisis data serta mendapatkan pengetahuan baru melalui data tersebut. Tingginya kebutuhan praktisi data di perusahaan membuat profesi Data Analyst kian hari kian diminati. Berdasarkan survei pekerjaan masa depan yang dilakukan oleh World Economic Forum, profesi Data Analyst menempati urutan pertama sebagai pekerjaan yang diproyeksikan tumbuh hingga 33% pada tahun 2022. Mengutip di situs https://id.indeed.com/, gaji Data Analyst Rata-Rata di Indonesiapun tidak main-main, yaitu Rp.5 Jutaan perbulan untuk Data Analis Junior.</li><li>E-Business Analyst &nbsp; adalah Orang yang mempunyai kemampuan dalam bidang arsitektur enterprise, strategi manajemen dan rekayasa sistem informasi dengan memanfaatkan teknologi informasi terkini. Peluang kerjanya di perusahaan yang membutuhkan sistem yang yang besar seperti industri manufakture, rumah sakit dan jasa perbangkan. Atau bisa mengembangkan software sendiri untuk dipasarkan ke industri-industri besar tersebut. Alumni STMIK EL Rahma ada yang mengembangkan software sendiri, yaitu &nbsp;software Rumah Sakit Khanza yang sudah dipakai di 1000 an rumah sakit di seluruh Indonesia, dan software laundry 1010.dry yang sudah banyak digunakan juga di Indonesia.</li><li>Technopreneur&nbsp;adalah seseorang yang mampu menangkap peluang bisnis di bidang IT, dan melakukan analisis bisnis. Menjadi seorang wirausaha di zaman serba digital seperti sekarang, seorang diharuskan juga perlu menguasai skill-skill teknologi yang mumpuni agar dapat bersaing di dunia luar. Apalagi di era industri 4.0, industri start-up digital tengah menjamur dimana-mana. Jika kamu tertarik untuk membangun perusahaan start-up digital-mu sendiri, kemampuan Technopreneur harus kamu miliki.</li></ol><br><strong>SEBAGIAN MATA KULIAH DAN TUGAS AKHIR :</strong><br>Bisnis Digital, Big Data, AI, SPK, IoT, Mikrokontroller, Technopreneur<br><br><strong>JALUR PENDAFTARAN, BIAYA STUDI DAN CARA PENDAFTARAN</strong><br>Untuk jalur pendaftaran, biaya studi dan cara pendaftaran silahkan klik&nbsp;<a href="/info-daftar-biaya-studi/biaya-pendidikan">/info-daftar-biaya-studi/biaya-pendidikan</a><strong><br></strong><br> </div> </div>
+        <div class="col-xs-12">
+  <div class="responsive-handler fr-view breakable">
+    <!-- Image Section with Side-by-Side Layout -->
+    <div class="row" style="margin-bottom: 30px;">
+      <div class="col-md-6" style="margin-bottom: 20px;">
+        <div class="text-center">
+          <img class="img-rounded img-responsive" src="https://files.cdn-files-a.com/uploads/3881771/400_67412156d0412_filter_6741220f88372.png" alt="INFO PMB 2025 image" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        </div>
+      </div>
+      <div class="col-md-6" style="padding-left: 30px;">
+        <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; height: 100%;">
+          <h3 style="color: #2c3e50; margin-top: 0;">KEMANA SETELAH LULUS SMA/SMK/MA?</h3>
+          <h4 style="color: #e74c3c;">KULIAH APA KERJA?</h4>
+          <ul style="padding-left: 20px;">
+            <li style="margin-bottom: 10px;">"Mau kuliah sih, tapi takutnya habis lulus nganggur. Buktinya banyak sarjana yang nganggur."</li>
+            <li style="margin-bottom: 10px;">"Mau kuliah tapi yang bisa sambil kerja."</li>
+            <li>"Mau kuliah..tapi apa ada kuliah yg biayanya ringan/terjangkau? Bingung juga mau ambil jurusan apa?"</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Decision Section -->
+    <div class="highlight-box" style="background-color: #e74c3c; padding: 25px; border-radius: 8px; margin: 25px 0; text-align: center; color: white;">
+      <h3 style="margin-top: 0; color: white;">SEGERA AMBIL KEPUTUSAN</h3>
+      <p style="font-size: 18px; font-weight: bold; margin-bottom: 20px;">
+        "KULIAH pada program studi yang memiliki prospek cerah, luas bidang pekerjaan setelah lulus, biaya terjangkau dan cocok dengan minatmu."
+      </p>
+      <div class="action-buttons">
+        <a href="http://pmb.stmikelrahma.ac.id" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="display: inline-block; padding: 12px 25px; background-color: white; color: #e74c3c; text-decoration: none; border-radius: 4px; margin-right: 15px; font-weight: bold;">
+          DAFTAR ONLINE
+        </a>
+        <a href="http://s.id/pmbelrahma" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="display: inline-block; padding: 12px 25px; background-color: #f39c12; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
+          BROSUR DIGITAL
+        </a>
+      </div>
+    </div>
+
+    <!-- Program Prospects Section -->
+    <div class="content-section">
+      <h3 style="color: #2c3e50; border-bottom: 2px solid #e74c3c; padding-bottom: 10px; display: inline-block;">PRODI APA YANG PUNYA PROSPEK CERAH SAAT INI?</h3>
+      
+      <div class="row" style="margin-top: 25px;">
+        <div class="col-md-6" style="margin-bottom: 20px;">
+          <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; height: 100%;">
+            <h4 style="color: #3498db; margin-top: 0;"><i class="fas fa-chart-line" style="margin-right: 10px;"></i> Menurut www.halomoney.co.id</h4>
+            <p>7 jurusan kuliah yang menjanjikan masa depan cerah:</p>
+            <ul style="columns: 2; -webkit-columns: 2; -moz-columns: 2;">
+              <li>INFORMATIKA</li>
+              <li>Diskomvis</li>
+              <li>Desain Produk</li>
+              <li>Desain Mode</li>
+              <li>BISNIS DIGITAL</li>
+              <li>Tata Boga</li>
+              <li>Kewirausahaan</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; height: 100%;">
+            <h4 style="color: #3498db; margin-top: 0;"><i class="fas fa-money-bill-wave" style="margin-right: 10px;"></i> Menurut life.idntimes.com</h4>
+            <p>10 pekerjaan dengan gaji tinggi di Indonesia:</p>
+            <ul>
+              <li>Ahli Teknik Perminyakan</li>
+              <li>Dokter Spesialis</li>
+              <li><strong>Ahli Teknik Informatika</strong></li>
+              <li><strong>Sistem Informasi</strong></li>
+              <li>Pengacara</li>
+              <li>Pilot</li>
+              <li>Marketing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Why Choose Section -->
+    <div class="content-section" style="background-color: #f8f9fa; padding: 25px; border-radius: 8px;">
+      <h3 style="color: #2c3e50; margin-bottom: 20px;">MENGAPA KULIAH DI STMIK EL RAHMA?</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <p style="font-size: 16px; line-height: 1.6;">
+            Revolusi industri 4.0 membawa perubahan cepat di bidang teknologi seperti:
+          </p>
+          <ul style="padding-left: 20px;">
+            <li>Kecerdasan Buatan (AI)</li>
+            <li>Internet berkecepatan tinggi</li>
+            <li>Teknologi Cloud</li>
+            <li>Internet of Things</li>
+            <li>Big Data</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div style="background-color: white; padding: 15px; border-radius: 8px; height: 100%;">
+            <p style="font-weight: bold; color: #e74c3c;">
+              Prodi INFORMATIKA dan SISTEM INFORMASI STMIK El Rahma adalah pilihan tepat karena kurikulumnya disesuaikan dengan kebutuhan lapangan kerja era revolusi industri 4.0.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Study Programs Section -->
+    <div class="content-section">
+      <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; display: inline-block;">PROGRAM STUDI KAMI</h3>
+      
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-6" style="margin-bottom: 30px;">
+          <div style="border: 1px solid #3498db; border-radius: 8px; padding: 20px; height: 100%;">
+            <h4 style="color: #3498db; margin-top: 0;">INFORMATIKA</h4>
+            <p><strong>Akreditasi:</strong> BAIK SEKALI - LAMINFOKOM</p>
+            <p><strong>Gelar:</strong> S.Kom</p>
+            <p><strong>Kelas:</strong> Reguler Siang & Malam</p>
+            
+            <h5 style="color: #2c3e50; margin-top: 20px;">Profil Lulusan:</h5>
+            <ul style="padding-left: 20px;">
+              <li>Software Engineer</li>
+              <li>Web Developer</li>
+              <li>Cloud Computing Developer</li>
+              <li>AI Engineer</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div style="border: 1px solid #3498db; border-radius: 8px; padding: 20px; height: 100%;">
+            <h4 style="color: #3498db; margin-top: 0;">SISTEM INFORMASI</h4>
+            <p><strong>Akreditasi:</strong> BAIK SEKALI - LAMINFOKOM</p>
+            <p><strong>Gelar:</strong> S.Kom</p>
+            <p><strong>Kelas:</strong> Reguler Siang</p>
+            
+            <h5 style="color: #2c3e50; margin-top: 20px;">Profil Lulusan:</h5>
+            <ul style="padding-left: 20px;">
+              <li>Database Analyst</li>
+              <li>System Analyst</li>
+              <li>IT Auditor</li>
+              <li>Digital Business Developer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Final CTA -->
+    <div class="text-center" style="margin: 40px 0;">
+      <h3 style="color: #2c3e50;">SIAP MEMULAI PERJALANAN AKADEMISMU?</h3>
+      <a href="http://pmb.stmikelrahma.ac.id" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="display: inline-block; padding: 15px 30px; background-color: #e74c3c; color: white; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 18px;">
+        DAFTAR SEKARANG
+      </a>
+    </div>
+  </div>
+</div>
       </div>
     </section><!-- End About Us Section -->
 
@@ -238,7 +387,7 @@
       </div>
     </section><!-- End Features Section --> --}}
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= Informatika Prodi Section ======= -->
     <section id="services" class="services services">
       <div class="container" data-aos="fade-up">
 
@@ -301,6 +450,1423 @@
 
       </div>
     </section><!-- End Services Section -->
+
+    <!-- ======= Informatika Section ======= -->
+<section id="section-6401d73c907f6" class="s123-module s123-module-about layout-4 layout-4" data-module-id="6401d73c907f6" data-module-type-num="16">
+  <hr class="small">
+  <div data-aos="fade-up" class="container-fluid page_header_style noBackground aos-init aos-animate">
+    <div class="row">
+      <div class="container moduleTitleContainer">
+        <div class="row modulesTitle text-center">
+          <div class="col-xs-12">
+            <div class="page-header-wrap">
+              <h2 id="section-6401d73c907f6-title" class="s123-page-header">PRODI INFORMATIKA (AKREDITASI BAIK SEKALI)</h2><br><br> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container preview-highlighter aos-init aos-animate" data-aos="fade-up">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="responsive-handler fr-view breakable">
+          <!-- Modified section with images on the right -->
+          <div class="row">
+            <!-- Text content on the left -->
+            <div class="col-md-8">
+              <strong>VISI PRODI INFORMATIKA :</strong><br>
+              "Menjadi Program Studi Informatika yang Unggul di Bidang Software Development, IT Mobility dan Internet of Things Tingkat Nasional dan Bereputasi Internasional, Memiliki Jiwa Entrepreneur dan Beretika Qur'ani pada Tahun 2040"<br><br>
+              
+              <strong>MISI PRODI INFORMATIKA :</strong>
+              <ol>
+                <li>Menyelenggarakan pendidikan berkualitas untuk menghasilkan tenaga ahli yang unggul, kompeten, dan profesional dalam bidang Software Development, IT Mobility dan Internet of Things.</li>
+                <li>Mengembangkan sikap mental wirausaha dan melaksanakan etika qurani dalam kehidupan sivitas akademika.</li>
+              </ol>
+              
+              <strong>TUJUAN PRODI INFORMATIKA :</strong>
+              <ol>
+                <li>Menghasilkan lulusan yang kompeten sebagai Software Engineer, Web Developer, Cloud Computing Developer dan Advance Mobile Computing.</li>
+                <li>Menghasilkan lulusan sebagai technopreneur yang beretika qurani.</li>
+              </ol>
+              
+              <strong>PROFIL LULUSAN :</strong>
+              <ul>
+                <li><strong>Software Engineer</strong> : Ahli menganalisa, merekayasa, menyusun spesifikasi, mengimplementasikan dan memvalidasi suatu rancangan sistem perangkat lunak untuk menjawab permasalahan</li>
+                <li><strong>Web Developer</strong> : Ahli merancang website, melakukan coding dan mengembangkan website yang sudah ada.</li>
+                <li><strong>Cloud Computing Developer</strong> : Ahli bidang komputasi awan, merancang infrastruktur cloud dari suatu perusahaan, menjaga keamanan penyimpanan cloud.</li>
+                <li><strong>Advance Mobile Computing</strong> : Ahli membangun aplikasi berbasis mobile</li>
+                <li><strong>AI Engineer</strong> : Ahli melakukan pengembangan, pengujian dan penerapan terhadap model AI yang diterapkan. Ahli melakukan analisis statistik untuk pengembangan bisnis perusahaan.</li>
+                <li><strong>Helpdesk Analyst</strong> : Ahli perancangan, pembuatan, dukungan dan pengelolaan siklus hidup layanan IT, menjawab berbagai pertanyaan dari pengguna terkait hal teknis.</li>
+              </ul>
+            </div>
+            
+            <!-- Images on the right -->
+            <div class="col-md-4">
+              <div class="images">
+                <div class="separateImages text-center">
+                  <img class="img-rounded img-responsive" src="https://images.cdn-files-a.com/uploads/3881771/400_6576d6fe2bb22.png" alt="PRODI INFORMATIKA (AKREDITASI BAIK SEKALI) image" style="margin-bottom: 15px;">
+                  <img class="img-rounded img-responsive" src="https://images.cdn-files-a.com/uploads/3881771/400_662768d37a1d1.png" alt="PRODI INFORMATIKA (AKREDITASI BAIK SEKALI) image">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <strong><h5>MATA KULIAH :</h5></strong>
+          <div class="s123-responsive-table">
+            <table border="1" cellpadding="0" cellspacing="0" style="margin-right: calc(27%); width: 73%;">
+              <tbody>
+                <tr>
+                  <td valign="top" width="36">NO</td>
+                  <td valign="top" width="66">KODE</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">MATA KULIAH</td>
+                  <td style="width: 8.4104%;" valign="top" width="47">SKS</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">PRASYARAT</td>
+                </tr>
+                
+                <!-- Semester 1 -->
+                <tr>
+                  <td colspan="4" style="width: 80.797%;" valign="top" width="319"><strong>SEMESTER 1</strong></td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">1</td>
+                  <td valign="top" width="66">IF23201</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Tahsin Al Quran</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">0</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">2</td>
+                  <td valign="top" width="66">IF23106</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Pancasila</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">3</td>
+                  <td valign="top" width="66">IF23109</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Bhs Inggris Informatika 1</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">4</td>
+                  <td valign="top" width="66">IF23112</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Technopreneurship 1</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">5</td>
+                  <td valign="top" width="66">IF23215</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Algoritma Pemrograman</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">6</td>
+                  <td valign="top" width="66">IF23116</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Logika Matematika</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">7</td>
+                  <td valign="top" width="66">IF23138</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Pengantar Tekn Informasi</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">8</td>
+                  <td valign="top" width="66">IF23239</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Web Statis</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 1</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">19</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                
+                <!-- Semester 2 -->
+                <tr>
+                  <td colspan="4" style="width: 80.797%;" valign="top" width="319"><strong>SEMESTER 2</strong></td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">1</td>
+                  <td valign="top" width="66">IF23102</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Agama 1</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">IF23201</td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">2</td>
+                  <td valign="top" width="66">IF23110</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Bhs Inggris Informatika 2</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">IF23109</td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">3</td>
+                  <td valign="top" width="66">IF23113</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Technopreneurship 2</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">IF23112</td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">4</td>
+                  <td valign="top" width="66">IF23117</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Aljabar Linier</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">5</td>
+                  <td valign="top" width="66">IF23218</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Pemrog Terstruk dan Strukt Data</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">IF23215</td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">6</td>
+                  <td valign="top" width="66">IF23220</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Sistem dan Manaj Basis Data</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">7</td>
+                  <td valign="top" width="66">IF23223</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Sistem Operasi</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">IF23138</td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 2</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">20</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                
+                <!-- Semester 3 -->
+                <tr>
+                  <td colspan="4" style="width: 80.797%;" valign="top" width="319"><strong>SEMESTER 3</strong></td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">1</td>
+                  <td valign="top" width="66">IF23103</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Agama 2</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">IF23102</td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">2</td>
+                  <td valign="top" width="66">IF23111</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Pendidikan Anti Korupsi</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">3</td>
+                  <td valign="top" width="66">IF23121</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Pemrog Berorientasi Objek</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">IF23218</td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">4</td>
+                  <td valign="top" width="66">IF23122</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Matematika Diskrit</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">5</td>
+                  <td valign="top" width="66">IF23224</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Jaringan Komputer</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">6</td>
+                  <td valign="top" width="66">IF23131</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Rekayasa Perangkat Lunak</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">7</td>
+                  <td valign="top" width="66">IF23136</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Statistika</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 3</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">20</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                
+                <!-- Semester 4 -->
+                <tr>
+                  <td colspan="4" style="width: 80.797%;" valign="top" width="319"><strong>SEMESTER 4</strong></td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">1</td>
+                  <td valign="top" width="66">IF23104</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Agama 3</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">IF23103</td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">2</td>
+                  <td valign="top" width="66">IF23108</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Bahasa Indonesia</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">3</td>
+                  <td valign="top" width="66">IF23219</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Cloud Computing</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">4</td>
+                  <td valign="top" width="66">IF23126</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Organisasi dan Arsitektur Komp</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">5</td>
+                  <td valign="top" width="66">IF23127</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Keamanan Data dan Informasi</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">6</td>
+                  <td valign="top" width="66">IF23240</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Pemrograman Web</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">7</td>
+                  <td valign="top" width="66">IF23142</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Riset Operasi</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">8</td>
+                  <td valign="top" width="66">IF23250</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Pemrograman Jaringan</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">IF23224</td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 4</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">22</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                
+                <!-- Semester 5 -->
+                <tr>
+                  <td colspan="5" valign="top" width="404"><strong>SEMESTER 5</strong></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">1</td>
+                  <td valign="top" width="66">IF23105</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Agama 4</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">IF23104</td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">2</td>
+                  <td valign="top" width="66">IF23114</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Etika dan Profesi</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">3</td>
+                  <td valign="top" width="66">IF23129</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Human-Computer Interaction</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">4</td>
+                  <td valign="top" width="66">IF23130</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Analis dan Des Perangkat Lunak</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">IF23131</td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">5</td>
+                  <td valign="top" width="66">IF23132</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Kecerdasan Buatan / AI</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">6</td>
+                  <td valign="top" width="66">IF23133</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Internet of Things</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">7</td>
+                  <td valign="top" width="66">IF23135</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Manaj Proyek Tekn Informasi</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">8</td>
+                  <td valign="top" width="66">IF23137</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Tata Tulis Ilmiah (Metode Penelitian)</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 5</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">21</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                
+                <!-- Semester 6 -->
+                <tr>
+                  <td colspan="5" valign="top" width="404"><strong>SEMESTER 6</strong></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">1</td>
+                  <td valign="top" width="66">IF23107</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Kewarganegaraan</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">2</td>
+                  <td valign="top" width="66">IF23225</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Pemrog Berbasis Platform 1</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">3</td>
+                  <td valign="top" width="66">IF23143</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Big Data</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">4</td>
+                  <td valign="top" width="66">IF23244</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Web Service</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">IF23239</td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">5</td>
+                  <td valign="top" width="66">IF23245</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Dev Ops</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">6</td>
+                  <td valign="top" width="66">IF23246</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">UI-UX</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">7</td>
+                  <td valign="top" width="66">IF23151</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Proyek Perangkat Lunak</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">IF23135</td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 6</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">21</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                
+                <!-- Semester 7 -->
+                <tr>
+                  <td colspan="5" valign="top" width="404"><strong>SEMESTER 7</strong></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">1</td>
+                  <td valign="top" width="66">IF23228</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Pemrog Berbasis Platform 2</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
+                  <td style="width: 19.0058%;" valign="top" width="85">IF23225</td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">2</td>
+                  <td valign="top" width="66">IF23134</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Kerja Praktek / Magang</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">3</td>
+                  <td valign="top" width="66">IF23241</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Data Mining</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">4</td>
+                  <td valign="top" width="66">IF23147</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Sistem Terdistribusi</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">5</td>
+                  <td valign="top" width="66">IF23148</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Sistem Pendukung Keputusan</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">6</td>
+                  <td valign="top" width="66">IF23149</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Sistem Pakar</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 7</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">15</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                
+                <!-- Semester 8 -->
+                <tr>
+                  <td colspan="5" valign="top" width="404"><strong>SEMESTER 8</strong></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">1</td>
+                  <td valign="top" width="66">IF23152</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">KKL</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="36">2</td>
+                  <td valign="top" width="66">IF23153</td>
+                  <td style="width: 47.3373%;" valign="top" width="170">Tugas Akhir</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">6</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 8</td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">8</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+                
+                <!-- Total SKS -->
+                <tr>
+                  <td colspan="3" style="width: 72.5838%;" valign="top" width="272"><strong>TOTAL SKS</strong></td>
+                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">146</td>
+                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br><br><br>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Informatika Section -->
+
+<!-- Sistem Informasi Section -->
+<section id="section-6401d76890839" class="s123-module s123-module-about layout-4 layout-4" style="background-color: #f8f9fa;" data-module-id="6401d76890839" data-module-type-num="16">
+  <div data-aos="fade-up" class="container-fluid page_header_style noBackground aos-init aos-animate">
+    <div class="row">
+      <div class="container moduleTitleContainer">
+        <div class="row modulesTitle text-center">
+          <div class="col-xs-12">
+            <div class="page-header-wrap">
+              <h2 id="section-6401d76890839-title" class="s123-page-header">PRODI SISTEM INFORMASI (AKREDITASI BAIK SEKALI)</h2>
+              <br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container preview-highlighter aos-init aos-animate" data-aos="fade-up">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="responsive-handler fr-view breakable">
+          <!-- Images and Text Content in Two Columns -->
+          <div class="row">
+            <!-- Images on the Left -->
+            <div class="col-md-4">
+              <div class="images">
+                <div class="separateImages text-center">
+                  <img class="img-rounded img-responsive" src="https://images.cdn-files-a.com/uploads/3881771/400_6576d70eeef4c.png" alt="PRODI SISTEM INFORMASI (AKREDITASI BAIK SEKALI) image" style="margin-bottom: 15px;">
+                  <img class="img-rounded img-responsive" src="https://images.cdn-files-a.com/uploads/3881771/400_662768b195e05.png" alt="PRODI SISTEM INFORMASI (AKREDITASI BAIK SEKALI) image">
+                </div>
+              </div>
+            </div>
+            
+            <!-- Text Content on the Right -->
+            <div class="col-md-8">
+              <strong>VISI :</strong><br>
+              <strong>Menjadi Program Studi Sistem Informasi yang Unggul di Bidang Analisis, Desain, dan Inovasi Sistem Informasi Tingkat Nasional dan Bereputasi Internasional, Memiliki Jiwa Enterpreneur dan Beretika Qurani pada Tahun 2040.</strong><br><br>
+              
+              <strong>MISI :</strong>
+              <ul style="list-style-type: square;">
+                <li>Menyelenggarakan pendidikan berkualitas untuk menghasilkan tenaga ahli yang unggul, kompeten, dan professional dalam bidang analisis, desain, dan inovasi Sistem Informasi.</li>
+                <li>Mengembangkan sikap mental wirausaha dan melaksanakan etika qurani dalam kehidupan civitas akademika.</li>
+              </ul>
+              
+              <strong>TUJUAN :</strong>
+              <ul>
+                <li>Menghasilkan lulusan yang kompeten sebagai analis sistem, desain, dan inovasi Sistem Informasi khususnya Sistem Informasi Manajemen Rumah Sakit (SIMRS) Khanza</li>
+                <li>Menghasilkan lulusan sebagai technopreneur yang beretika qurani.</li>
+              </ul>
+              
+              <strong>PROFIL LULUSAN :</strong>
+              <ul>
+                <li><strong>Database Analyst</strong> : Ahli dalam menganalisis data yang ada di perusahaan dalam rangka keberlangsungan perusahaan tersebut.</li>
+                <li><strong>System Analyst</strong>: Ahli menganalisa, menyusun, dan menerapkan sistem. Mengurus aplikasi, sistem, dan penyimpanan data, serta meningkatkan kinerja sistem yang ada.</li>
+                <li><strong>IT Auditor</strong> : Profesi yang tugasnya melakukan evaluasi, pengawasan dan pengendalian infrastruktur IT secara menyeluruh.</li>
+                <li><strong>Digital Business Developer</strong> : Ahli dalam meningkatkan kemampuan digital organisasi dan menyelaraskan aktivitas strategis, pemasaran, dan penjualan untuk mendekati pasar dan pelanggan, serta memungkinkan pertumbuhan yang menciptakan nilai.</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Mata Kuliah Table -->
+          <strong><h5>MATA KULIAH :</h5></strong>
+          <div class="s123-responsive-table">
+            <table border="1" cellpadding="0" cellspacing="0" style="width: 100%;">
+              <tbody>
+                <tr>
+                  <td valign="top">No</td>
+                  <td valign="top">KODE</td>
+                  <td valign="top">MATA KULIAH</td>
+                  <td valign="top">SKS</td>
+                  <td valign="top">PRASYARAT</td>
+                </tr>
+                
+                <!-- Semester 1 -->
+                <tr>
+                  <td colspan="5" valign="top"><strong>SEMESTER 1</strong></td>
+                </tr>
+                <tr>
+                  <td valign="top">1</td>
+                  <td valign="top">SI23201</td>
+                  <td valign="top">Tahsin Al Quran</td>
+                  <td style="text-align: center;" valign="top">0</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">2</td>
+                  <td valign="top">SI23109</td>
+                  <td valign="top">Bahasa Inggris 1</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">3</td>
+                  <td valign="top">SI23112</td>
+                  <td valign="top">Technopreneurship 1</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">4</td>
+                  <td valign="top">SI23115</td>
+                  <td valign="top">Konsep sistem informasi</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">5</td>
+                  <td valign="top">SI23120</td>
+                  <td valign="top">Pengantar Tekn Informasi</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">6</td>
+                  <td valign="top">SI23227</td>
+                  <td valign="top">Algoritma Dan Pemrograman</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">7</td>
+                  <td valign="top">SI23143</td>
+                  <td valign="top">Logika informatika</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">8</td>
+                  <td valign="top">SI23253</td>
+                  <td valign="top">Web statis</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="text-align: right;" valign="top">TOTAL SKS Semester 1</td>
+                  <td style="text-align: center;" valign="top">19</td>
+                  <td valign="top"><br></td>
+                </tr>
+                
+                <!-- Semester 2 -->
+                <tr>
+                  <td colspan="5" valign="top"><strong>SEMESTER 2</strong></td>
+                </tr>
+                <tr>
+                  <td valign="top">1</td>
+                  <td valign="top">SI23102</td>
+                  <td valign="top">Agama 1</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top">SI23201</td>
+                </tr>
+                <tr>
+                  <td valign="top">2</td>
+                  <td valign="top">SI23110</td>
+                  <td valign="top">Bahasa Inggris 2</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top">SI23109</td>
+                </tr>
+                <tr>
+                  <td valign="top">3</td>
+                  <td valign="top">SI23113</td>
+                  <td valign="top">Technopreneurship 2</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top">SI23112</td>
+                </tr>
+                <tr>
+                  <td valign="top">4</td>
+                  <td valign="top">SI23116</td>
+                  <td valign="top">Sistem Informasi manajemen</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top">SI23115</td>
+                </tr>
+                <tr>
+                  <td valign="top">5</td>
+                  <td valign="top">SI23217</td>
+                  <td valign="top">Sistem Basis Data</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">6</td>
+                  <td valign="top">SI23218</td>
+                  <td valign="top">Sistem Operasi</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top">SI23120</td>
+                </tr>
+                <tr>
+                  <td valign="top">7</td>
+                  <td valign="top">SI23137</td>
+                  <td valign="top">Business digital</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">8</td>
+                  <td valign="top">SI23251</td>
+                  <td valign="top">Pemrog Terstruk dan Struk Data</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top">SI23227</td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="text-align: right;" valign="top">TOTAL SKS Semester 2</td>
+                  <td style="text-align: center;" valign="top">20</td>
+                  <td valign="top"><br></td>
+                </tr>
+                
+                <!-- Semester 3 -->
+                <tr>
+                  <td colspan="5" valign="top"><strong>SEMESTER 3</strong></td>
+                </tr>
+                <tr>
+                  <td valign="top">1</td>
+                  <td valign="top">SI23103</td>
+                  <td valign="top">Agama 2</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top">SI23102</td>
+                </tr>
+                <tr>
+                  <td valign="top">2</td>
+                  <td valign="top">SI23111</td>
+                  <td valign="top">Pendidikan Anti Korupsi</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">3</td>
+                  <td valign="top">SI23219</td>
+                  <td valign="top">Jaringan Komputer</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">4</td>
+                  <td valign="top">SI23123</td>
+                  <td valign="top">Analisis dan Peranc Sist inform</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">5</td>
+                  <td valign="top">SI23228</td>
+                  <td valign="top">Pemrog Berorientasi Objek</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top">SI23251</td>
+                </tr>
+                <tr>
+                  <td valign="top">6</td>
+                  <td valign="top">SI23132</td>
+                  <td valign="top">Statistika dan Probabilitas</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">7</td>
+                  <td valign="top">SI23241</td>
+                  <td valign="top">UI-UX Design</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">8</td>
+                  <td valign="top">SI23145</td>
+                  <td valign="top">Matematika Diskret</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="text-align: right;" valign="top">TOTAL SKS Semester 3</td>
+                  <td style="text-align: center;" valign="top">21</td>
+                  <td valign="top"><br></td>
+                </tr>
+                
+                <!-- Semester 4 -->
+                <tr>
+                  <td colspan="5" valign="top"><strong>SEMESTER 4</strong></td>
+                </tr>
+                <tr>
+                  <td valign="top">1</td>
+                  <td valign="top">SI23104</td>
+                  <td valign="top">Agama 3</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top">SI23103</td>
+                </tr>
+                <tr>
+                  <td valign="top">2</td>
+                  <td valign="top">SI23108</td>
+                  <td valign="top">Bahasa Indonesia</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">3</td>
+                  <td valign="top">SI23224</td>
+                  <td valign="top">Software Testing Quality Assurance</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">4</td>
+                  <td valign="top">SI23125</td>
+                  <td valign="top">Tata Kelola Teknologi Informasi</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">5</td>
+                  <td valign="top">SI23229</td>
+                  <td valign="top">Pemrograman Berbasis Web</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top">SI23241</td>
+                </tr>
+                <tr>
+                  <td valign="top">6</td>
+                  <td valign="top">SI23130</td>
+                  <td valign="top">Keamanan Sistem Informasi</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">7</td>
+                  <td valign="top">SI23136</td>
+                  <td valign="top">Business Process Management</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">8</td>
+                  <td valign="top">SI23248</td>
+                  <td valign="top">e-Commerce</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">9</td>
+                  <td valign="top">SI23152</td>
+                  <td valign="top">Riset Operasi</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="text-align: right;" valign="top">TOTAL SKS Semester 4</td>
+                  <td style="text-align: center;" valign="top">22</td>
+                  <td valign="top"><br></td>
+                </tr>
+                
+                <!-- Semester 5 -->
+                <tr>
+                  <td colspan="5" valign="top"><strong>SEMESTER 5</strong></td>
+                </tr>
+                <tr>
+                  <td valign="top">1</td>
+                  <td valign="top">SI23105</td>
+                  <td valign="top">Agama 4</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top">SI23104</td>
+                </tr>
+                <tr>
+                  <td valign="top">2</td>
+                  <td valign="top">SI23106</td>
+                  <td valign="top">Pancasila</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">3</td>
+                  <td valign="top">SI23114</td>
+                  <td valign="top">Etika Profesi</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">4</td>
+                  <td valign="top">SI23121</td>
+                  <td valign="top">Manaj Proyek Sistem Informasi</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">5</td>
+                  <td valign="top">SI23222</td>
+                  <td valign="top">Proyek Perangkat Lunak</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">6</td>
+                  <td valign="top">SI23235</td>
+                  <td valign="top">Visualisasi Data</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">7</td>
+                  <td valign="top">SI23146</td>
+                  <td valign="top">Business Analyst</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">8</td>
+                  <td valign="top">SI23147</td>
+                  <td valign="top">Evaluasi Sistem Informasi</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top">SI23125</td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="text-align: right;" valign="top">TOTAL SKS Semester 5</td>
+                  <td style="text-align: center;" valign="top">19</td>
+                  <td valign="top"><br></td>
+                </tr>
+                
+                <!-- Semester 6 -->
+                <tr>
+                  <td colspan="5" valign="top"><strong>SEMESTER 6</strong></td>
+                </tr>
+                <tr>
+                  <td valign="top">1</td>
+                  <td valign="top">SI23107</td>
+                  <td valign="top">Kewarganegaraan</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">2</td>
+                  <td valign="top">SI23126</td>
+                  <td valign="top">Audit Sistem Informasi</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">3</td>
+                  <td valign="top">SI23231</td>
+                  <td valign="top">Metodologi Penelitian</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">4</td>
+                  <td valign="top">SI23233</td>
+                  <td valign="top">Datamining</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top">SI23217</td>
+                </tr>
+                <tr>
+                  <td valign="top">5</td>
+                  <td valign="top">SI23234</td>
+                  <td valign="top">Sistem Informasi Rumah Sakit</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top">SI23136</td>
+                </tr>
+                <tr>
+                  <td valign="top">6</td>
+                  <td valign="top">SI23240</td>
+                  <td valign="top">Mobile Programming 1</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">7</td>
+                  <td valign="top">SI23250</td>
+                  <td valign="top">Web Service</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top">SI23229</td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="text-align: right;" valign="top">TOTAL SKS Semester 6</td>
+                  <td style="text-align: center;" valign="top">19</td>
+                  <td valign="top"><br></td>
+                </tr>
+                
+                <!-- Semester 7 -->
+                <tr>
+                  <td colspan="5" valign="top"><strong>SEMESTER 7</strong></td>
+                </tr>
+                <tr>
+                  <td valign="top">1</td>
+                  <td valign="top">SI23238</td>
+                  <td valign="top">Sistem Pendukung Kep</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">2</td>
+                  <td valign="top">SI23239</td>
+                  <td valign="top">Data Analyst</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top">SI23233</td>
+                </tr>
+                <tr>
+                  <td valign="top">3</td>
+                  <td valign="top">SI23142</td>
+                  <td valign="top">Enterprise System</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">4</td>
+                  <td valign="top">SI23244</td>
+                  <td valign="top">Information Retrieval</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top">SI23233</td>
+                </tr>
+                <tr>
+                  <td valign="top">5</td>
+                  <td valign="top">SI23249</td>
+                  <td valign="top">Mobile Programming 2</td>
+                  <td style="text-align: center;" valign="top">4</td>
+                  <td valign="top">SI23240</td>
+                </tr>
+                <tr>
+                  <td valign="top">6</td>
+                  <td valign="top">SI23255</td>
+                  <td valign="top">Kerja Praktek</td>
+                  <td style="text-align: center;" valign="top">3</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="text-align: right;" valign="top">TOTAL SKS Semester 7</td>
+                  <td style="text-align: center;" valign="top">18</td>
+                  <td valign="top"><br></td>
+                </tr>
+                
+                <!-- Semester 8 -->
+                <tr>
+                  <td colspan="5" valign="top"><strong>SEMESTER 8</strong></td>
+                </tr>
+                <tr>
+                  <td valign="top">1</td>
+                  <td valign="top">SI23254</td>
+                  <td valign="top">Kuliah Kerja Lapangan</td>
+                  <td style="text-align: center;" valign="top">2</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top">2</td>
+                  <td valign="top">SI23256</td>
+                  <td valign="top">Tugas Akhir</td>
+                  <td style="text-align: center;" valign="top">6</td>
+                  <td valign="top"><br></td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="text-align: right;" valign="top">TOTAL SKS Semester 8</td>
+                  <td style="text-align: center;" valign="top">8</td>
+                  <td valign="top"><br></td>
+                </tr>
+                
+                <!-- Total SKS -->
+                <tr>
+                  <td colspan="3" style="text-align: right;" valign="top"><strong>TOTAL SKS yang ditempuh</strong></td>
+                  <td style="text-align: center;" valign="top">146</td>
+                  <td valign="top"><br></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br><br>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Sistem Informasi Section -->
+
+<!-- Tentang Section -->
+<section id="section-5f0491fdca748" class="s123-module s123-module-blogs layout-1" data-module-id="5f0491fdca748" data-module-type-num="52" data-overlay-opacity="true">
+  <div data-aos="fade-up" class="container-fluid page_header_style noBackground aos-init aos-animate">
+    <div class="row">
+      <div class="container moduleTitleContainer">
+        <div class="row modulesTitle text-center">
+          <div class="col-xs-12">
+            <div class="page-header-wrap">
+              <h2 id="section-5f0491fdca748-title" class="s123-page-header">TENTANG EL RAHMA</h2>
+              <br><br>
+            </div>
+            <div class="page-slogan-wrap">
+              <h4 id="section-5f0491fdca748-slogan" class="s123-page-slogan">JAGO IT - QUR'ANI - JUTAWAN</h4><br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container aos-init aos-animate" data-aos="fade-up">
+    <div class="row">
+      <!-- Row 1 -->
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74a653e786.jpg" class="img-fluid rounded-start" alt="PROFIL STMIK EL RAHMA">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">PROFIL STMIK EL RAHMA</h5>
+                <p class="card-text">STMIK El Rahma Yogyakarta adalah Perguruan Tinggi Swasta di bawah naungan Yayasan El Rahma Yogyakarta dalam pembinaan Kementerian Pendidikan dan Kebudayaan Republik Indonesia.</p>
+                <a href="/tentang-el-rahma/profil-stmik-el-rahma" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_66277e37850fe.png" class="img-fluid rounded-start" alt="PRODI & PROFIL LULUSAN">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">PRODI & PROFIL LULUSAN</h5>
+                <p class="card-text">Seluruh program studi di STMIK EL RAHMA adalah program studi favorit dan memiliki prospek cerah dimasa depan.</p>
+                <a href="/tentang-el-rahma/prodi-profil-lulusan" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Row 2 -->
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74a848960d.jpg" class="img-fluid rounded-start" alt="BADAN PENYELENGGARA">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">BADAN PENYELENGGARA</h5>
+                <p class="card-text">STMIK EL RAHMA diselenggarakan oleh Badan Penyelenggara Yayasan El Rahma Yogyakarta di bawah pembinaan Kementerian Pendidikan dan Kebudayaan Republik Indonesia.</p>
+                <a href="/tentang-el-rahma/badan-penyelenggara" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74aa26abbe.jpg" class="img-fluid rounded-start" alt="KOMPETENSI LULUSAN & BIDANG KERJA">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">KOMPETENSI LULUSAN & BIDANG KERJA</h5>
+                <p class="card-text">Lulusan STMIK El Rahma memiliki kompetensi bidang IT sesuai dengan minatnya, bermental wirausaha dan berakhlaq qur'ani.</p>
+                <a href="/tentang-el-rahma/kompetensi-lulusan-bidang-kerja" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Row 3 -->
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74a93ecf4b.jpg" class="img-fluid rounded-start" alt="DOSEN MUDA PROFESIONAL">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">DOSEN MUDA PROFESIONAL</h5>
+                <p class="card-text">Dosen-dosen muda yang profesional, lulusan dari berbagai perguruan tinggi ternama.</p>
+                <a href="/tentang-el-rahma/dosen-dosen-muda-profesional" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74ac1cb8b4.jpg" class="img-fluid rounded-start" alt="PRESTASI EL RAHMA">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">PRESTASI EL RAHMA</h5>
+                <p class="card-text">EL Rahma berhasil memenangkan berbagai hibah dan kompetisi, baik tingkat lokal, regional maupun nasional.</p>
+                <a href="/tentang-el-rahma/prestasi-el-rahma" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Row 4 -->
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74acf6a2ef.jpg" class="img-fluid rounded-start" alt="UNTUNG BESAR KULIAH">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">UNTUNG BESAR KULIAH</h5>
+                <p class="card-text">Lulus cepat dan tepat waktu, Biaya paling ringan, Beasiswa ratusan juta dari Yayasan dan Pemerintah.</p>
+                <a href="/tentang-el-rahma/untung-besar-kuliah-di-el-rahma" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_crop_60129bcecc600_60129bb41092a.jpg" class="img-fluid rounded-start" alt="JUTAWAN SEBELUM WISUDA">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">JUTAWAN SEBELUM WISUDA</h5>
+                <p class="card-text">Lulusan cepat terserap ke pasar kerja, baik sebagai PNS maupun perusahaan swasta.</p>
+                <a href="/tentang-el-rahma/jutawan-sebelum-wisuda" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Tentang Section -->
+
+<section id="section-5f06db20ab42b" class="s123-module s123-module-services layout-1" style="padding: 40px 0;">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-xs-12">
+        <h2 class="s123-page-header" style="margin-bottom: 30px;">BEASISWA PEDULI PANDEMI</h2> <br><br>
+      </div>
+    </div>
+    
+    <div class="row" style="display: flex; flex-wrap: nowrap; justify-content: center; gap: 30px;">
+      <!-- Beasiswa 1 -->
+      <div class="col-md-4 col-sm-6" style="flex: 1; min-width: 300px; max-width: 400px;">
+        <div class="service-item" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+          <div style="width: 150px; height: 150px; border-radius: 50%; overflow: hidden; margin-bottom: 20px;">
+            <img src="https://images.cdn-files-a.com/uploads/3881771/400_5f0d31d6e2cd5.jpg" 
+                 alt="BEASISWA PROGRAM REGULER PEDULI PANDEMI (JR-PP)" 
+                 style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+          <h4 style="margin-top: 0; margin-bottom: 15px;"><strong>BEASISWA PROGRAM REGULER PEDULI PANDEMI (JR-PP)</strong></h4>
+          <p style="flex-grow: 1; margin-bottom: 20px;">Beasiswa bagi calon mahasiswa yang orang tua/walinya terdampak covid 19. Beasiswa program reguler peduli pandemi tersedia untuk 15 mahasiswa baru prodi INFORMATIKA dan 15 mahasiswa baru prodi SISTEM INFORMASI.</p>
+          <a href="/beasiswa-peduli-pandemi/beasiswa-program-reguler-peduli-pandemi-jr-pp" 
+             class="btn btn-primary" 
+             style="margin-top: auto;">Info lengkap, silahkan klik..</a>
+        </div>
+      </div>
+      
+      <!-- Beasiswa 2 -->
+      <div class="col-md-4 col-sm-6" style="flex: 1; min-width: 300px; max-width: 400px;">
+        <div class="service-item" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
+          <div style="width: 150px; height: 150px; border-radius: 50%; overflow: hidden; margin-bottom: 20px;">
+            <img src="https://images.cdn-files-a.com/uploads/3881771/400_5f0d321b3cbe5.png" 
+                 alt="BEASISWA PROGRAM SUBSIDI BIAYA PEDULI PANDEMI (JSB-PP)" 
+                 style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+          <h4 style="margin-top: 0; margin-bottom: 15px;"><strong>BEASISWA PROGRAM SUBSIDI BIAYA PEDULI PANDEMI (JSB-PP)</strong></h4>
+          <p style="flex-grow: 1; margin-bottom: 20px;">Beasiswa Subsidi Biaya Peduli Pandemi dengan kuota 5 mahasiswa baru prodi INFORMATIKA dan 10 mahasiswa baru prodi SISTEM INFORMASI. Dipertuntukkan bagi mahasiswa yang berasal dari keluarga kurang mampu pemegang KIP/KIS/PKH/KKS/SKTM/ANAK YATIM.</p>
+          <a href="/beasiswa-peduli-pandemi/beasiswa-program-subsidi-biaya-peduli-pandemi-jsb-pp" 
+             class="btn btn-primary" 
+             style="margin-top: auto;">Info lengkap, silahkan klik..</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="section-60c9fdd09d27f" class="s123-module s123-module-about layout-4 layout-5" data-module-id="60c9fdd09d27f" data-module-type-num="16" style="background-color: #f8f9fa; color: #333;">
+  <div data-aos="fade-up" class="container-fluid page_header_style noBackground aos-init aos-animate">
+    <div class="row">
+      <div class="container moduleTitleContainer">
+        <div class="row modulesTitle text-center">
+          <div class="col-xs-12">
+            <div class="page-header-wrap">
+              <h2 id="section-60c9fdd09d27f-title" class="s123-page-header" style="color: #2c3e50;">BEASISWA KIP KULIAH 2024</h2>
+              <hr class="small" style="border-color: #ddd;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container preview-highlighter aos-init aos-animate" data-aos="fade-up" style="padding: 30px 0;">
+    <div class="row">
+      <!-- Kolom Gambar -->
+      <div class="col-md-4 col-sm-12" style="margin-bottom: 20px;">
+        <div class="card" style="border: none; background: transparent;">
+          <img class="img-fluid rounded" src="https://images.cdn-files-a.com/uploads/3881771/400_60cc5b990a61f.jpg" alt="BEASISWA KIP KULIAH 2024" style="width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          <div class="card-body text-center" style="padding: 15px 0;">
+            <h5 style="color: #2c3e50; font-weight: bold;">Beasiswa KIP-K 2024</h5>
+            <p style="color: #7f8c8d;">Untuk Mahasiswa Baru STMIK EL Rahma</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Kolom Konten -->
+      <div class="col-md-8 col-sm-12">
+        <div class="responsive-handler fr-view breakable" style="background-color: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+          <p style="font-size: 16px; line-height: 1.6;">Beasiswa KIP-KULIAH tahun 2024 diperuntukkan untuk siswa lulusan SMU/SMK/MA tahun 2024, 2023, dan 2022.</p>
+          
+          <h4 style="color: #2c3e50; margin-top: 25px; border-bottom: 1px solid #eee; padding-bottom: 8px;">A. PERSYARATAN</h4>
+          <ol style="padding-left: 20px;">
+            <li style="margin-bottom: 10px;">Mahasiswa baru pemegang atau pemilik KIP atau mahasiswa baru dari keluarga miskin/rentan miskin sebagai berikut:
+              <ul style="padding-left: 20px; list-style-type: disc;">
+                <li>Mahasiswa dari keluarga peserta Program Keluarga Harapan (PKH) atau dari keluarga pemegang Kartu Keluarga Sejahtera (KKS);</li>
+                <li>Mahasiswa dari keluarga yang masuk dalam desil kurang atau sama dengan kategori 4 (empat) pada Data Terpadu Kesejahteraan Sosial;</li>
+                <li>Mahasiswa dari panti sosial/panti asuhan;</li>
+                <li>Mahasiswa dari anggota keluarga dengan pendapatan ≤ Rp4.000.000/bulan atau ≤Rp750.000/keluarga/bulan.</li>
+              </ul>
+            </li>
+            <li style="margin-bottom: 10px;">Mahasiswa baru yang telah mendaftar di SIM KIP Kuliah dan memenuhi syarat berdasarkan usulan Perguruan Tinggi.</li>
+            <li>Data mahasiswa penerima KIP Kuliah merupakan data keluarga miskin/rentan miskin yang ditetapkan Kemensos.</li>
+          </ol>
+
+          <h4 style="color: #2c3e50; margin-top: 25px; border-bottom: 1px solid #eee; padding-bottom: 8px;">B. KOMPONEN BEASISWA</h4>
+          <h5 style="color: #3498db; margin-top: 15px;">a. BANTUAN BIAYA PENDIDIKAN</h5>
+          <ol style="padding-left: 20px;">
+            <li>Biaya operasional pendidikan per semester sesuai ketentuan Kemendikbud</li>
+            <li>Untuk program D1-D4/Sarjana</li>
+            <li>Dibayarkan langsung ke rekening perguruan tinggi</li>
+          </ol>
+          
+          <h5 style="color: #3498db; margin-top: 15px;">b. BANTUAN BIAYA HIDUP</h5>
+          <ol style="padding-left: 20px;">
+            <li>Diberikan per semester</li>
+            <li>Besaran menunggu ketentuan kementerian</li>
+            <li>Dibayarkan ke rekening mahasiswa</li>
+          </ol>
+
+          <h4 style="color: #2c3e50; margin-top: 25px; border-bottom: 1px solid #eee; padding-bottom: 8px;">C. JANGKA WAKTU</h4>
+          <p>Maksimal 8 semester untuk program Sarjana/D4.</p>
+
+          <h4 style="color: #2c3e50; margin-top: 25px; border-bottom: 1px solid #eee; padding-bottom: 8px;">D. CARA MENDAFTAR</h4>
+          <ol style="padding-left: 20px;">
+            <li>Daftar di <a href="https://kip-kuliah.kemdikbud.go.id" style="color: #2980b9; text-decoration: underline;">https://kip-kuliah.kemdikbud.go.id</a></li>
+            <li>Daftar di STMIK EL Rahma melalui <a href="http://pmb.stmikelrahma.ac.id" style="color: #2980b9; text-decoration: underline;">pmb.stmikelrahma.ac.id</a> (pilih jalur KIP-KUL)</li>
+          </ol>
+
+          <h4 style="color: #2c3e50; margin-top: 25px; border-bottom: 1px solid #eee; padding-bottom: 8px;">E. BERKAS YANG DIBUTUHKAN</h4>
+          <div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin-top: 15px;">
+            <ul style="columns: 2; -webkit-columns: 2; -moz-columns: 2; list-style-type: none; padding-left: 0;">
+              <li style="margin-bottom: 8px;"><span style="color: #e74c3c;">•</span> Kartu Peserta KIP Kuliah</li>
+              <li style="margin-bottom: 8px;"><span style="color: #e74c3c;">•</span> Formulir Peserta</li>
+              <li style="margin-bottom: 8px;"><span style="color: #e74c3c;">•</span> Rapor semester 1-6</li>
+              <li style="margin-bottom: 8px;"><span style="color: #e74c3c;">•</span> Ijazah/SKL</li>
+              <li style="margin-bottom: 8px;"><span style="color: #e74c3c;">•</span> Kartu Keluarga</li>
+              <li style="margin-bottom: 8px;"><span style="color: #e74c3c;">•</span> Foto Rumah</li>
+              <li style="margin-bottom: 8px;"><span style="color: #e74c3c;">•</span> Rekening Listrik</li>
+              <li style="margin-bottom: 8px;"><span style="color: #e74c3c;">•</span> Tagihan PBB</li>
+            </ul>
+          </div>
+
+          <div style="margin-top: 25px; padding: 15px; background-color: #fff8e1; border-left: 4px solid #ffc107; border-radius: 0 4px 4px 0;">
+            <strong style="color: #e67e22;">CATATAN:</strong>
+            <ul style="padding-left: 20px; margin-bottom: 0;">
+              <li>Scan semua berkas dalam 1 file PDF</li>
+              <li>Template surat keterangan tersedia (Hubungi 0811 2929 757)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- ======= Appointment Section ======= -->
     <section id="appointment" class="appointment section-bg">
@@ -788,14 +2354,13 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Kontak</h2>
         </div>
 
       </div>
 
       <div>
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4863.65702890828!2d110.37039767588675!3d-7.822984677697599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x2e7a57a69855edb3%3A0x41eb9794274b2092!2sSTMIK%20EL%20RAHMA!5e1!3m2!1sid!2sid!4v1754291119121!5m2!1sid!2sid" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <div class="container">
@@ -808,8 +2373,9 @@
               <div class="col-md-12">
                 <div class="info-box">
                   <i class="bx bx-map"></i>
-                  <h3>Our Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <h3>Alamat Kami</h3>
+                  <p>Jalan Sisingamangaraja No.76, Brontokusuman, Yogyakarta City, Special Region of Yogyakarta, Indonesia
+Kodepos 55153</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -952,4 +2518,69 @@
 
 </body>
 
+<style>
+  /* Custom CSS */
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.btn-link {
+  color: #3498db;
+  text-decoration: none;
+  padding: 0;
+  font-weight: 500;
+}
+
+.btn-link:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+.img-fluid {
+  height: 100%;
+  object-fit: cover;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+.highlight-box {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .btn-primary:hover {
+    transform: translateY(-2px);
+  }
+  .btn-secondary:hover {
+    background-color: #e67e22 !important;
+    transform: translateY(-2px);
+  }
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+</style>
 </html>
