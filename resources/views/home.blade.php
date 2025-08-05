@@ -71,7 +71,7 @@
           <li class="dropdown"><a href="#"><span>MORE</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a class="nav-link scrollto" href="#prodi-infor">PRODI INFORMATIKA(AKREDITASI BAIK SEKALI)</a></li>
-              <li><a class="nav-link scrollto" href="#prodi-informasi">PRODI SISTEM INFORMASI (AKREDITASI BAIK SEKALI)</a></li>
+              <li><a class="nav-link" href="#prodi-informasi">PRODI SISTEM INFORMASI (AKREDITASI BAIK SEKALI)</a></li>
               <li><a href="#">TENTANG EL RAHMA</a></li>
               <li><a href="#">INFO-AKADEMIK</a></li>
               <li><a href="#">JUTAWAN SEBELUM WISUDA</a></li>
@@ -2367,31 +2367,34 @@
       </div>
     </section><!-- End Doctors Section --> --}}
 
-    {{-- <!-- ======= Gallery Section ======= -->
+    <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Gallery</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Kegiatan Akademik & Pembinaan Plus</h2>
         </div>
 
         <div class="gallery-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-1.jpg"><img src="/themes/Medicio/assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-2.jpg"><img src="/themes/Medicio/assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-3.jpg"><img src="/themes/Medicio/assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-4.jpg"><img src="/themes/Medicio/assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-5.jpg"><img src="/themes/Medicio/assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-6.jpg"><img src="/themes/Medicio/assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-7.jpg"><img src="/themes/Medicio/assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-8.jpg"><img src="/themes/Medicio/assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-1.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-1.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-2.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-2.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-3.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-3.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-4.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-4.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-5.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-5.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-6.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-6.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-7.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-7.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-8.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-8.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-9.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-9.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-10.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-10.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-11.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-11.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-12.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-12.webp" class="img-fluid" alt=""></a></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Gallery Section --> --}}
+    </section><!-- End Gallery Section -->
 
     {{-- <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">

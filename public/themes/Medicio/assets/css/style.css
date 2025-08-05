@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #3fbbc0;
+  color: #CE1B1B;
   text-decoration: none;
 }
 
 a:hover {
-  color: #65c9cd;
+  color: #CE1B1B;
   text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #3fbbc0;
+  border: 6px solid #CE1B1B;
   border-top-color: #ecf8f9;
   border-radius: 50%;
   width: 60px;
@@ -80,7 +80,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #3fbbc0;
+  background: #CE1B1B;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -94,7 +94,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #5ec6ca;
+  background: #E74C3C;
   color: #fff;
 }
 
@@ -828,7 +828,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Counts
+# Counts]
 --------------------------------------------------------------*/
 .counts {
   padding-bottom: 30px;
@@ -1225,11 +1225,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #3fbbc0;
+  border: 1px solid #CE1B1B;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #3fbbc0;
+  background-color: #CE1B1B;
 }
 
 /*--------------------------------------------------------------
@@ -1331,11 +1331,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #3fbbc0;
+  border: 1px solid #CE1B1B;
 }
 
 .gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #3fbbc0;
+  background-color: #CE1B1B;
 }
 
 .gallery .swiper-slide-active {
@@ -1348,7 +1348,7 @@ section {
   }
 
   .gallery .swiper-slide-active {
-    border: 6px solid #3fbbc0;
+    border: 6px solid #CE1B1B;
     padding: 4px;
     background: #fff;
     z-index: 1;
