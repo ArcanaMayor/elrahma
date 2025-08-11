@@ -49,7 +49,7 @@
         <i class="bi bi-clock"></i> Senin - Jum`at, 08.00 WIB - 17.00 WIB
       </div>
       <div class="d-flex align-items-center">
-        <i class="bi bi-phone"></i> Call us now +62 812 3456 7890
+        <i class="bi bi-phone"></i> Call us now +62-8112929757
       </div>
     </div>
   </div>
@@ -2376,20 +2376,16 @@
         </div>
 
         <div class="gallery-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-1.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-1.webp" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-2.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-2.webp" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-3.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-3.webp" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-4.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-4.webp" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-5.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-5.webp" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-6.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-6.webp" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-7.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-7.webp" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-8.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-8.webp" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-9.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-9.webp" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-10.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-10.webp" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-11.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-11.webp" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="/themes/Medicio/assets/img/gallery/gallery-12.webp"><img src="/themes/Medicio/assets/img/gallery/gallery-12.webp" class="img-fluid" alt=""></a></div>
-          </div>
+        <div class="swiper-wrapper align-items-center">
+    @foreach($galeri as $item)
+        <div class="swiper-slide">
+            <a class="gallery-lightbox" href="{{ asset('storage/' . $item->gambar) }}">
+                <img src="{{ asset('storage/' . $item->gambar) }}" class="img-fluid" alt="{{ $item->judul }}">
+            </a>
+        </div>
+    @endforeach
+</div>
+
           <div class="swiper-pagination"></div>
         </div>
 

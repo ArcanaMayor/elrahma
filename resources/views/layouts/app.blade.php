@@ -354,11 +354,10 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="{{ route('galeri.index') }}">
+                                <a href="{{ route('admin.galeri.index') }}">
                                     <i data-feather="image"></i>
                                     <span data-key="t-horizontal">Manajemen Galeri</span>
                                 </a>
-                            </li>
                             <li>
                                 <a href="{{ route('media.index') }}">
                                     <i data-feather="download"></i>

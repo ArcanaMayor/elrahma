@@ -2,6 +2,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Info;
+use App\Models\Galeri;
 
 class HomeController extends Controller
 {
@@ -9,8 +10,9 @@ class HomeController extends Controller
     {
         $terbaru = Info::latest()->take(5)->get(); // 5 info terbaru
         $populer = Info::orderBy('views', 'desc')->take(5)->get(); // 5 info paling banyak dibaca
-        return view('home', compact('terbaru', 'populer'));
-        
-        
+        $galeri = Galeri::latest()->get(); // ambil semua data galeri
+        return view('home', compact('terbaru', 'populer', 'galeri'));
+
+
     }
 }

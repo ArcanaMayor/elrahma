@@ -8,7 +8,6 @@ use App\Http\Controllers\InfoController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\MediaController;
-use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\HalamanController;
 
 Route::get('/login', [AuthController::class,'showLogin'])->name('login');
@@ -30,9 +29,6 @@ Route::resource('media', \App\Http\Controllers\MediaController::class);
 Route::resource('media', \App\Http\Controllers\MediaController::class)->parameters([
     'media' => 'media',
 ]);
-Route::resource('galeri', \App\Http\Controllers\GaleriController::class)->parameters([
-    'galeri' => 'galeri'
-]);
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('beranda');
 Route::resource('infos', \App\Http\Controllers\InfoController::class);
 
@@ -53,4 +49,13 @@ Route::middleware([LogVisitor::class])->group(function () {
 Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 Route::get('/tentang', function () {
     return view('about');
+});
+
+use App\Http\Controllers\GaleriController;
+
+Route::prefix('admin')->middleware('auth')->group(function () {
+    Route::get('/galeri', [GaleriController::class, 'index'])->name('admin.galeri.index');
+    Route::get('/galeri/create', [GaleriController::class, 'create'])->name('admin.galeri.create');
+    Route::post('/galeri', [GaleriController::class, 'store'])->name('admin.galeri.store');
+    Route::delete('/galeri/{galeri}', [GaleriController::class, 'destroy'])->name('admin.galeri.destroy');
 });

@@ -26,7 +26,7 @@
     <a href="#" class="list-group-item list-group-item-action">
         Halaman Statis
     </a>
-    <a href="{{ route('galeri.index') }}" class="list-group-item list-group-item-action">
+    <a href="{{ route('admin.galeri.index') }}" class="list-group-item list-group-item-action">
     Galeri
     </a>
 
