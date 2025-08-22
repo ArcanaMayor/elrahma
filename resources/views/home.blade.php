@@ -148,166 +148,40 @@
 
   <main id="main">
     <!-- ======= About Us Section ======= -->
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
+    <br>
+    <div class="section-title">
           <h2>INFO PMB</h2>
         </div>
-        <div class="col-xs-12">
-  <div class="responsive-handler fr-view breakable">
-    <!-- Image Section with Side-by-Side Layout -->
-    <div class="row" style="margin-bottom: 30px;">
-      <div class="col-md-6" style="margin-bottom: 20px;">
-        <div class="text-center">
-          <img class="img-rounded img-responsive" src="https://files.cdn-files-a.com/uploads/3881771/400_67412156d0412_filter_6741220f88372.png" alt="INFO PMB 2025 image" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-        </div>
-      </div>
-      <div class="col-md-6" style="padding-left: 30px;">
-        <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; height: 100%;">
-          <h3 style="color: #2c3e50; margin-top: 0;">KEMANA SETELAH LULUS SMA/SMK/MA?</h3>
-          <h4 style="color: #e74c3c;">KULIAH APA KERJA?</h4>
-          <ul style="padding-left: 20px;">
-            <li style="margin-bottom: 10px;">"Mau kuliah sih, tapi takutnya habis lulus nganggur. Buktinya banyak sarjana yang nganggur."</li>
-            <li style="margin-bottom: 10px;">"Mau kuliah tapi yang bisa sambil kerja."</li>
-            <li>"Mau kuliah..tapi apa ada kuliah yg biayanya ringan/terjangkau? Bingung juga mau ambil jurusan apa?"</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    @php
+    $about = \App\Models\About::first();
+    @endphp
 
-    <!-- Decision Section -->
-    <div class="highlight-box" style="background-color: #e74c3c; padding: 25px; border-radius: 8px; margin: 25px 0; text-align: center; color: white;">
-      <h3 style="margin-top: 0; color: white;">SEGERA AMBIL KEPUTUSAN</h3>
-      <p style="font-size: 18px; font-weight: bold; margin-bottom: 20px;">
-        "KULIAH pada program studi yang memiliki prospek cerah, luas bidang pekerjaan setelah lulus, biaya terjangkau dan cocok dengan minatmu."
-      </p>
-      <div class="action-buttons">
-        <a href="http://pmb.stmikelrahma.ac.id" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="display: inline-block; padding: 12px 25px; background-color: white; color: #e74c3c; text-decoration: none; border-radius: 4px; margin-right: 15px; font-weight: bold;">
-          DAFTAR ONLINE
-        </a>
-        <a href="http://s.id/pmbelrahma" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="display: inline-block; padding: 12px 25px; background-color: #f39c12; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
-          BROSUR DIGITAL
-        </a>
-      </div>
-    </div>
+@if($about)
+<section id="about" class="about py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Text -->
+            <div class="col-md-7">
+                <h2 class="fw-bold mb-3">{{ $about->title }}</h2>
+                <p class="text-muted" style="text-align: justify;">
+                {!! $about->description !!}
+                </p>
 
-    <!-- Program Prospects Section -->
-    <div class="content-section">
-      <h3 style="color: #2c3e50; border-bottom: 2px solid #e74c3c; padding-bottom: 10px; display: inline-block;">PRODI APA YANG PUNYA PROSPEK CERAH SAAT INI?</h3>
-      
-      <div class="row" style="margin-top: 25px;">
-        <div class="col-md-6" style="margin-bottom: 20px;">
-          <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; height: 100%;">
-            <h4 style="color: #3498db; margin-top: 0;"><i class="fas fa-chart-line" style="margin-right: 10px;"></i> Menurut www.halomoney.co.id</h4>
-            <p>7 jurusan kuliah yang menjanjikan masa depan cerah:</p>
-            <ul style="columns: 2; -webkit-columns: 2; -moz-columns: 2;">
-              <li>INFORMATIKA</li>
-              <li>Diskomvis</li>
-              <li>Desain Produk</li>
-              <li>Desain Mode</li>
-              <li>BISNIS DIGITAL</li>
-              <li>Tata Boga</li>
-              <li>Kewirausahaan</li>
-            </ul>
-          </div>
+            </div>
+            <!-- Image -->
+            <div class="col-md-5 text-center">
+                @if($about->image)
+                    <img src="{{ asset('storage/' . $about->image) }}" 
+                         alt="About Image" 
+                         class="img-fluid rounded shadow">
+                @endif
+            </div>
         </div>
-        <div class="col-md-6">
-          <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; height: 100%;">
-            <h4 style="color: #3498db; margin-top: 0;"><i class="fas fa-money-bill-wave" style="margin-right: 10px;"></i> Menurut life.idntimes.com</h4>
-            <p>10 pekerjaan dengan gaji tinggi di Indonesia:</p>
-            <ul>
-              <li>Ahli Teknik Perminyakan</li>
-              <li>Dokter Spesialis</li>
-              <li><strong>Ahli Teknik Informatika</strong></li>
-              <li><strong>Sistem Informasi</strong></li>
-              <li>Pengacara</li>
-              <li>Pilot</li>
-              <li>Marketing</li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </div>
+</section>
+@endif
 
-    <!-- Why Choose Section -->
-    <div class="content-section" style="background-color: #f8f9fa; padding: 25px; border-radius: 8px;">
-      <h3 style="color: #2c3e50; margin-bottom: 20px;">MENGAPA KULIAH DI STMIK EL RAHMA?</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <p style="font-size: 16px; line-height: 1.6;">
-            Revolusi industri 4.0 membawa perubahan cepat di bidang teknologi seperti:
-          </p>
-          <ul style="padding-left: 20px;">
-            <li>Kecerdasan Buatan (AI)</li>
-            <li>Internet berkecepatan tinggi</li>
-            <li>Teknologi Cloud</li>
-            <li>Internet of Things</li>
-            <li>Big Data</li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <div style="background-color: white; padding: 15px; border-radius: 8px; height: 100%;">
-            <p style="font-weight: bold; color: #e74c3c;">
-              Prodi INFORMATIKA dan SISTEM INFORMASI STMIK El Rahma adalah pilihan tepat karena kurikulumnya disesuaikan dengan kebutuhan lapangan kerja era revolusi industri 4.0.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Study Programs Section -->
-    <div class="content-section">
-      <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; display: inline-block;">PROGRAM STUDI KAMI</h3>
-      
-      <div class="row" style="margin-top: 30px;">
-        <div class="col-md-6" style="margin-bottom: 30px;">
-          <div style="border: 1px solid #3498db; border-radius: 8px; padding: 20px; height: 100%;">
-            <h4 style="color: #3498db; margin-top: 0;">INFORMATIKA</h4>
-            <p><strong>Akreditasi:</strong> BAIK SEKALI - LAMINFOKOM</p>
-            <p><strong>Gelar:</strong> S.Kom</p>
-            <p><strong>Kelas:</strong> Reguler Siang & Malam</p>
-            
-            <h5 style="color: #2c3e50; margin-top: 20px;">Profil Lulusan:</h5>
-            <ul style="padding-left: 20px;">
-              <li>Software Engineer</li>
-              <li>Web Developer</li>
-              <li>Cloud Computing Developer</li>
-              <li>AI Engineer</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div style="border: 1px solid #3498db; border-radius: 8px; padding: 20px; height: 100%;">
-            <h4 style="color: #3498db; margin-top: 0;">SISTEM INFORMASI</h4>
-            <p><strong>Akreditasi:</strong> BAIK SEKALI - LAMINFOKOM</p>
-            <p><strong>Gelar:</strong> S.Kom</p>
-            <p><strong>Kelas:</strong> Reguler Siang</p>
-            
-            <h5 style="color: #2c3e50; margin-top: 20px;">Profil Lulusan:</h5>
-            <ul style="padding-left: 20px;">
-              <li>Database Analyst</li>
-              <li>System Analyst</li>
-              <li>IT Auditor</li>
-              <li>Digital Business Developer</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Final CTA -->
-    <div class="text-center" style="margin: 40px 0;">
-      <h3 style="color: #2c3e50;">SIAP MEMULAI PERJALANAN AKADEMISMU?</h3>
-      <a href="http://pmb.stmikelrahma.ac.id" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="display: inline-block; padding: 15px 30px; background-color: #e74c3c; color: white; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 18px;">
-        DAFTAR SEKARANG
-      </a>
-    </div>
-  </div>
-</div>
-      </div>
-    </section>
 <!-- End About Us Section -->
 
     <!-- Berita Section -->
@@ -2671,7 +2545,6 @@
 </body>
 
 <style>
-  /* Custom CSS */
 .card {
   border: none;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -2764,7 +2637,7 @@
 
 .gallery-image-wrapper {
     width: 100%;
-    height: 200px; /* tinggi seragam */
+    height: 200px; 
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -2774,12 +2647,12 @@
 .gallery-image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* gambar dipotong biar seragam */
+    object-fit: cover; 
     transition: transform 0.3s ease;
 }
 
 .gallery-image:hover {
-    transform: scale(1.05); /* efek zoom saat hover */
+    transform: scale(1.05); 
 }
 
 .gallery-caption {

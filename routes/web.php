@@ -67,3 +67,9 @@ Route::prefix('admin')->name('admin.')->group(function () {
 //     Route::resource('news', \App\Http\Controllers\Admin\AdminNewsController::class);
 // });
     
+use App\Http\Controllers\Admin\AboutController;
+
+Route::prefix('admin')->name('admin.')->group(function () {
+    Route::resource('about', AboutController::class)->only(['index', 'create', 'store', 'edit', 'update']);
+});
+

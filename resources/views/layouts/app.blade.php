@@ -1,6 +1,7 @@
 
 <!doctype html>
 <html lang="en">
+@stack('styles')
 
     <head>
 
@@ -26,6 +27,7 @@
         <link href="/themes/minia/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
 
     </head>
+@stack('scripts')
 
     <body>
 
@@ -307,71 +309,62 @@
 
                     <!--- Sidemenu -->
                     <div id="sidebar-menu">
-                        <!-- Left Menu Start -->
-                        <ul class="metismenu list-unstyled" id="side-menu">
-                            <li class="menu-title" data-key="t-menu">Menu Admin</li>
+    <!-- Left Menu Start -->
+    <ul class="metismenu list-unstyled" id="side-menu">
+        <li class="menu-title" data-key="t-menu">Menu Admin</li>
 
-                            <li>
-                                <a href="{{ route('dashboard') }}">
-                                    <i data-feather="home"></i>
-                                    <span data-key="t-dashboard">Dashboard</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ route('users.index') }}">
-                                    <i data-feather="users"></i>
-                                    <span data-key="t-horizontal">Manajemen Pengguna</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ route('kategoris.index') }}">
-                                    <i data-feather="hash"></i>
-                                    <span data-key="t-horizontal">Manajemen Kategori</span>
-                                </a>
-                            </li>
-                            {{-- <li>
-                                <a href="{{ route('infos.index') }}">
-                                    <i data-feather="alert-octagon"></i>
-                                    <span data-key="t-horizontal">Manajemen Informasi</span>
-                                </a>
-                            </li> --}}
-                            <li>
-                                <a href="{{ route('menus.index') }}">
-                                    <i data-feather="list"></i>
-                                    <span data-key="t-horizontal">Manajemen Menu</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ route('kontaks.index') }}">
-                                    <i data-feather="phone"></i>
-                                    <span data-key="t-horizontal">Manajemen Kontak</span>
-                                </a>
-                            </li>
-                            {{-- <li>
-                                <a href="{{ url('/tentang') }}">
-                                    <i data-feather="layout"></i>
-                                    <span data-key="t-horizontal">Halaman Statis</span>
-                                </a>
-                            </li> --}}
-                            <li>
-                                <a href="{{ route('admin.galeri.index') }}">
-                                    <i data-feather="image"></i>
-                                    <span data-key="t-horizontal">Manajemen Galeri</span>
-                                </a>
-                            <li>
-                                <a href="{{ route('media.index') }}">
-                                    <i data-feather="download"></i>
-                                    <span data-key="t-horizontal">File Download</span>
-                                </a>
-                            </li>
-                            {{-- <li>
-                                <a href="{{ route('news.index') }}">
-                                    <i data-feather="file-text"></i>
-                                    <span data-key="t-horizontal">Manajemen Berita</span>
-                                </a>
-                            </li> --}}
-                        </ul>
-                    </div>
+        <li>
+            <a href="{{ route('dashboard') }}">
+                <i data-feather="home"></i>
+                <span data-key="t-dashboard">Dashboard</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('users.index') }}">
+                <i data-feather="users"></i>
+                <span data-key="t-horizontal">Manajemen Pengguna</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('kategoris.index') }}">
+                <i data-feather="hash"></i>
+                <span data-key="t-horizontal">Manajemen Kategori</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('menus.index') }}">
+                <i data-feather="list"></i>
+                <span data-key="t-horizontal">Manajemen Menu</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('kontaks.index') }}">
+                <i data-feather="phone"></i>
+                <span data-key="t-horizontal">Manajemen Kontak</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('admin.galeri.index') }}">
+                <i data-feather="image"></i>
+                <span data-key="t-horizontal">Manajemen Galeri</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('media.index') }}">
+                <i data-feather="download"></i>
+                <span data-key="t-horizontal">File Download</span>
+            </a>
+        </li>
+        <!-- Tambahan menu baru -->
+        <li>
+            <a href="{{ route('admin.about.index') }}">
+                <i data-feather="file-text"></i>
+                <span data-key="t-horizontal">Manajemen Halaman Statis</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
                     <!-- Sidebar -->
                 </div>
             </div>
