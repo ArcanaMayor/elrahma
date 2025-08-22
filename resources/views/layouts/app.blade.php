@@ -347,12 +347,12 @@
                                     <span data-key="t-horizontal">Manajemen Kontak</span>
                                 </a>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <a href="{{ url('/tentang') }}">
                                     <i data-feather="layout"></i>
                                     <span data-key="t-horizontal">Halaman Statis</span>
                                 </a>
-                            </li>
+                            </li> --}}
                             <li>
                                 <a href="{{ route('admin.galeri.index') }}">
                                     <i data-feather="image"></i>

@@ -148,6 +148,7 @@
 
   <main id="main">
     <!-- ======= About Us Section ======= -->
+    <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
@@ -306,7 +307,8 @@
   </div>
 </div>
       </div>
-    </section><!-- End About Us Section -->
+    </section>
+<!-- End About Us Section -->
 
     <!-- Berita Section -->
     <section id="el-rahma-news" class="news-section" style="background-color: #f8f9fa; padding: 60px 0;">
@@ -2371,28 +2373,36 @@
 
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
-      <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Kegiatan Akademik & Pembinaan Plus</h2>
+            <h2>Kegiatan Akademik & Pembinaan Plus</h2>
         </div>
 
         <div class="gallery-slider swiper">
-        <div class="swiper-wrapper align-items-center">
-    @foreach($galeri as $item)
-        <div class="swiper-slide">
-            <a class="gallery-lightbox" href="{{ asset('storage/' . $item->gambar) }}">
-                <img src="{{ asset('storage/' . $item->gambar) }}" class="img-fluid" alt="{{ $item->judul }}">
-            </a>
-        </div>
-    @endforeach
-</div>
+            <div class="swiper-wrapper align-items-center">
+                @foreach($galeri as $item)
+                    <div class="swiper-slide gallery-item text-center">
+                        <a class="gallery-lightbox d-block" href="{{ asset('storage/' . $item->gambar) }}">
+                            <div class="gallery-image-wrapper">
+                                <img src="{{ asset('storage/' . $item->gambar) }}" 
+                                     class="gallery-image" 
+                                     alt="{{ $item->judul }}">
+                            </div>
+                        </a>
+                        <div class="gallery-caption">
+                            <small>{{ $item->judul }}</small>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
 
-          <div class="swiper-pagination"></div>
+            <div class="swiper-pagination"></div>
         </div>
 
-      </div>
-    </section><!-- End Gallery Section -->
+    </div>
+</section>
+<!-- End Gallery Section -->
 
     {{-- <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
@@ -2746,5 +2756,37 @@
   .news-card:hover .news-image {
     transform: scale(1.03);
   }
+  .gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-image-wrapper {
+    width: 100%;
+    height: 200px; /* tinggi seragam */
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 8px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* gambar dipotong biar seragam */
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); /* efek zoom saat hover */
+}
+
+.gallery-caption {
+    font-size: 14px;
+    color: #444;
+    font-weight: 500;
+}
+
 </style>
 </html>

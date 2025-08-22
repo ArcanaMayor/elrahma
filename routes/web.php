@@ -44,9 +44,9 @@ Route::middleware([LogVisitor::class])->group(function () {
     Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 });
 Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-Route::get('/tentang', function () {
-    return view('about');
-});
+// Route::get('/tentang', function () {
+//     return view('about');
+// });
 
 use App\Http\Controllers\GaleriController;
 
@@ -55,6 +55,9 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/galeri/create', [GaleriController::class, 'create'])->name('admin.galeri.create');
     Route::post('/galeri', [GaleriController::class, 'store'])->name('admin.galeri.store');
     Route::delete('/galeri/{galeri}', [GaleriController::class, 'destroy'])->name('admin.galeri.destroy');
+});
+Route::prefix('admin')->name('admin.')->group(function () {
+    Route::resource('galeri', GaleriController::class);
 });
 
 // use App\Http\Controllers\Admin\NewsController;

@@ -4,7 +4,7 @@
 <div class="container">
     <h1>Daftar Pesan Kontak</h1>
     <table class="table table-bordered">
-        <thead>
+        <thead class="table-dark">
             <tr>
                 <th>Nama</th>
                 <th>Email</th>
