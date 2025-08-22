@@ -329,12 +329,12 @@
                                     <span data-key="t-horizontal">Manajemen Kategori</span>
                                 </a>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <a href="{{ route('infos.index') }}">
                                     <i data-feather="alert-octagon"></i>
                                     <span data-key="t-horizontal">Manajemen Informasi</span>
                                 </a>
-                            </li>
+                            </li> --}}
                             <li>
                                 <a href="{{ route('menus.index') }}">
                                     <i data-feather="list"></i>
@@ -364,6 +364,12 @@
                                     <span data-key="t-horizontal">File Download</span>
                                 </a>
                             </li>
+                            {{-- <li>
+                                <a href="{{ route('news.index') }}">
+                                    <i data-feather="file-text"></i>
+                                    <span data-key="t-horizontal">Manajemen Berita</span>
+                                </a>
+                            </li> --}}
                         </ul>
                     </div>
                     <!-- Sidebar -->

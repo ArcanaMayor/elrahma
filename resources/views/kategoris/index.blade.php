@@ -21,7 +21,7 @@
                 <th style="width: 150px;">Aksi</th>
             </tr>
         </thead>
-    </table>
+    
     <tbody>
         @forelse ($kategoris as $index => $kategori)
             <tr>
@@ -44,6 +44,6 @@
             </tr>
         @endforelse
     </tbody>
-
+</table>
 </div>
 @endsection

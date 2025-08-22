@@ -39,7 +39,7 @@ class InfoController extends Controller
             'gambar' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
-        $data = $reqeust->only('kategori_id', 'judul', 'isi');
+        $data = $request->only('kategori_id', 'judul', 'isi');
 
         if ($request->hasFile('gambar')) {
             $data['gambar'] = $request->file('gambar')->store('gambar_info', 'public');

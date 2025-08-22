@@ -5,18 +5,22 @@
     <h2>Tambah Menu</h2>
     <form action="{{ route('menus.store') }}" method="POST">
         @csrf
+
         <div class="mb-3">
             <label>Nama</label>
             <input type="text" name="nama" class="form-control" required>
         </div>
+
         <div class="mb-3">
             <label>URL</label>
             <input type="text" name="url" class="form-control">
         </div>
+
         <div class="mb-3">
             <label>Ikon</label>
             <input type="text" name="ikon" class="form-control">
         </div>
+
         <div class="mb-3">
             <label>Aktif</label>
             <select name="aktif" class="form-control">
@@ -24,6 +28,17 @@
                 <option value="0">Tidak</option>
             </select>
         </div>
+
+        <div class="mb-3">
+            <label>Parent Menu</label>
+            <select name="parent_id" class="form-control">
+                <option value="">-- Tidak ada (Menu Utama) --</option>
+                @foreach($menus as $m)
+                    <option value="{{ $m->id }}">{{ $m->nama }}</option>
+                @endforeach
+            </select>
+        </div>
+
         <button class="btn btn-success">Simpan</button>
         <a href="{{ route('menus.index') }}" class="btn btn-secondary">Batal</a>
     </form>

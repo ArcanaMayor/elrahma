@@ -10,7 +10,7 @@
     @endif
 
     <table class="table table-bordered">
-        <thead>
+        <thead class="table-dark">
             <tr>
                 <th>Nama</th>
                 <th>URL</th>

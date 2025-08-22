@@ -6,7 +6,6 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\InfoController;
 use App\Http\Controllers\MenuController;
-use App\Http\Controllers\KontakController;
 use App\Http\Controllers\MediaController;
 use App\Http\Controllers\HalamanController;
 
@@ -36,12 +35,10 @@ Route::get('/user/dashboard', function () {
     return view('users.index');
 })->middleware('auth');
 
+use App\Http\Controllers\KontakController;
 
+Route::post('/kontak/kirim', [KontakController::class, 'store'])->name('kontak.kirim');
 
-
-// Form kirim kontak (khusus halaman kontak)
-Route::post('/kontak/kirim', [KontakController::class, 'kirim'])->name('kontak.kirim');
-use App\Http\Middleware\LogVisitor;
 
 Route::middleware([LogVisitor::class])->group(function () {
     Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
@@ -59,3 +56,11 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::post('/galeri', [GaleriController::class, 'store'])->name('admin.galeri.store');
     Route::delete('/galeri/{galeri}', [GaleriController::class, 'destroy'])->name('admin.galeri.destroy');
 });
+
+// use App\Http\Controllers\Admin\NewsController;
+
+
+// Route::prefix('admin')->name('admin.')->group(function () {
+//     Route::resource('news', \App\Http\Controllers\Admin\AdminNewsController::class);
+// });
+    

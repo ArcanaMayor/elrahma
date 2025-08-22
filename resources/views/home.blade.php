@@ -63,33 +63,35 @@
       <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto " href="#hero">Beranda</a></li>
-          <li><a class="nav-link scrollto" href="#about">Info PMB</a></li>
-          <li><a class="nav-link scrollto" href="#el-rahma-news">EL RAHMA NEWS</a></li>
-          <li><a class="nav-link scrollto" href="#services">INFO DAFTAR & BIAYA STUDI</a></li>
-          <li class="dropdown"><a href="#"><span>MORE</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#prodi-infor">PRODI INFORMATIKA(AKREDITASI BAIK SEKALI)</a></li>
-              <li><a class="nav-link" href="#prodi-informasi">PRODI SISTEM INFORMASI (AKREDITASI BAIK SEKALI)</a></li>
-              <li><a href="#">TENTANG EL RAHMA</a></li>
-              <li><a href="#">INFO-AKADEMIK</a></li>
-              <li><a href="#">JUTAWAN SEBELUM WISUDA</a></li>
-              <li><a href="#">VIDEO PMB</a></li>
-              <li><a href="#">BEASISWA PEDULI PANDEMI</a></li>
-              <li><a href="#">BEASISWA KIP KULIAH 2024</a></li>
-              <li><a href="#">SURVEY KEPUASAN STAKEHOLDERS</a></li>
-              <li><a href="#">SEBAGIAN ALUMNI</a></li>
-              <li><a href="#">KEGIATAN AKADEMIK & PEMBINAAN PLUS</a></li>
-              <li><a href="#">DOWNLOAD</a></li>
-              <li><a href="#">IKLAN PMB 2020</a></li>
-              <li><a href="#contact">CONTACT</a></li>
-              <li><a href="#">NUMBER COUNTER</a></li>
-            </ul>
-          </li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+    <ul>
+        @foreach($menus->where('parent_id', null) as $menu)
+            @php
+                $hasChild = $menus->where('parent_id', $menu->id)->count() > 0;
+            @endphp
+
+            @if($hasChild)
+                <li class="dropdown">
+                    <a href="{{ $menu->url ?? '#' }}">
+                        <span>{{ $menu->nama }}</span> <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul>
+                        @foreach($menus->where('parent_id', $menu->id) as $submenu)
+                            <li>
+                                <a href="{{ $submenu->url }}">{{ $submenu->nama }}</a>
+                            </li>
+                        @endforeach
+                    </ul>
+                </li>
+            @else
+                <li>
+                    <a class="nav-link scrollto" href="{{ $menu->url }}">{{ $menu->nama }}</a>
+                </li>
+            @endif
+        @endforeach
+    </ul>
+    <i class="bi bi-list mobile-nav-toggle"></i>
+</nav>
+<!-- .navbar -->
 
       <a href="{{ route('login') }}" class="appointment-btn scrollto"><span class="d-none d-md-inline">Get</span> Started</a>
 
@@ -496,7 +498,7 @@
     <!-- See More Button -->
     <div class="row">
       <div class="col-12 text-center" style="margin-top: 30px;">
-        <a href="/el-rahma-news" class="see-more-btn" style="display: inline-block; padding: 12px 30px; background: #e74c3c; color: white; text-decoration: none; border-radius: 30px; font-weight: 600; transition: all 0.3s;">
+        <a href="/el-rahma-news" class="see-more- btn" style="display: inline-block; padding: 12px 30px; background: #e74c3c; color: white; text-decoration: none; border-radius: 30px; font-weight: 600; transition: all 0.3s;">
           Lihat Berita Lainnya
         </a>
       </div>
@@ -2594,7 +2596,8 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="{{ route('kontak.kirim') }}" method="post" role="form" class="php-email-form">
+              @csrf
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
@@ -2630,13 +2633,13 @@
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>ELRAHMA</span></strong>. All Rights Reserved
-      </div>
+      </div> 
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">MedicioBootstrap</a>
+        Designed by <a href="https://bootstrapmade.com/">Admin#123</a>
       </div>
     </div>
   </footer><!-- End Footer -->
