@@ -308,7 +308,7 @@
                 <div data-simplebar class="h-100">
 
                     <!--- Sidemenu -->
-                    <div id="sidebar-menu">
+<div id="sidebar-menu">
     <!-- Left Menu Start -->
     <ul class="metismenu list-unstyled" id="side-menu">
         <li class="menu-title" data-key="t-menu">Menu Admin</li>
@@ -350,22 +350,21 @@
             </a>
         </li>
         <li>
-            <a href="{{ route('media.index') }}">
-                <i data-feather="download"></i>
-                <span data-key="t-horizontal">File Download</span>
-            </a>
-        </li>
-        <!-- Tambahan menu baru -->
-        <li>
             <a href="{{ route('admin.about.index') }}">
                 <i data-feather="file-text"></i>
                 <span data-key="t-horizontal">Manajemen Halaman Statis</span>
             </a>
         </li>
+        <li>
+    <a href="{{ route('admin.berita.index') }}">
+        <i data-feather="file"></i>
+        <span data-key="t-horizontal">Manajemen Berita</span>
+    </a>
+</li>
+
     </ul>
 </div>
 
-                    <!-- Sidebar -->
                 </div>
             </div>
             <!-- Left Sidebar End -->
