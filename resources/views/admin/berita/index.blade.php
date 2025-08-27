@@ -10,7 +10,7 @@
     @endif
 
     <div class="mb-3">
-        <a href="{{ route('admin.berita.create') }}" class="btn btn-primary">+ Tambah</a>
+        <a href="{{ route('admin.berita.create') }}" class="btn btn-primary"><i class="fas fa-plus"></i></a>
     </div>
 
     <table class="table table-bordered table-striped">
@@ -28,7 +28,7 @@
                 <tr>
                     <td>{{ $loop->iteration }}</td>
                     <td>{{ $berita->judul }}</td>
-                    <td>{{ Str::limit($berita->isi, 100) }}</td>
+                    <td>{!! Str::limit($berita->isi, 100) !!}</td>
                     <td>
                         @if($berita->gambar)
                             <img src="{{ asset('storage/'.$berita->gambar) }}" width="120" class="img-thumbnail">

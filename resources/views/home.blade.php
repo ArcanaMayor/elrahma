@@ -182,7 +182,7 @@
                   <span>{{ $featured->created_at->diffForHumans() }}</span>
                 </div>
                 <p style="color: #34495e; line-height: 1.6;">
-                  {{ Str::limit($featured->isi, 200) }}
+                  {!! Str::limit($featured->isi, 200) !!}
                 </p>
                 <a href="{{ route('berita.show', $featured->id) }}" class="read-more" style="color: #e74c3c; font-weight: 600; text-decoration: none; display: inline-block; margin-top: 15px;">
                   Read More <i class="fas fa-arrow-right" style="margin-left: 5px;"></i>
@@ -429,57 +429,102 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Informatika Section ======= -->
-    <h2 class="mb-4 text-center fw-bold">PROGRAM STUDI</h2>
+<style>
+    /* Styling khusus tabel mata kuliah */
+    .table-mk {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 0.95rem;
+    }
+    .table-mk th, 
+    .table-mk td {
+        border: 1px solid #dee2e6;
+        padding: 8px 10px;
+        vertical-align: middle;
+    }
+    .table-mk th {
+        background-color: #f8f9fa;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+    }
+    .table-mk tbody tr:hover {
+        background-color: #f9f9f9;
+    }
+    .table-mk .fw-bold {
+        background: #fafafa;
+    }
 
-    @foreach($prodis as $prodi)
-    <div class="card shadow mb-5">
-        <div class="card-header bg-primary text-white">
-            <h4 class="mb-0">{{ $prodi->nama }} (Akreditasi {{ $prodi->akreditasi }})</h4>
+    /* Biar tabel tidak terlalu melebar */
+    .table-container {
+        max-width: 900px; /* atur lebar sesuai kebutuhan */
+        margin: 0 auto;   /* center horizontal */
+    }
+</style>
+
+<h2 class="mb-5 text-center fw-bold">PROGRAM STUDI</h2>
+
+@foreach($prodis as $prodi)
+    {{-- Nama Prodi --}}
+    <h3 class="text-center text-uppercase mb-4">
+        {{ $prodi->nama }} (Akreditasi {{ $prodi->akreditasi }})
+    </h3>
+
+    {{-- Informasi Prodi --}}
+    @foreach($prodi->infos as $info)
+        <div class="mb-4">
+            <h5 class="fw-bold">{{ strtoupper($info->judul) }} :</h5>
+            <p class="mb-0">{!! nl2br(e($info->deskripsi)) !!}</p>
         </div>
-        <div class="card-body">
+    @endforeach
 
-            {{-- Informasi Prodi --}}
-            @foreach($prodi->infos as $info)
-                <div class="mb-3">
-                    <h5 class="fw-bold">{{ $info->judul }}</h5>
-                    <p class="mb-0">{!! nl2br(e($info->deskripsi)) !!}</p>
-                </div>
-            @endforeach
+    {{-- Mata Kuliah --}}
+    <h5 class="fw-bold mt-5 mb-3 text-center">MATA KULIAH :</h5>
 
-            {{-- Mata Kuliah --}}
-            <h5 class="fw-bold mt-4">Mata Kuliah</h5>
-            <div class="table-responsive">
-                <table class="table table-striped table-bordered align-middle">
-                    <thead class="table-dark">
+    @php
+        // Grouping mata kuliah per semester
+        $grouped = $prodi->mataKuliahs->groupBy('semester');
+    @endphp
+
+    @forelse($grouped as $semester => $mks)
+        <div class="mb-4 table-container">
+            <h6 class="fw-bold text-uppercase">Semester {{ $semester }}</h6>
+            <table class="table-mk">
+                <thead>
+                    <tr>
+                        <th style="width: 50px">No</th>
+                        <th style="width: 120px">Kode</th>
+                        <th>Mata Kuliah</th>
+                        <th style="width: 80px">SKS</th>
+                        <th style="width: 150px">Prasyarat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @php $total = 0; @endphp
+                    @foreach($mks as $i => $mk)
                         <tr>
-                            <th>Kode</th>
-                            <th>Nama Mata Kuliah</th>
-                            <th>SKS</th>
-                            <th>Semester</th>
-                            <th>Prasyarat</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @forelse($prodi->mataKuliahs as $mk)
-                        <tr>
+                            <td>{{ $i+1 }}</td>
                             <td>{{ $mk->kode }}</td>
                             <td>{{ $mk->nama }}</td>
                             <td>{{ $mk->sks }}</td>
-                            <td>{{ $mk->semester }}</td>
                             <td>{{ $mk->prasyarat ?? '-' }}</td>
                         </tr>
-                        @empty
-                        <tr>
-                            <td colspan="5" class="text-center">Belum ada data mata kuliah</td>
-                        </tr>
-                        @endforelse
-                    </tbody>
-                </table>
-            </div>
-
+                        @php $total += $mk->sks; @endphp
+                    @endforeach
+                    <tr class="fw-bold">
+                        <td colspan="3" class="text-end">TOTAL SKS Semester {{ $semester }}</td>
+                        <td>{{ $total }}</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-    </div>
-    @endforeach
+    @empty
+        <p class="text-center">Belum ada data mata kuliah</p>
+    @endforelse
+@endforeach
+
+
 
 <!-- End Informatika Section -->
 

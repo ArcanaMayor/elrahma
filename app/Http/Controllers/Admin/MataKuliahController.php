@@ -26,8 +26,12 @@ class MataKuliahController extends Controller
             'semester' => 'required|string|max:50',
             'prasyarat' => 'nullable|string|max:255'
         ]);
+
         $prodi->mataKuliahs()->create($request->all());
-        return redirect()->route('admin.prodi.mataKuliahs.index', $prodi)->with('success','Mata Kuliah berhasil ditambahkan');
+
+        return redirect()
+            ->route('admin.prodi.mataKuliahs.index', $prodi)
+            ->with('success','Mata Kuliah berhasil ditambahkan');
     }
 
     public function edit(MataKuliah $mataKuliah) {
@@ -42,13 +46,20 @@ class MataKuliahController extends Controller
             'semester' => 'required|string|max:50',
             'prasyarat' => 'nullable|string|max:255'
         ]);
+
         $mataKuliah->update($request->all());
-        return redirect()->route('admin.prodi.mataKuliahs.index', $mataKuliah->prodi_id)->with('success','Mata Kuliah berhasil diupdate');
+
+        return redirect()
+            ->route('admin.prodi.mataKuliahs.index', $mataKuliah->prodi)
+            ->with('success','Mata Kuliah berhasil diupdate');
     }
 
     public function destroy(MataKuliah $mataKuliah) {
-        $prodiId = $mataKuliah->prodi_id;
+        $prodi = $mataKuliah->prodi;
         $mataKuliah->delete();
-        return redirect()->route('admin.prodi.mataKuliahs.index', $prodiId)->with('success','Mata Kuliah berhasil dihapus');
+
+        return redirect()
+            ->route('admin.prodi.mataKuliahs.index', $prodi)
+            ->with('success','Mata Kuliah berhasil dihapus');
     }
 }

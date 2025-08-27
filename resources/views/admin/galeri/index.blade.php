@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <h2>Manajemen Galeri</h2>
-    <a href="{{ route('admin.galeri.create') }}" class="btn btn-primary mb-3">+ Tambah</a>
+    <a href="{{ route('admin.galeri.create') }}" class="btn btn-primary mb-3"><i class="fas fa-plus"></i></a>
 
     @if(session('success'))
         <div class="alert alert-success">{{ session('success') }}</div>

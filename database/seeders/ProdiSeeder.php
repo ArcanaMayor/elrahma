@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use App\Models\Prodi;
-use App\Models\Info;
+use App\Models\ProdiInfo;
 use App\Models\MataKuliah;
 
 class ProdiSeeder extends Seeder
@@ -18,25 +18,25 @@ class ProdiSeeder extends Seeder
         ]);
 
         // Tambah Info untuk Informatika
-        Info::create([
+        ProdiInfo::create([
             'prodi_id' => $informatika->id,
             'judul' => 'Visi',
             'deskripsi' => 'Menjadi program studi unggul dalam bidang informatika di tingkat nasional dan internasional.'
         ]);
 
-        Info::create([
+        ProdiInfo::create([
             'prodi_id' => $informatika->id,
             'judul' => 'Misi',
             'deskripsi' => "- Menyelenggarakan pendidikan berkualitas\n- Menghasilkan penelitian inovatif\n- Mengabdi pada masyarakat melalui teknologi"
         ]);
 
-        Info::create([
+        ProdiInfo::create([
             'prodi_id' => $informatika->id,
             'judul' => 'Tujuan',
             'deskripsi' => "Menghasilkan lulusan yang kompeten, profesional, dan berdaya saing global."
         ]);
 
-        // Tambah Mata Kuliah
+        // Tambah Mata Kuliah untuk Informatika
         $mataKuliahs = [
             ['kode' => 'IF101', 'nama' => 'Pengantar Informatika', 'sks' => 3, 'semester' => 1, 'prasyarat' => null],
             ['kode' => 'IF102', 'nama' => 'Algoritma & Struktur Data', 'sks' => 3, 'semester' => 2, 'prasyarat' => 'IF101'],
@@ -49,13 +49,13 @@ class ProdiSeeder extends Seeder
             MataKuliah::create(array_merge($mk, ['prodi_id' => $informatika->id]));
         }
 
-        // Bisa tambah Prodi lain juga
+        // Tambah Prodi lain
         $si = Prodi::create([
             'nama' => 'Sistem Informasi',
             'akreditasi' => 'B',
         ]);
 
-        Info::create([
+        ProdiInfo::create([
             'prodi_id' => $si->id,
             'judul' => 'Visi',
             'deskripsi' => 'Menjadi program studi unggulan di bidang sistem informasi yang berorientasi pada industri.'
@@ -67,9 +67,6 @@ class ProdiSeeder extends Seeder
             'nama' => 'Pengantar Sistem Informasi',
             'sks' => 3,
             'semester' => 1,
-        ]);
-        $this->call([
-            ProdiSeeder::class,
         ]);
     }
 }

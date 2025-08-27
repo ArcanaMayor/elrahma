@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1 class="mb-4">Manage About Section</h1>
+    <h1 class="mb-4">Manajemen Infos (PMB)</h1>
 
     @if(session('success'))
         <div class="alert alert-success">{{ session('success') }}</div>
@@ -17,7 +17,7 @@
                         {!! $about->description !!}
                     </p>
                     <a href="{{ route('admin.about.edit', $about->id) }}" class="btn btn-warning mt-3">
-                        <i class="fas fa-edit"></i> Edit
+                        <i class="fas fa-edit"></i>
                     </a>
                 </div>
                 <div class="col-md-4 text-center p-3">
@@ -30,7 +30,7 @@
             </div>
         </div>
     @else
-        <a href="{{ route('admin.about.create') }}" class="btn btn-primary">Tambah About</a>
+        <a href="{{ route('admin.about.create') }}" class="btn btn-primary"><i class="fas fa-plus"></i></a>
     @endif
 </div>
 @endsection

@@ -22,5 +22,10 @@ class DatabaseSeeder extends Seeder
         'email' => 'admin@example.com', // ubah dari test@example.com
         ]);
 
+        $this->call([
+        ProdiSeeder::class,
+        ]);
+
+
     }
 }

@@ -351,13 +351,13 @@
         <li>
             <a href="{{ route('admin.about.index') }}">
                 <i data-feather="file-text"></i>
-                <span data-key="t-horizontal">Manajemen Halaman Statis</span>
+                <span data-key="t-horizontal">Manajemen Infos (PMB)</span>
             </a>
         </li>
          <li>
             <a href="{{ route('admin.prodi.index') }}">
                 <i data-feather="book"></i>
-                <span data-key="t-horizontal">Manajemen Prodi</span>
+                <span data-key="t-horizontal">Manajemen Infos (Prodi)</span>
             </a>
         </li>
 

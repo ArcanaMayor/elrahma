@@ -31,7 +31,7 @@
                 <input type="file" name="image" class="form-control">
             </div>
 
-            <button type="submit" class="btn btn-success">Update</button>
+            <button type="submit" class="btn btn-success"><i class="fas fa-save"></i></button>
         </form>
     </div>
 </div>
