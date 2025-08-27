@@ -23,7 +23,7 @@
 
                         <div class="mt-auto">
                             <a href="{{ route('admin.galeri.edit', $item->id) }}" 
-                               class="btn btn-warning btn-sm me-1"><i class="fas fa-edit"></i>Edit</a>
+                               class="btn btn-warning btn-sm me-1"><i class="fas fa-edit"></i></a>
 
                             <form action="{{ route('admin.galeri.destroy', $item->id) }}" 
                                   method="POST" 
@@ -31,7 +31,7 @@
                                   class="d-inline">
                                 @csrf
                                 @method('DELETE')
-                                <button type="submit" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i>Hapus</button>
+                                <button type="submit" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>
                             </form>
                         </div>
                     </div>

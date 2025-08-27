@@ -39,8 +39,8 @@
             @endif
         </div>
 
-        <button type="submit" class="btn btn-success">Update</button>
-        <a href="{{ route('admin.galeri.index') }}" class="btn btn-secondary">Kembali</a>
+        <button type="submit" class="btn btn-success"><i class="fas fa-check"></i></button>
+        <a href="{{ route('admin.galeri.index') }}" class="btn btn-secondary"><i class="fas fa-arrow-left"></i></a>
     </form>
 </div>
 @endsection

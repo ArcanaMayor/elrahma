@@ -20,8 +20,8 @@
 
 
 
-        <button type="submit" class="btn btn-primary">Update</button>
-        <a href="{{ route('admin.berita.index') }}" class="btn btn-secondary">Kembali</a>
+        <button type="submit" class="btn btn-primary"><i class="fas fa-check"></i></button>
+        <a href="{{ route('admin.berita.index') }}" class="btn btn-secondary"><i class="fas fa-arrow-left"></i></a>
     </form>
 </div>
 @endsection

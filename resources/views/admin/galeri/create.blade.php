@@ -13,7 +13,7 @@
             <label>Gambar</label>
             <input type="file" name="gambar" class="form-control" accept="image/*" required>
         </div>
-        <button type="submit" class="btn btn-success">Simpan</button>
+        <button type="submit" class="btn btn-success"><i class="fas fa-check"></i></button>
     </form>
 </div>
 @endsection

@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="/themes/Medicio/assets/img/favicon.png" rel="icon">
+  <link href="/themes/Medicio/assets/img/doctors/logo.webp" rel="icon">
   <link href="/themes/Medicio/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -429,37 +429,53 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Informatika Section ======= -->
-<style>
-    /* Styling khusus tabel mata kuliah */
-    .table-mk {
-        border-collapse: collapse;
-        width: 100%;
-        font-size: 0.95rem;
-    }
-    .table-mk th, 
-    .table-mk td {
-        border: 1px solid #dee2e6;
-        padding: 8px 10px;
-        vertical-align: middle;
-    }
-    .table-mk th {
-        background-color: #f8f9fa;
-        font-weight: 600;
-        text-transform: uppercase;
-        font-size: 0.85rem;
-    }
-    .table-mk tbody tr:hover {
-        background-color: #f9f9f9;
-    }
-    .table-mk .fw-bold {
-        background: #fafafa;
-    }
+    <style>
+.table-mk {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto; /* agar tabel di tengah */
+    font-size: 0.95rem;
+    text-align: center; /* semua teks rata tengah */
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
 
-    /* Biar tabel tidak terlalu melebar */
-    .table-container {
-        max-width: 900px; /* atur lebar sesuai kebutuhan */
-        margin: 0 auto;   /* center horizontal */
-    }
+.table-mk th, 
+.table-mk td {
+    border: 1px solid #e9ecef;
+    padding: 10px 12px;
+    vertical-align: middle;
+}
+
+.table-mk th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.table-mk tbody tr:hover {
+    background-color: #fdfdfd;
+}
+
+.table-mk .fw-bold {
+    background: #fafafa;
+    font-weight: 700;
+}
+
+/* Judul Semester */
+.table-container h6 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #2c3e50;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
 </style>
 
 <h2 class="mb-5 text-center fw-bold">PROGRAM STUDI</h2>
@@ -471,64 +487,68 @@
     </h3>
 
     {{-- Informasi Prodi --}}
-    @foreach($prodi->infos as $info)
-        <div class="mb-4">
-            <h5 class="fw-bold">{{ strtoupper($info->judul) }} :</h5>
-            <p class="mb-0">{!! nl2br(e($info->deskripsi)) !!}</p>
-        </div>
-    @endforeach
+    <div class="text-center mb-5">
+        @foreach($prodi->infos as $info)
+            <div class="mb-4">
+                <h5 class="fw-bold text-uppercase">{{ $info->judul }} :</h5>
+                <p class="mb-0">{!! nl2br(e($info->deskripsi)) !!}</p>
+            </div>
+        @endforeach
+    </div>
 
     {{-- Mata Kuliah --}}
     <h5 class="fw-bold mt-5 mb-3 text-center">MATA KULIAH :</h5>
 
     @php
-        // Grouping mata kuliah per semester
         $grouped = $prodi->mataKuliahs->groupBy('semester');
     @endphp
 
-    @forelse($grouped as $semester => $mks)
-        <div class="mb-4 table-container">
-            <h6 class="fw-bold text-uppercase">Semester {{ $semester }}</h6>
-            <table class="table-mk">
-                <thead>
-                    <tr>
-                        <th style="width: 50px">No</th>
-                        <th style="width: 120px">Kode</th>
-                        <th>Mata Kuliah</th>
-                        <th style="width: 80px">SKS</th>
-                        <th style="width: 150px">Prasyarat</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @php $total = 0; @endphp
-                    @foreach($mks as $i => $mk)
+    <div class="d-flex flex-column align-items-center">
+        @forelse($grouped as $semester => $mks)
+            <div class="mb-4 table-container text-center" style="width: 100%; max-width: 900px;">
+                <h6 class="fw-bold text-uppercase mb-3">Semester {{ $semester }}</h6>
+                <table class="table-mk mx-auto">
+                    <thead>
                         <tr>
-                            <td>{{ $i+1 }}</td>
-                            <td>{{ $mk->kode }}</td>
-                            <td>{{ $mk->nama }}</td>
-                            <td>{{ $mk->sks }}</td>
-                            <td>{{ $mk->prasyarat ?? '-' }}</td>
+                            <th style="width: 50px">No</th>
+                            <th style="width: 120px">Kode</th>
+                            <th>Mata Kuliah</th>
+                            <th style="width: 80px">SKS</th>
+                            <th style="width: 150px">Prasyarat</th>
                         </tr>
-                        @php $total += $mk->sks; @endphp
-                    @endforeach
-                    <tr class="fw-bold">
-                        <td colspan="3" class="text-end">TOTAL SKS Semester {{ $semester }}</td>
-                        <td>{{ $total }}</td>
-                        <td>-</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    @empty
-        <p class="text-center">Belum ada data mata kuliah</p>
-    @endforelse
+                    </thead>
+                    <tbody>
+                        @php $total = 0; @endphp
+                        @foreach($mks as $i => $mk)
+                            <tr>
+                                <td>{{ $i+1 }}</td>
+                                <td>{{ $mk->kode }}</td>
+                                <td>{{ $mk->nama }}</td>
+                                <td>{{ $mk->sks }}</td>
+                                <td>{{ $mk->prasyarat ?? '-' }}</td>
+                            </tr>
+                            @php $total += $mk->sks; @endphp
+                        @endforeach
+                        <tr class="fw-bold">
+                            <td colspan="3" class="text-end">TOTAL SKS Semester {{ $semester }}</td>
+                            <td>{{ $total }}</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        @empty
+            <p class="text-center">Belum ada data mata kuliah</p>
+        @endforelse
+    </div>
 @endforeach
+
 
 
 
 <!-- End Informatika Section -->
 
-<!-- Sistem Informasi Section -->
+{{-- <!-- Sistem Informasi Section -->
 <section id="prodi-informasi" class="s123-module s123-module-about layout-4 layout-4" style="background-color: #f8f9fa;" data-module-id="6401d76890839" data-module-type-num="16">
   <div data-aos="fade-up" class="container-fluid page_header_style noBackground aos-init aos-animate">
     <div class="row">
@@ -1088,7 +1108,7 @@
     </div>
   </div>
 </section>
-<!-- End Sistem Informasi Section -->
+<!-- End Sistem Informasi Section --> --}}
 
 
 
@@ -1888,6 +1908,58 @@
       </div>
     </section><!-- End Frequently Asked Questioins Section --> --}}
 
+<section class="page-header">
+        <div class="container">
+            <div class="page-header-wrap">
+                <h2>DOWNLOAD</h2>
+                <hr class="small">
+            </div>
+        </div>
+    </section>
+
+    <!-- DOWNLOAD ITEMS SECTION -->
+    <section class="download-section">
+        <div class="container">
+            <div class="download-items">
+                <!-- SERTIFIKAT AKREDITASI PROGRAM STUDI -->
+                <div class="download-item">
+                    <div class="item-image">
+                        <a href="/download/sertifikat-akreditasi-program-studi">
+                            <img src="https://images.cdn-files-a.com/uploads/3881771/800_662767bbe1f9d.png" alt="SERTIFIKAT AKREDITASI PROGRAM STUDI">
+                        </a>
+                    </div>
+                    <div class="item-details">
+                        <div class="item-title">
+                            <h3><a href="/download/sertifikat-akreditasi-program-studi">SERTIFIKAT AKREDITASI PROGRAM STUDI</a></h3>
+                        </div>
+                        <div class="item-content">
+                            <p>Berikut sertifikat akreditasi program studi di STMIK EL RAHMA Yogyakarta dari masa ke masa:</p>
+                            <a href="/download/sertifikat-akreditasi-program-studi" class="btn btn-primary">Read More</a>
+                        </div>
+                        <div class="reading-time">3 min read</div>
+                    </div>
+                </div>
+
+                <!-- SERTIFIKAT AKREDITASI PERGURUAN TINGGI -->
+                <div class="download-item">
+                    <div class="item-image">
+                        <a href="/download/sertifikat-akreditasi-perguruan-tinggi">
+                            <img src="https://images.cdn-files-a.com/uploads/3881771/800_662766d984b6e.png" alt="SERTIFIKAT AKREDITASI PERGURUAN TINGGI">
+                        </a>
+                    </div>
+                    <div class="item-details">
+                        <div class="item-title">
+                            <h3><a href="/download/sertifikat-akreditasi-perguruan-tinggi">SERTIFIKAT AKREDITASI PERGURUAN TINGGI</a></h3>
+                        </div>
+                        <div class="item-content">
+                            <a href="/download/sertifikat-akreditasi-perguruan-tinggi" class="btn btn-primary">Read More</a>
+                        </div>
+                        <div class="reading-time">1 min read</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
@@ -1935,7 +2007,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="{{ route('kontak.kirim') }}" method="post" role="form" class="php-email-form">
+            <form action="{{ route('kontak.kirim') }}" method="post" role="form">
               @csrf
               <div class="row">
                 <div class="col-md-6 form-group">
@@ -1951,12 +2023,8 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="7" placeholder="Message" required=""></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <br>
+              <div class="text-center"><button type="submit" class="btn btn-primary">Send Message</button></div>
             </form>
           </div>
 
@@ -2116,5 +2184,163 @@
     font-weight: 500;
 }
 
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .page-header-wrap {
+            margin: 40px 0;
+        }
+        
+        .page-header-wrap h2 {
+            font-size: 1.9rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-weight: 700;
+            text-align: center;
+        }
+        
+        .page-header-wrap hr.small {
+            width: 80px;
+            height: 3px;
+            background-color: #3498db;
+            margin: 0 auto;
+            border: none;
+        }
+        
+        .download-section {
+            padding: 40px 0;
+        }
+        
+        .download-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .download-item {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            max-width: 540px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .download-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .item-image {
+            width: 100%;
+            height: 250px;
+            overflow: hidden;
+        }
+        
+        .item-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .download-item:hover .item-image img {
+            transform: scale(1.05);
+        }
+        
+        .item-details {
+            padding: 25px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .item-title h3 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        
+        .item-title a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .item-title a:hover {
+            color: #3498db;
+        }
+        
+        .item-content {
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+        
+        .item-content p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .btn-primary {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        
+        .btn-primary:hover {
+            background-color: #2980b9;
+        }
+        
+        .reading-time {
+            font-size: 0.85rem;
+            color: #777;
+        }
+        
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            .download-item {
+                flex-direction: column;
+            }
+            
+            .item-image {
+                height: 200px;
+            }
+            
+            .page-header-wrap h2 {
+                font-size: 2rem;
+            }
+        }
 </style>
 </html>

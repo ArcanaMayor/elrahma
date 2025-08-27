@@ -10,7 +10,7 @@
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesbrand" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="/themes/minia/assets/images/favicon.ico">
+        <link rel="shortcut icon" href="/themes/minia/assets/images/logo.webp">
 
         <!-- plugin css -->
         <link href="/themes/minia/assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
@@ -43,10 +43,10 @@
                         <div class="navbar-brand-box">
                             <a href="index.html" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <img src="/themes/minia/assets/images/logo-sm.svg" alt="" height="24">
+                                    <img src="/themes/minia/assets/images/logo.webp" alt="" height="24">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="/themes/minia/assets/images/logo-sm.svg" alt="logo" height="30"> <span class="logo-txt">EL RAHMA</span>
+                                    <img src="/themes/minia/assets/images/logo.webp" alt="logo" height="30"> <span class="logo-txt">EL RAHMA</span>
                                 </span>
                             </a>
 
@@ -321,54 +321,48 @@
         <li>
             <a href="{{ route('users.index') }}">
                 <i data-feather="users"></i>
-                <span data-key="t-horizontal">Manajemen Pengguna</span>
-            </a>
-        </li>
-        <li>
-            <a href="{{ route('kategoris.index') }}">
-                <i data-feather="hash"></i>
-                <span data-key="t-horizontal">Manajemen Kategori</span>
+                <span data-key="t-horizontal">Pengguna</span>
             </a>
         </li>
         <li>
             <a href="{{ route('menus.index') }}">
                 <i data-feather="list"></i>
-                <span data-key="t-horizontal">Manajemen Menu</span>
+                <span data-key="t-horizontal">Menu</span>
             </a>
         </li>
         <li>
-            <a href="{{ route('kontaks.index') }}">
+            <a href="{{ route('admin.kontak.index') }}">
                 <i data-feather="phone"></i>
-                <span data-key="t-horizontal">Manajemen Kontak</span>
+                <span data-key="t-horizontal">Kontak</span>
             </a>
         </li>
         <li>
             <a href="{{ route('admin.galeri.index') }}">
                 <i data-feather="image"></i>
-                <span data-key="t-horizontal">Manajemen Galeri</span>
+                <span data-key="t-horizontal">Galeri</span>
             </a>
         </li>
         <li>
             <a href="{{ route('admin.about.index') }}">
                 <i data-feather="file-text"></i>
-                <span data-key="t-horizontal">Manajemen Infos (PMB)</span>
+                <span data-key="t-horizontal">PMB</span>
             </a>
         </li>
-         <li>
+        <li>
             <a href="{{ route('admin.prodi.index') }}">
                 <i data-feather="book"></i>
-                <span data-key="t-horizontal">Manajemen Infos (Prodi)</span>
+                <span data-key="t-horizontal">Program Studi</span>
             </a>
         </li>
-
         <li>
             <a href="{{ route('admin.berita.index') }}">
                 <i data-feather="file"></i>
-                <span data-key="t-horizontal">Manajemen Berita</span>
+                <span data-key="t-horizontal">Berita</span>
             </a>
         </li>
     </ul>
 </div>
+
 
 
                 </div>

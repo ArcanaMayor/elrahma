@@ -28,12 +28,12 @@
 
 
         <div class="mb-3">
-            <label for="gambar" class="form-label">Gambar</label>
+            <label for="gambar" class="form-label">Image</label>
             <input type="file" name="gambar" id="gambar" class="form-control" accept="image/*">
         </div>
 
-        <button type="submit" class="btn btn-primary">Simpan</button>
-        <a href="{{ route('admin.berita.index') }}" class="btn btn-secondary">Kembali</a>
+        <button type="submit" class="btn btn-primary"><i class="fas fa-check"></i></button>
+        <a href="{{ route('admin.berita.index') }}" class="btn btn-secondary"><i class="fas fa-arrow-left"></i></a>
     </form>
 </div>
 @endsection
