@@ -13,7 +13,7 @@
 
 {{-- Tombol Tambah --}}
 <div class="mb-3">
-<a href="{{ route('users.create') }}" class="btn btn-primary">+ Tambah User</a>
+<a href="{{ route('users.create') }}" class="btn btn-primary">+ Tambah</a>
 </div>
 
 {{-- Tabel Data User --}}
@@ -37,13 +37,13 @@
 <td>{{ $user->email }}</td>
 <td>{{ ucfirst($user->role) }}</td>
 <td>
-<a href="{{ route('users.edit', $user->id) }}" class="btn btn-sm btn-warning">Edit</a>
+<a href="{{ route('users.edit', $user->id) }}" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i>Edit</a>
 
 <form action="{{ route('users.destroy', $user->id) }}" method="POST" class="d-inline"
 onsubmit="return confirm('Yakin ingin menghapus user ini?')">
 @csrf
 @method('DELETE')
-<button class="btn btn-sm btn-danger">Hapus</button>
+<button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i>Hapus</button>
 </form>
 </td>
 </tr>

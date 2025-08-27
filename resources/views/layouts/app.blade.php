@@ -1,7 +1,6 @@
 
 <!doctype html>
 <html lang="en">
-@stack('styles')
 
     <head>
 
@@ -25,9 +24,9 @@
         <link href="/themes/minia/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
         <!-- App Css-->
         <link href="/themes/minia/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
-
+@yield('styles')
     </head>
-@stack('scripts')
+
 
     <body>
 
@@ -355,15 +354,22 @@
                 <span data-key="t-horizontal">Manajemen Halaman Statis</span>
             </a>
         </li>
-        <li>
-    <a href="{{ route('admin.berita.index') }}">
-        <i data-feather="file"></i>
-        <span data-key="t-horizontal">Manajemen Berita</span>
-    </a>
-</li>
+         <li>
+            <a href="{{ route('admin.prodi.index') }}">
+                <i data-feather="book"></i>
+                <span data-key="t-horizontal">Manajemen Prodi</span>
+            </a>
+        </li>
 
+        <li>
+            <a href="{{ route('admin.berita.index') }}">
+                <i data-feather="file"></i>
+                <span data-key="t-horizontal">Manajemen Berita</span>
+            </a>
+        </li>
     </ul>
 </div>
+
 
                 </div>
             </div>
@@ -534,6 +540,20 @@
         <script src="/themes/minia/assets/js/pages/dashboard.init.js"></script>
 
         <script src="/themes/minia/assets/js/app.js"></script>
+        <!-- CKEditor -->
+<script src="{{ asset('assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js') 
+
+<script>
+    ClassicEditor
+        .create(document.querySelector('#ckeditor-classic'))
+        .then(editor => {
+            console.log('Editor loaded', editor);
+        })
+        .catch(error => {
+            console.error('CKEditor error:', error);
+        });
+</script>
+@vite([ 'resources/js/app.js'])
 
     </body>
 

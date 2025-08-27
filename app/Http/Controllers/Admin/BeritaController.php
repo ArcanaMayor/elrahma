@@ -75,4 +75,9 @@ class BeritaController extends Controller
 
         return redirect()->route('admin.berita.index')->with('success', 'Berita berhasil dihapus');
     }
+    public function show($id)
+    {
+        $berita = Berita::findOrFail($id);
+        return view('admin.berita.show', compact('berita'));
+    }
 }

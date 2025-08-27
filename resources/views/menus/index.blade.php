@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <h2>Daftar Menu</h2>
-    <a href="{{ route('menus.create') }}" class="btn btn-primary mb-3">+ Tambah Menu</a>
+    <a href="{{ route('menus.create') }}" class="btn btn-primary mb-3">+ Tambah</a>
 
     @if (session('success'))
         <div class="alert alert-success">{{ session('success') }}</div>
@@ -27,11 +27,11 @@
                 <td>{{ $menu->ikon }}</td>
                 <td>{{ $menu->aktif ? 'Ya' : 'Tidak' }}</td>
                 <td>
-                    <a href="{{ route('menus.edit', $menu->id) }}" class="btn btn-warning btn-sm">Edit</a>
+                    <a href="{{ route('menus.edit', $menu->id) }}" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i>Edit</a>
                     <form action="{{ route('menus.destroy', $menu->id) }}" method="POST" style="display:inline;">
                         @csrf
                         @method('DELETE')
-                        <button onclick="return confirm('Hapus menu ini?')" class="btn btn-danger btn-sm">Hapus</button>
+                        <button onclick="return confirm('Hapus menu ini?')" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i>Hapus</button>
                     </form>
                 </td>
             </tr>

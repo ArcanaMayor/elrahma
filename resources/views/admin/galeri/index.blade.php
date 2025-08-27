@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <h2>Manajemen Galeri</h2>
-    <a href="{{ route('admin.galeri.create') }}" class="btn btn-primary mb-3">+ Tambah Gambar</a>
+    <a href="{{ route('admin.galeri.create') }}" class="btn btn-primary mb-3">+ Tambah</a>
 
     @if(session('success'))
         <div class="alert alert-success">{{ session('success') }}</div>
@@ -23,7 +23,7 @@
 
                         <div class="mt-auto">
                             <a href="{{ route('admin.galeri.edit', $item->id) }}" 
-                               class="btn btn-warning btn-sm me-1">Edit</a>
+                               class="btn btn-warning btn-sm me-1"><i class="fas fa-edit"></i>Edit</a>
 
                             <form action="{{ route('admin.galeri.destroy', $item->id) }}" 
                                   method="POST" 
@@ -31,7 +31,7 @@
                                   class="d-inline">
                                 @csrf
                                 @method('DELETE')
-                                <button type="submit" class="btn btn-danger btn-sm">Hapus</button>
+                                <button type="submit" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i>Hapus</button>
                             </form>
                         </div>
                     </div>

@@ -10,7 +10,7 @@
     @endif
 
     <div class="mb-3">
-        <a href="{{ route('admin.berita.create') }}" class="btn btn-primary">+ Tambah Berita</a>
+        <a href="{{ route('admin.berita.create') }}" class="btn btn-primary">+ Tambah</a>
     </div>
 
     <table class="table table-bordered table-striped">
@@ -39,13 +39,13 @@
                     <td>
                         <div class="d-flex justify-content-center gap-2">
                             <a href="{{ route('admin.berita.edit', $berita) }}" class="btn btn-sm btn-warning">
-                                Edit
+                                <i class="fas fa-edit"></i>
                             </a>
 
                             <form action="{{ route('admin.berita.destroy', $berita) }}" method="POST" onsubmit="return confirm('Yakin hapus berita ini?')">
                                 @csrf
                                 @method('DELETE')
-                                <button type="submit" class="btn btn-danger btn-sm">Hapus</button>
+                                <button type="submit" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>
                             </form>
                         </div>
                     </td>

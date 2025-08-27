@@ -1,52 +1,48 @@
-@extends('layouts.app') {{-- sesuaikan dengan layout publik --}}
-
-@section('content')
-<section id="el-rahma-news-detail" class="news-detail-section" style="background-color: #f8f9fa; padding: 60px 0;">
+<!-- ====== Detail Berita ====== -->
+<section id="el-rahma-news-detail" class="news-detail-section py-5" style="background-color: #f8f9fa;">
   <div class="container">
-    
-    <!-- Section Header -->
-    <div class="section-header text-center" style="margin-bottom: 40px;">
-      <h2 style="color: #2c3e50; font-weight: 700;">
+
+    <!-- Judul Berita -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold" style="color: #2c3e50; font-size: 2rem;">
         {{ $berita->judul }}
-        <span style="display: block; width: 80px; height: 3px; background: #e74c3c; margin: 15px auto 0;"></span>
       </h2>
-      <p class="section-subtitle" style="color: #7f8c8d; font-size: 16px; margin-top: 10px;">
+      <div style="width: 80px; height: 3px; background: #e74c3c; margin: 15px auto;"></div>
+      <p class="text-muted mb-0" style="font-size: 15px;">
         Dipublikasikan {{ $berita->created_at->format('d M Y') }} • {{ $berita->created_at->diffForHumans() }}
       </p>
     </div>
 
-    <!-- News Content -->
     <div class="row justify-content-center">
       <div class="col-lg-10">
-        <div class="card shadow-sm" style="border-radius: 10px; overflow: hidden;">
-          
+        <div class="bg-white shadow-sm rounded p-3">
+
           <!-- Gambar -->
           @if($berita->gambar)
-          <img src="{{ asset('storage/'.$berita->gambar) }}" 
-               alt="{{ $berita->judul }}" 
-               class="img-fluid w-100" 
-               style="max-height: 450px; object-fit: cover;">
-          @endif
-          
-          <!-- Isi -->
-          <div class="card-body" style="padding: 30px;">
-            <div class="news-content" style="color: #2c3e50; font-size: 16px; line-height: 1.8;">
-              {!! nl2br(e($berita->isi)) !!}
-            </div>
-            
-            <!-- Tombol kembali -->
-            <div class="mt-4">
-              <a href="{{ route('berita.index') }}" 
-                 class="btn btn-danger" 
-                 style="padding: 10px 25px; border-radius: 30px; font-weight: 600;">
-                ← Kembali ke Berita
-              </a>
-            </div>
+          <div class="text-center mb-4">
+            <img src="{{ asset('storage/'.$berita->gambar) }}" 
+                 alt="{{ $berita->judul }}" 
+                 class="img-fluid rounded shadow-sm"
+                 style="max-height: 480px; object-fit: cover;">
           </div>
+          @endif
+
+          <!-- Isi Berita -->
+          <div class="px-2 pb-3" style="color: #2c3e50; font-size: 17px; line-height: 1.8;">
+            {!! nl2br(e($berita->isi)) !!}
+          </div>
+
+          <!-- Tombol kembali -->
+          <div class="mt-3">
+            <a href="{{ route('home') }}" 
+               class="btn btn-outline-danger px-4 py-2 rounded-pill fw-semibold">
+              ← Kembali ke Berita
+            </a>
+          </div>
+
         </div>
       </div>
     </div>
 
   </div>
 </section>
-@endsection

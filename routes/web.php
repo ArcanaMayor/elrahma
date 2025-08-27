@@ -11,6 +11,9 @@ use App\Http\Controllers\KontakController;
 use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\Admin\AboutController;
 use App\Http\Controllers\Admin\BeritaController;
+use App\Http\Controllers\Admin\ProdiController;
+use App\Http\Controllers\Admin\ProdiInfoController;
+use App\Http\Controllers\Admin\MataKuliahController;
 use App\Http\Controllers\HomeController;
 
 // ================== AUTH ==================
@@ -45,6 +48,15 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
         ->only(['index', 'create', 'store', 'edit', 'update']);
     Route::resource('berita', BeritaController::class)
         ->parameters(['berita' => 'berita']); // admin kelola berita
+
+    // CRUD Prodi
+    Route::resource('prodi', ProdiController::class);
+
+    // CRUD Info per Prodi
+    Route::resource('prodi.infos', ProdiInfoController::class);
+
+    // CRUD Mata Kuliah per Prodi
+    Route::resource('prodi.mataKuliahs', MataKuliahController::class);
 });
 
 // ================== HOME / PUBLIC ==================

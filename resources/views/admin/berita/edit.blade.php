@@ -14,12 +14,16 @@
         </div>
 
         <div class="mb-3">
-            <label for="isi" class="form-label">Isi</label>
-            <textarea name="isi" id="isi" class="form-control" rows="5" required>{{ old('isi', $berita->isi) }}</textarea>
-        </div>
+    <label for="ckeditor-classic" class="form-label">Isi Berita</label>
+    <textarea name="content" id="ckeditor-classic" class="form-control" rows="10">{{ old('description' ) }}</textarea>
+</div>
+
+
 
         <button type="submit" class="btn btn-primary">Update</button>
         <a href="{{ route('admin.berita.index') }}" class="btn btn-secondary">Kembali</a>
     </form>
 </div>
 @endsection
+
+

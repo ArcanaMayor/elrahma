@@ -22,9 +22,10 @@
         </div>
 
         <div class="mb-3">
-            <label for="isi" class="form-label">Isi Berita</label>
-            <textarea name="isi" id="isi" class="form-control" rows="6" required>{{ old('isi') }}</textarea>
-        </div>
+    <label for="ckeditor-classic" class="form-label">Isi Berita</label>
+    <textarea name="content" id="ckeditor-classic" class="form-control" rows="10"></textarea>
+</div>
+
 
         <div class="mb-3">
             <label for="gambar" class="form-label">Gambar</label>

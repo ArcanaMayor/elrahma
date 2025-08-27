@@ -146,46 +146,7 @@
     </div>
   </section><!-- End Hero -->
 
-  <main id="main">
-    <!-- ======= About Us Section ======= -->
-    <br>
-    <div class="section-title">
-          <h2>INFO PMB</h2>
-        </div>
-    @php
-    $about = \App\Models\About::first();
-    @endphp
-
-@if($about)
-<section id="about" class="about py-5">
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- Text -->
-            <div class="col-md-7">
-                <h2 class="fw-bold mb-3">{{ $about->title }}</h2>
-                <p class="text-muted" style="text-align: justify;">
-                {!! $about->description !!}
-                </p>
-
-            </div>
-            <!-- Image -->
-            <div class="col-md-5 text-center">
-                @if($about->image)
-                    <img src="{{ asset('storage/' . $about->image) }}" 
-                         alt="About Image" 
-                         class="img-fluid rounded shadow">
-                @endif
-            </div>
-        </div>
-    </div>
-</section>
-@endif
-
-
-<!-- End About Us Section -->
-
-    <!-- Berita Section -->
-<section id="el-rahma-news" class="news-section" style="background-color: #f8f9fa; padding: 60px 0;">
+  <section id="el-rahma-news" class="news-section" style="background-color: #f8f9fa; padding: 60px 0;">
   <div class="container">
     <!-- Section Header -->
     <div class="section-header text-center" style="margin-bottom: 50px;">
@@ -273,6 +234,47 @@
     </div>
   </div>
 </section>
+
+  <main id="main">
+    <!-- ======= About Us Section ======= -->
+    <br>
+    <div class="section-title">
+          <h2>INFO PMB</h2>
+        </div>
+    @php
+    $about = \App\Models\About::first();
+    @endphp
+
+@if($about)
+<section id="about" class="about py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Text -->
+            <div class="col-md-7">
+                <h2 class="fw-bold mb-3">{{ $about->title }}</h2>
+                <p class="text-muted" style="text-align: justify;">
+                {!! $about->description !!}
+                </p>
+
+            </div>
+            <!-- Image -->
+            <div class="col-md-5 text-center">
+                @if($about->image)
+                    <img src="{{ asset('storage/' . $about->image) }}" 
+                         alt="About Image" 
+                         class="img-fluid rounded shadow">
+                @endif
+            </div>
+        </div>
+    </div>
+</section>
+@endif
+
+
+<!-- End About Us Section -->
+
+    <!-- Berita Section -->
+
 <!-- End Berita Section -->
 
 
@@ -427,548 +429,58 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Informatika Section ======= -->
-<section id="prodi-infor" class="s123-module s123-module-about layout-4 layout-4" data-module-id="6401d73c907f6" data-module-type-num="16">
-  <div data-aos="fade-up" class="container-fluid page_header_style noBackground aos-init aos-animate">
-    <div class="row">
-      <div class="container moduleTitleContainer">
-        <div class="row modulesTitle text-center">
-          <div class="col-xs-12">
-            <div class="page-header-wrap">
-              <h2 id="section-6401d73c907f6-title" class="s123-page-header">PRODI INFORMATIKA (AKREDITASI BAIK SEKALI)</h2><br><br> 
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="container preview-highlighter aos-init aos-animate" data-aos="fade-up">
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="responsive-handler fr-view breakable">
-          <!-- Modified section with images on the right -->
-          <div class="row">
-            <!-- Text content on the left -->
-            <div class="col-md-8">
-              <strong>VISI PRODI INFORMATIKA :</strong><br>
-              "Menjadi Program Studi Informatika yang Unggul di Bidang Software Development, IT Mobility dan Internet of Things Tingkat Nasional dan Bereputasi Internasional, Memiliki Jiwa Entrepreneur dan Beretika Qur'ani pada Tahun 2040"<br><br>
-              
-              <strong>MISI PRODI INFORMATIKA :</strong>
-              <ol>
-                <li>Menyelenggarakan pendidikan berkualitas untuk menghasilkan tenaga ahli yang unggul, kompeten, dan profesional dalam bidang Software Development, IT Mobility dan Internet of Things.</li>
-                <li>Mengembangkan sikap mental wirausaha dan melaksanakan etika qurani dalam kehidupan sivitas akademika.</li>
-              </ol>
-              
-              <strong>TUJUAN PRODI INFORMATIKA :</strong>
-              <ol>
-                <li>Menghasilkan lulusan yang kompeten sebagai Software Engineer, Web Developer, Cloud Computing Developer dan Advance Mobile Computing.</li>
-                <li>Menghasilkan lulusan sebagai technopreneur yang beretika qurani.</li>
-              </ol>
-              
-              <strong>PROFIL LULUSAN :</strong>
-              <ul>
-                <li><strong>Software Engineer</strong> : Ahli menganalisa, merekayasa, menyusun spesifikasi, mengimplementasikan dan memvalidasi suatu rancangan sistem perangkat lunak untuk menjawab permasalahan</li>
-                <li><strong>Web Developer</strong> : Ahli merancang website, melakukan coding dan mengembangkan website yang sudah ada.</li>
-                <li><strong>Cloud Computing Developer</strong> : Ahli bidang komputasi awan, merancang infrastruktur cloud dari suatu perusahaan, menjaga keamanan penyimpanan cloud.</li>
-                <li><strong>Advance Mobile Computing</strong> : Ahli membangun aplikasi berbasis mobile</li>
-                <li><strong>AI Engineer</strong> : Ahli melakukan pengembangan, pengujian dan penerapan terhadap model AI yang diterapkan. Ahli melakukan analisis statistik untuk pengembangan bisnis perusahaan.</li>
-                <li><strong>Helpdesk Analyst</strong> : Ahli perancangan, pembuatan, dukungan dan pengelolaan siklus hidup layanan IT, menjawab berbagai pertanyaan dari pengguna terkait hal teknis.</li>
-              </ul>
-            </div>
-            
-            <!-- Images on the right -->
-            <div class="col-md-4">
-              <div class="images">
-                <div class="separateImages text-center">
-                  <img class="img-rounded img-responsive" src="https://images.cdn-files-a.com/uploads/3881771/400_6576d6fe2bb22.png" alt="PRODI INFORMATIKA (AKREDITASI BAIK SEKALI) image" style="margin-bottom: 15px;">
-                  <img class="img-rounded img-responsive" src="https://images.cdn-files-a.com/uploads/3881771/400_662768d37a1d1.png" alt="PRODI INFORMATIKA (AKREDITASI BAIK SEKALI) image">
-                </div>
-              </div>
-            </div>
-          </div>
+    <h2 class="mb-4 text-center fw-bold">PROGRAM STUDI</h2>
 
-          <strong><h5>MATA KULIAH :</h5></strong>
-          <div class="s123-responsive-table">
-            <table border="1" cellpadding="0" cellspacing="0" style="margin-right: calc(27%); width: 73%;">
-              <tbody>
-                <tr>
-                  <td valign="top" width="36">NO</td>
-                  <td valign="top" width="66">KODE</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">MATA KULIAH</td>
-                  <td style="width: 8.4104%;" valign="top" width="47">SKS</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">PRASYARAT</td>
-                </tr>
-                
-                <!-- Semester 1 -->
-                <tr>
-                  <td colspan="4" style="width: 80.797%;" valign="top" width="319"><strong>SEMESTER 1</strong></td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">1</td>
-                  <td valign="top" width="66">IF23201</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Tahsin Al Quran</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">0</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">2</td>
-                  <td valign="top" width="66">IF23106</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Pancasila</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">3</td>
-                  <td valign="top" width="66">IF23109</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Bhs Inggris Informatika 1</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">4</td>
-                  <td valign="top" width="66">IF23112</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Technopreneurship 1</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">5</td>
-                  <td valign="top" width="66">IF23215</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Algoritma Pemrograman</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">6</td>
-                  <td valign="top" width="66">IF23116</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Logika Matematika</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">7</td>
-                  <td valign="top" width="66">IF23138</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Pengantar Tekn Informasi</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">8</td>
-                  <td valign="top" width="66">IF23239</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Web Statis</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 1</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">19</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                
-                <!-- Semester 2 -->
-                <tr>
-                  <td colspan="4" style="width: 80.797%;" valign="top" width="319"><strong>SEMESTER 2</strong></td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">1</td>
-                  <td valign="top" width="66">IF23102</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Agama 1</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">IF23201</td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">2</td>
-                  <td valign="top" width="66">IF23110</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Bhs Inggris Informatika 2</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">IF23109</td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">3</td>
-                  <td valign="top" width="66">IF23113</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Technopreneurship 2</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">IF23112</td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">4</td>
-                  <td valign="top" width="66">IF23117</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Aljabar Linier</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">5</td>
-                  <td valign="top" width="66">IF23218</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Pemrog Terstruk dan Strukt Data</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">IF23215</td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">6</td>
-                  <td valign="top" width="66">IF23220</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Sistem dan Manaj Basis Data</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">7</td>
-                  <td valign="top" width="66">IF23223</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Sistem Operasi</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">IF23138</td>
-                </tr>
-                <tr>
-                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 2</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">20</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                
-                <!-- Semester 3 -->
-                <tr>
-                  <td colspan="4" style="width: 80.797%;" valign="top" width="319"><strong>SEMESTER 3</strong></td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">1</td>
-                  <td valign="top" width="66">IF23103</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Agama 2</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">IF23102</td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">2</td>
-                  <td valign="top" width="66">IF23111</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Pendidikan Anti Korupsi</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">3</td>
-                  <td valign="top" width="66">IF23121</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Pemrog Berorientasi Objek</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">IF23218</td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">4</td>
-                  <td valign="top" width="66">IF23122</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Matematika Diskrit</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">5</td>
-                  <td valign="top" width="66">IF23224</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Jaringan Komputer</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">6</td>
-                  <td valign="top" width="66">IF23131</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Rekayasa Perangkat Lunak</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">7</td>
-                  <td valign="top" width="66">IF23136</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Statistika</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 3</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">20</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                
-                <!-- Semester 4 -->
-                <tr>
-                  <td colspan="4" style="width: 80.797%;" valign="top" width="319"><strong>SEMESTER 4</strong></td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">1</td>
-                  <td valign="top" width="66">IF23104</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Agama 3</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">IF23103</td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">2</td>
-                  <td valign="top" width="66">IF23108</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Bahasa Indonesia</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">3</td>
-                  <td valign="top" width="66">IF23219</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Cloud Computing</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">4</td>
-                  <td valign="top" width="66">IF23126</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Organisasi dan Arsitektur Komp</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">5</td>
-                  <td valign="top" width="66">IF23127</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Keamanan Data dan Informasi</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">6</td>
-                  <td valign="top" width="66">IF23240</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Pemrograman Web</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">7</td>
-                  <td valign="top" width="66">IF23142</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Riset Operasi</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">8</td>
-                  <td valign="top" width="66">IF23250</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Pemrograman Jaringan</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">IF23224</td>
-                </tr>
-                <tr>
-                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 4</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">22</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                
-                <!-- Semester 5 -->
-                <tr>
-                  <td colspan="5" valign="top" width="404"><strong>SEMESTER 5</strong></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">1</td>
-                  <td valign="top" width="66">IF23105</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Agama 4</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">IF23104</td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">2</td>
-                  <td valign="top" width="66">IF23114</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Etika dan Profesi</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">3</td>
-                  <td valign="top" width="66">IF23129</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Human-Computer Interaction</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">4</td>
-                  <td valign="top" width="66">IF23130</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Analis dan Des Perangkat Lunak</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">IF23131</td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">5</td>
-                  <td valign="top" width="66">IF23132</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Kecerdasan Buatan / AI</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">6</td>
-                  <td valign="top" width="66">IF23133</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Internet of Things</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">7</td>
-                  <td valign="top" width="66">IF23135</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Manaj Proyek Tekn Informasi</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">8</td>
-                  <td valign="top" width="66">IF23137</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Tata Tulis Ilmiah (Metode Penelitian)</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 5</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">21</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                
-                <!-- Semester 6 -->
-                <tr>
-                  <td colspan="5" valign="top" width="404"><strong>SEMESTER 6</strong></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">1</td>
-                  <td valign="top" width="66">IF23107</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Kewarganegaraan</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">2</td>
-                  <td valign="top" width="66">IF23225</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Pemrog Berbasis Platform 1</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">3</td>
-                  <td valign="top" width="66">IF23143</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Big Data</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">4</td>
-                  <td valign="top" width="66">IF23244</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Web Service</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">IF23239</td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">5</td>
-                  <td valign="top" width="66">IF23245</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Dev Ops</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">6</td>
-                  <td valign="top" width="66">IF23246</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">UI-UX</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">7</td>
-                  <td valign="top" width="66">IF23151</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Proyek Perangkat Lunak</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">IF23135</td>
-                </tr>
-                <tr>
-                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 6</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">21</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                
-                <!-- Semester 7 -->
-                <tr>
-                  <td colspan="5" valign="top" width="404"><strong>SEMESTER 7</strong></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">1</td>
-                  <td valign="top" width="66">IF23228</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Pemrog Berbasis Platform 2</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">4</td>
-                  <td style="width: 19.0058%;" valign="top" width="85">IF23225</td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">2</td>
-                  <td valign="top" width="66">IF23134</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Kerja Praktek / Magang</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">3</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">3</td>
-                  <td valign="top" width="66">IF23241</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Data Mining</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">4</td>
-                  <td valign="top" width="66">IF23147</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Sistem Terdistribusi</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">5</td>
-                  <td valign="top" width="66">IF23148</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Sistem Pendukung Keputusan</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">6</td>
-                  <td valign="top" width="66">IF23149</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Sistem Pakar</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 7</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">15</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                
-                <!-- Semester 8 -->
-                <tr>
-                  <td colspan="5" valign="top" width="404"><strong>SEMESTER 8</strong></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">1</td>
-                  <td valign="top" width="66">IF23152</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">KKL</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">2</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td valign="top" width="36">2</td>
-                  <td valign="top" width="66">IF23153</td>
-                  <td style="width: 47.3373%;" valign="top" width="170">Tugas Akhir</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">6</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                <tr>
-                  <td colspan="3" style="width: 72.5838%; text-align: right;" valign="top" width="272">JUMLAH SKS SEMESTER 8</td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">8</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-                
-                <!-- Total SKS -->
-                <tr>
-                  <td colspan="3" style="width: 72.5838%;" valign="top" width="272"><strong>TOTAL SKS</strong></td>
-                  <td style="width: 8.4104%; text-align: center;" valign="top" width="47">146</td>
-                  <td style="width: 19.0058%;" valign="top" width="85"><br></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <br><br><br>
+    @foreach($prodis as $prodi)
+    <div class="card shadow mb-5">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">{{ $prodi->nama }} (Akreditasi {{ $prodi->akreditasi }})</h4>
         </div>
-      </div>
+        <div class="card-body">
+
+            {{-- Informasi Prodi --}}
+            @foreach($prodi->infos as $info)
+                <div class="mb-3">
+                    <h5 class="fw-bold">{{ $info->judul }}</h5>
+                    <p class="mb-0">{!! nl2br(e($info->deskripsi)) !!}</p>
+                </div>
+            @endforeach
+
+            {{-- Mata Kuliah --}}
+            <h5 class="fw-bold mt-4">Mata Kuliah</h5>
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Kode</th>
+                            <th>Nama Mata Kuliah</th>
+                            <th>SKS</th>
+                            <th>Semester</th>
+                            <th>Prasyarat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @forelse($prodi->mataKuliahs as $mk)
+                        <tr>
+                            <td>{{ $mk->kode }}</td>
+                            <td>{{ $mk->nama }}</td>
+                            <td>{{ $mk->sks }}</td>
+                            <td>{{ $mk->semester }}</td>
+                            <td>{{ $mk->prasyarat ?? '-' }}</td>
+                        </tr>
+                        @empty
+                        <tr>
+                            <td colspan="5" class="text-center">Belum ada data mata kuliah</td>
+                        </tr>
+                        @endforelse
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
     </div>
-  </div>
-</section>
+    @endforeach
+
 <!-- End Informatika Section -->
 
 <!-- Sistem Informasi Section -->
@@ -1533,171 +1045,7 @@
 </section>
 <!-- End Sistem Informasi Section -->
 
-<!-- Tentang Section -->
-<section id="section-5f0491fdca748" class="s123-module s123-module-blogs layout-1" data-module-id="5f0491fdca748" data-module-type-num="52" data-overlay-opacity="true">
-  <div data-aos="fade-up" class="container-fluid page_header_style noBackground aos-init aos-animate">
-    <div class="row">
-      <div class="container moduleTitleContainer">
-        <div class="row modulesTitle text-center">
-          <div class="col-xs-12">
-            <div class="page-header-wrap">
-              <h2 id="section-5f0491fdca748-title" class="s123-page-header">TENTANG EL RAHMA</h2>
-              <br><br>
-            </div>
-            <div class="page-slogan-wrap">
-              <h4 id="section-5f0491fdca748-slogan" class="s123-page-slogan">JAGO IT - QUR'ANI - JUTAWAN</h4><br><br>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="container aos-init aos-animate" data-aos="fade-up">
-    <div class="row">
-      <!-- Row 1 -->
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74a653e786.jpg" class="img-fluid rounded-start" alt="PROFIL STMIK EL RAHMA">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">PROFIL STMIK EL RAHMA</h5>
-                <p class="card-text">STMIK El Rahma Yogyakarta adalah Perguruan Tinggi Swasta di bawah naungan Yayasan El Rahma Yogyakarta dalam pembinaan Kementerian Pendidikan dan Kebudayaan Republik Indonesia.</p>
-                <a href="/tentang-el-rahma/profil-stmik-el-rahma" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_66277e37850fe.png" class="img-fluid rounded-start" alt="PRODI & PROFIL LULUSAN">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">PRODI & PROFIL LULUSAN</h5>
-                <p class="card-text">Seluruh program studi di STMIK EL RAHMA adalah program studi favorit dan memiliki prospek cerah dimasa depan.</p>
-                <a href="/tentang-el-rahma/prodi-profil-lulusan" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Row 2 -->
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74a848960d.jpg" class="img-fluid rounded-start" alt="BADAN PENYELENGGARA">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">BADAN PENYELENGGARA</h5>
-                <p class="card-text">STMIK EL RAHMA diselenggarakan oleh Badan Penyelenggara Yayasan El Rahma Yogyakarta di bawah pembinaan Kementerian Pendidikan dan Kebudayaan Republik Indonesia.</p>
-                <a href="/tentang-el-rahma/badan-penyelenggara" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74aa26abbe.jpg" class="img-fluid rounded-start" alt="KOMPETENSI LULUSAN & BIDANG KERJA">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">KOMPETENSI LULUSAN & BIDANG KERJA</h5>
-                <p class="card-text">Lulusan STMIK El Rahma memiliki kompetensi bidang IT sesuai dengan minatnya, bermental wirausaha dan berakhlaq qur'ani.</p>
-                <a href="/tentang-el-rahma/kompetensi-lulusan-bidang-kerja" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Row 3 -->
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74a93ecf4b.jpg" class="img-fluid rounded-start" alt="DOSEN MUDA PROFESIONAL">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">DOSEN MUDA PROFESIONAL</h5>
-                <p class="card-text">Dosen-dosen muda yang profesional, lulusan dari berbagai perguruan tinggi ternama.</p>
-                <a href="/tentang-el-rahma/dosen-dosen-muda-profesional" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74ac1cb8b4.jpg" class="img-fluid rounded-start" alt="PRESTASI EL RAHMA">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">PRESTASI EL RAHMA</h5>
-                <p class="card-text">EL Rahma berhasil memenangkan berbagai hibah dan kompetisi, baik tingkat lokal, regional maupun nasional.</p>
-                <a href="/tentang-el-rahma/prestasi-el-rahma" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Row 4 -->
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74acf6a2ef.jpg" class="img-fluid rounded-start" alt="UNTUNG BESAR KULIAH">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">UNTUNG BESAR KULIAH</h5>
-                <p class="card-text">Lulus cepat dan tepat waktu, Biaya paling ringan, Beasiswa ratusan juta dari Yayasan dan Pemerintah.</p>
-                <a href="/tentang-el-rahma/untung-besar-kuliah-di-el-rahma" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_crop_60129bcecc600_60129bb41092a.jpg" class="img-fluid rounded-start" alt="JUTAWAN SEBELUM WISUDA">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">JUTAWAN SEBELUM WISUDA</h5>
-                <p class="card-text">Lulusan cepat terserap ke pasar kerja, baik sebagai PNS maupun perusahaan swasta.</p>
-                <a href="/tentang-el-rahma/jutawan-sebelum-wisuda" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End Tentang Section -->
+
 
 <section id="section-5f06db20ab42b" class="s123-module s123-module-services layout-1" style="padding: 40px 0;">
   <div class="container">
@@ -2142,6 +1490,171 @@
       </div>
     </section><!-- End Doctors Section --> --}}
 
+    <!-- Tentang Section -->
+<section id="section-5f0491fdca748" class="s123-module s123-module-blogs layout-1" data-module-id="5f0491fdca748" data-module-type-num="52" data-overlay-opacity="true">
+  <div data-aos="fade-up" class="container-fluid page_header_style noBackground aos-init aos-animate">
+    <div class="row">
+      <div class="container moduleTitleContainer">
+        <div class="row modulesTitle text-center">
+          <div class="col-xs-12">
+            <div class="page-header-wrap">
+              <h2 id="section-5f0491fdca748-title" class="s123-page-header">TENTANG EL RAHMA</h2>
+              <br><br>
+            </div>
+            <div class="page-slogan-wrap">
+              <h4 id="section-5f0491fdca748-slogan" class="s123-page-slogan">JAGO IT - QUR'ANI - JUTAWAN</h4><br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container aos-init aos-animate" data-aos="fade-up">
+    <div class="row">
+      <!-- Row 1 -->
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74a653e786.jpg" class="img-fluid rounded-start" alt="PROFIL STMIK EL RAHMA">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">PROFIL STMIK EL RAHMA</h5>
+                <p class="card-text">STMIK El Rahma Yogyakarta adalah Perguruan Tinggi Swasta di bawah naungan Yayasan El Rahma Yogyakarta dalam pembinaan Kementerian Pendidikan dan Kebudayaan Republik Indonesia.</p>
+                <a href="/tentang-el-rahma/profil-stmik-el-rahma" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_66277e37850fe.png" class="img-fluid rounded-start" alt="PRODI & PROFIL LULUSAN">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">PRODI & PROFIL LULUSAN</h5>
+                <p class="card-text">Seluruh program studi di STMIK EL RAHMA adalah program studi favorit dan memiliki prospek cerah dimasa depan.</p>
+                <a href="/tentang-el-rahma/prodi-profil-lulusan" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Row 2 -->
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74a848960d.jpg" class="img-fluid rounded-start" alt="BADAN PENYELENGGARA">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">BADAN PENYELENGGARA</h5>
+                <p class="card-text">STMIK EL RAHMA diselenggarakan oleh Badan Penyelenggara Yayasan El Rahma Yogyakarta di bawah pembinaan Kementerian Pendidikan dan Kebudayaan Republik Indonesia.</p>
+                <a href="/tentang-el-rahma/badan-penyelenggara" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74aa26abbe.jpg" class="img-fluid rounded-start" alt="KOMPETENSI LULUSAN & BIDANG KERJA">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">KOMPETENSI LULUSAN & BIDANG KERJA</h5>
+                <p class="card-text">Lulusan STMIK El Rahma memiliki kompetensi bidang IT sesuai dengan minatnya, bermental wirausaha dan berakhlaq qur'ani.</p>
+                <a href="/tentang-el-rahma/kompetensi-lulusan-bidang-kerja" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Row 3 -->
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74a93ecf4b.jpg" class="img-fluid rounded-start" alt="DOSEN MUDA PROFESIONAL">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">DOSEN MUDA PROFESIONAL</h5>
+                <p class="card-text">Dosen-dosen muda yang profesional, lulusan dari berbagai perguruan tinggi ternama.</p>
+                <a href="/tentang-el-rahma/dosen-dosen-muda-profesional" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74ac1cb8b4.jpg" class="img-fluid rounded-start" alt="PRESTASI EL RAHMA">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">PRESTASI EL RAHMA</h5>
+                <p class="card-text">EL Rahma berhasil memenangkan berbagai hibah dan kompetisi, baik tingkat lokal, regional maupun nasional.</p>
+                <a href="/tentang-el-rahma/prestasi-el-rahma" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Row 4 -->
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74acf6a2ef.jpg" class="img-fluid rounded-start" alt="UNTUNG BESAR KULIAH">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">UNTUNG BESAR KULIAH</h5>
+                <p class="card-text">Lulus cepat dan tepat waktu, Biaya paling ringan, Beasiswa ratusan juta dari Yayasan dan Pemerintah.</p>
+                <a href="/tentang-el-rahma/untung-besar-kuliah-di-el-rahma" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://images.cdn-files-a.com/uploads/3881771/400_crop_60129bcecc600_60129bb41092a.jpg" class="img-fluid rounded-start" alt="JUTAWAN SEBELUM WISUDA">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">JUTAWAN SEBELUM WISUDA</h5>
+                <p class="card-text">Lulusan cepat terserap ke pasar kerja, baik sebagai PNS maupun perusahaan swasta.</p>
+                <a href="/tentang-el-rahma/jutawan-sebelum-wisuda" class="btn btn-link">Selanjutnya &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Tentang Section -->
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
     <div class="container" data-aos="fade-up">
