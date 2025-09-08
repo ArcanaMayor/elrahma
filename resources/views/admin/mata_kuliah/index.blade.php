@@ -8,6 +8,7 @@
         <div class="alert alert-success">{{ session('success') }}</div>
     @endif
 
+    {{-- Tombol tambah mata kuliah --}}
     <a href="{{ route('admin.prodi.mataKuliahs.create', $prodi->id) }}" class="btn btn-primary mb-3">+ Tambah Mata Kuliah</a>
 
     <table class="table table-bordered">
@@ -21,15 +22,20 @@
             </tr>
         </thead>
         <tbody>
-            @foreach ($mataKuliahs as $index => $mk)
+            @forelse ($mataKuliahs as $index => $mk)
                 <tr>
-                    <td>{{ $index+1 }}</td>
+                    <td>{{ $index + 1 }}</td>
                     <td>{{ $mk->kode }}</td>
                     <td>{{ $mk->nama }}</td>
                     <td>{{ $mk->sks }}</td>
                     <td>
-                        <a href="{{ route('admin.prodi.mataKuliahs.edit', [$prodi->id, $mk->id]) }}" class="btn btn-warning btn-sm">Edit</a>
-                        <form action="{{ route('admin.prodi.mataKuliahs.destroy', $mk->id) }}" method="POST" class="d-inline"
+                        {{-- Tombol edit --}}
+                        <a href="{{ route('admin.prodi.mataKuliahs.edit', [$prodi->id, $mk->id]) }}" 
+                           class="btn btn-warning btn-sm">Edit</a>
+
+                        {{-- Tombol hapus --}}
+                        <form action="{{ route('admin.prodi.mataKuliahs.destroy', [$prodi->id, $mk->id]) }}" 
+                              method="POST" class="d-inline"
                               onsubmit="return confirm('Yakin hapus mata kuliah ini?')">
                             @csrf
                             @method('DELETE')
@@ -37,7 +43,11 @@
                         </form>
                     </td>
                 </tr>
-            @endforeach
+            @empty
+                <tr>
+                    <td colspan="5" class="text-center">Belum ada mata kuliah untuk prodi ini.</td>
+                </tr>
+            @endforelse
         </tbody>
     </table>
 </div>
