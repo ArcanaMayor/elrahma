@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Controllers
+// Controllers (Frontend & Umum)
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\UserController;
@@ -13,6 +13,7 @@ use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\HalamanController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\KontakController;
+use App\Http\Controllers\DownloadController;
 
 // Admin Controllers
 use App\Http\Controllers\Admin\AboutController;
@@ -20,7 +21,6 @@ use App\Http\Controllers\Admin\BeritaController;
 use App\Http\Controllers\Admin\ProdiController;
 use App\Http\Controllers\Admin\ProdiInfoController;
 use App\Http\Controllers\Admin\MataKuliahController;
-use App\Http\Controllers\Admin\DownloadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -72,23 +72,20 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
     Route::resource('about', AboutController::class)->only(['index', 'create', 'store', 'edit', 'update']);
 
     // Berita
-    Route::resource('berita', BeritaController::class)->parameters([
-        'berita' => 'berita',
-    ]);
+    Route::resource('berita', BeritaController::class);
 
-    // Prodi
+    // Prodi & child resources
     Route::resource('prodi', ProdiController::class);
-
-    // Info per Prodi
     Route::resource('prodi.infos', ProdiInfoController::class);
-
-    // Mata Kuliah per Prodi
     Route::resource('prodi.mataKuliahs', MataKuliahController::class);
 
     // Kontak (Admin)
     Route::get('/kontak', [KontakController::class, 'index'])->name('kontak.index');
     Route::get('/kontak/{kontak}', [KontakController::class, 'show'])->name('kontak.show');
     Route::delete('/kontak/{kontak}', [KontakController::class, 'destroy'])->name('kontak.destroy');
+
+    // Download (Admin) → CRUD penuh kecuali show
+    Route::resource('downloads', DownloadController::class)->except(['show']);
 });
 
 /*
@@ -96,10 +93,17 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
 | PUBLIC ROUTES (HOME / FRONTEND)
 |--------------------------------------------------------------------------
 */
+// Halaman utama
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
-// Publik hanya bisa lihat berita
+// Berita publik (hanya index & show)
 Route::resource('berita', BeritaController::class)->only(['index', 'show']);
 
 // Form kirim pesan kontak
 Route::post('/kontak/kirim', [KontakController::class, 'kirim'])->name('kontak.kirim');
+
+// Download publik (hanya lihat daftar & detail)
+Route::prefix('download')->group(function () {
+    Route::get('/', [DownloadController::class, 'index'])->name('download.index');
+    Route::get('/{slug}', [DownloadController::class, 'show'])->name('download.show');
+});

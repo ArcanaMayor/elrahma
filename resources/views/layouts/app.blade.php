@@ -360,6 +360,12 @@
                 <span data-key="t-horizontal">Berita</span>
             </a>
         </li>
+        <li>
+            <a href="{{ route('admin.downloads.index') }}">
+                <i data-feather="download"></i>
+                <span data-key="t-horizontal">File Download</span>
+            </a>
+        </li>
     </ul>
 </div>
 

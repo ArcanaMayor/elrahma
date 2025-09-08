@@ -1909,57 +1909,47 @@
     </section><!-- End Frequently Asked Questioins Section --> --}}
 
 <section class="page-header">
-        <div class="container">
-            <div class="page-header-wrap">
-                <h2>DOWNLOAD</h2>
-                <hr class="small">
-            </div>
+    <div class="container">
+        <div class="page-header-wrap">
+            <h2>DOWNLOAD</h2>
+            <hr class="small">
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- DOWNLOAD ITEMS SECTION -->
-    <section class="download-section">
-        <div class="container">
-            <div class="download-items">
-                <!-- SERTIFIKAT AKREDITASI PROGRAM STUDI -->
-                <div class="download-item">
-                    <div class="item-image">
-                        <a href="/download/sertifikat-akreditasi-program-studi">
-                            <img src="https://images.cdn-files-a.com/uploads/3881771/800_662767bbe1f9d.png" alt="SERTIFIKAT AKREDITASI PROGRAM STUDI">
-                        </a>
-                    </div>
-                    <div class="item-details">
-                        <div class="item-title">
-                            <h3><a href="/download/sertifikat-akreditasi-program-studi">SERTIFIKAT AKREDITASI PROGRAM STUDI</a></h3>
-                        </div>
-                        <div class="item-content">
-                            <p>Berikut sertifikat akreditasi program studi di STMIK EL RAHMA Yogyakarta dari masa ke masa:</p>
-                            <a href="/download/sertifikat-akreditasi-program-studi" class="btn btn-primary">Read More</a>
-                        </div>
-                        <div class="reading-time">3 min read</div>
-                    </div>
+<section class="download-section">
+    <div class="container">
+        <div class="download-items">
+            @foreach($downloads as $download)
+            <div class="download-item">
+                <div class="item-image">
+                    <a href="{{ route('download.show', $download->slug) }}">
+                        <img src="{{ $download->image ? asset('storage/'.$download->image) : 'https://via.placeholder.com/300x200' }}" 
+                             alt="{{ $download->title }}">
+                    </a>
                 </div>
-
-                <!-- SERTIFIKAT AKREDITASI PERGURUAN TINGGI -->
-                <div class="download-item">
-                    <div class="item-image">
-                        <a href="/download/sertifikat-akreditasi-perguruan-tinggi">
-                            <img src="https://images.cdn-files-a.com/uploads/3881771/800_662766d984b6e.png" alt="SERTIFIKAT AKREDITASI PERGURUAN TINGGI">
-                        </a>
+                <div class="item-details">
+                    <div class="item-title">
+                        <h3>
+                            <a href="{{ route('download.show', $download->slug) }}">
+                                {{ $download->title }}
+                            </a>
+                        </h3>
                     </div>
-                    <div class="item-details">
-                        <div class="item-title">
-                            <h3><a href="/download/sertifikat-akreditasi-perguruan-tinggi">SERTIFIKAT AKREDITASI PERGURUAN TINGGI</a></h3>
-                        </div>
-                        <div class="item-content">
-                            <a href="/download/sertifikat-akreditasi-perguruan-tinggi" class="btn btn-primary">Read More</a>
-                        </div>
-                        <div class="reading-time">1 min read</div>
+                    <div class="item-content">
+                        @if($download->description)
+                        <p>{{ Str::limit($download->description, 100) }}</p>
+                        @endif
+                        <a href="{{ route('download.show', $download->slug) }}" class="btn btn-primary">Read More</a>
                     </div>
+                    <div class="reading-time">{{ $download->reading_time }} min read</div>
                 </div>
             </div>
+            @endforeach
         </div>
-    </section>
+    </div>
+</section>
+
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
