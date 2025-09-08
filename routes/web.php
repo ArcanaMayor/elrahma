@@ -71,8 +71,10 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
     // About (hanya index, create, store, edit, update)
     Route::resource('about', AboutController::class)->only(['index', 'create', 'store', 'edit', 'update']);
 
-    // Berita
-    Route::resource('berita', BeritaController::class);
+    // Berita → fix parameter supaya {berita}, bukan {beritum}
+    Route::resource('berita', BeritaController::class)->parameters([
+        'berita' => 'berita'
+    ]);
 
     // Prodi & child resources
     Route::resource('prodi', ProdiController::class);
