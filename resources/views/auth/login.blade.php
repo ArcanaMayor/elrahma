@@ -125,21 +125,8 @@
                     <!-- end col -->
                     <div class="col-xxl-9 col-lg-8 col-md-7">
                         <div class="auth-bg pt-md-5 p-4 d-flex">
-                            <div class="bg-overlay bg-primary"></div>
-                            <ul class="bg-bubbles">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
                             <!-- end bubble effect -->
-                            <div class="row justify-content-center align-items-center">
+                            {{-- <div class="row justify-content-center align-items-center">
                                 <div class="col-xl-7">
                                     <div class="p-0 p-sm-4 px-xl-0">
                                         <div id="reviewcarouselIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -230,7 +217,7 @@
                                         <!-- end review carousel -->
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <!-- end col -->
