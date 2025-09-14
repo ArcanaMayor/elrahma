@@ -160,7 +160,7 @@
     </div>
 
     <!-- Featured News -->
-    @if($featured)
+    @isset($featured)
     <div class="row featured-news" style="margin-bottom: 40px;">
       <div class="col-md-12">
         <div class="featured-card" style="border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
@@ -193,7 +193,7 @@
         </div>
       </div>
     </div>
-    @endif
+    @endisset
 
     <!-- Regular News Grid -->
     <div class="row news-grid">
@@ -1908,52 +1908,46 @@
       </div>
     </section><!-- End Frequently Asked Questioins Section --> --}}
 
-<section class="page-header">
-    <div class="container">
-        <div class="page-header-wrap">
-            <h2>DOWNLOAD</h2>
-            <hr class="small">
+{{-- Header Section --}}
+    <section class="page-header bg-light py-5">
+        <div class="container">
+            <div class="page-header-wrap text-center">
+                <h2 class="fw-bold">DOWNLOAD</h2>
+                <hr class="small mx-auto" style="width:100px;border:2px solid #0d6efd;">
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-{{-- <section class="download-section py-5">
-    <div class="container">
-        <div class="row">
-            @foreach($downloads as $download)
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 shadow-sm">
-                    <a href="{{ route('download.show', $download->slug) }}">
-                        <img src="{{ $download->image ? asset('storage/'.$download->image) : 'https://via.placeholder.com/300x200' }}" 
-                             alt="{{ $download->title }}"
-                             class="card-img-top"
-                             style="height: 200px; width: 100%; object-fit: cover; border-top-left-radius: .5rem; border-top-right-radius: .5rem;">
-                    </a>
-
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">
-                            <a href="{{ route('download.show', $download->slug) }}" class="text-decoration-none text-dark">
-                                {{ $download->title }}
-                            </a>
-                        </h5>
-                        @if($download->description)
-                        <p class="card-text">{{ Str::limit($download->description, 100) }}</p>
-                        @endif
-
-                        <div class="mt-auto">
-                            <a href="{{ route('download.show', $download->slug) }}" class="btn btn-primary btn-sm">Read More</a>
+    {{-- Download Section --}}
+    <section class="download-section py-5">
+        <div class="container">
+            <div class="row">
+                @forelse($downloads as $download)
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">{{ $download->title }}</h5>
+                                <p class="card-text flex-grow-1">
+                                    {{ Str::limit($download->description, 100) }}
+                                </p>
+                                <a href="{{ asset('storage/' . $download->file) }}" 
+                                   class="btn btn-primary mt-auto" 
+                                   download>
+                                    <i class="bi bi-download"></i> Download
+                                </a>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="card-footer text-muted small">
-                        {{ $download->reading_time }} min read
+                @empty
+                    <div class="col-12 text-center">
+                        <p class="text-muted">Belum ada file yang bisa diunduh.</p>
                     </div>
-                </div>
+                @endforelse
             </div>
-            @endforeach
         </div>
-    </div>
-</section> --}}
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 
     <!-- ======= Contact Section ======= -->
