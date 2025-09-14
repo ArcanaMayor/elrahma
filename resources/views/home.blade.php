@@ -1917,38 +1917,44 @@
     </div>
 </section>
 
-<section class="download-section">
+{{-- <section class="download-section py-5">
     <div class="container">
-        <div class="download-items">
+        <div class="row">
             @foreach($downloads as $download)
-            <div class="download-item">
-                <div class="item-image">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
                     <a href="{{ route('download.show', $download->slug) }}">
                         <img src="{{ $download->image ? asset('storage/'.$download->image) : 'https://via.placeholder.com/300x200' }}" 
-                             alt="{{ $download->title }}">
+                             alt="{{ $download->title }}"
+                             class="card-img-top"
+                             style="height: 200px; width: 100%; object-fit: cover; border-top-left-radius: .5rem; border-top-right-radius: .5rem;">
                     </a>
-                </div>
-                <div class="item-details">
-                    <div class="item-title">
-                        <h3>
-                            <a href="{{ route('download.show', $download->slug) }}">
+
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">
+                            <a href="{{ route('download.show', $download->slug) }}" class="text-decoration-none text-dark">
                                 {{ $download->title }}
                             </a>
-                        </h3>
-                    </div>
-                    <div class="item-content">
+                        </h5>
                         @if($download->description)
-                        <p>{{ Str::limit($download->description, 100) }}</p>
+                        <p class="card-text">{{ Str::limit($download->description, 100) }}</p>
                         @endif
-                        <a href="{{ route('download.show', $download->slug) }}" class="btn btn-primary">Read More</a>
+
+                        <div class="mt-auto">
+                            <a href="{{ route('download.show', $download->slug) }}" class="btn btn-primary btn-sm">Read More</a>
+                        </div>
                     </div>
-                    <div class="reading-time">{{ $download->reading_time }} min read</div>
+
+                    <div class="card-footer text-muted small">
+                        {{ $download->reading_time }} min read
+                    </div>
                 </div>
             </div>
             @endforeach
         </div>
     </div>
-</section>
+</section> --}}
+
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">

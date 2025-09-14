@@ -51,8 +51,8 @@
 <input type="password" name="password_confirmation" class="form-control" required minlength="6">
 </div>
 
-<a href="{{ route('users.index') }}" class="btn btn-secondary">Batal</a>
-<button type="submit" class="btn btn-primary">Simpan</button>
+<a href="{{ route('users.index') }}" class="btn btn-secondary"><i class="fas fa-arrow-left"></i></a>
+<button type="submit" class="btn btn-primary"><i class="fas fa-check"></i></button>
 </form>
 </div>
 

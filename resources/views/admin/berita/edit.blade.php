@@ -4,7 +4,7 @@
 <div class="container">
     <h1>Edit Berita</h1>
 
-    <form action="{{ route('admin.berita.update', $berita) }}" method="POST" enctype="multipart/form-data">
+    <form action="{{ route('admin.berita.update', $berita->id) }}" method="POST" enctype="multipart/form-data">
         @csrf
         @method('PUT')
 
@@ -23,11 +23,11 @@
         <div class="mb-3">
             <label for="ckeditor-classic" class="form-label">Isi Berita</label>
             <textarea 
-                name="content" 
+                name="isi" 
                 id="ckeditor-classic" 
                 class="form-control" 
                 rows="10"
-            >{{ old('content', $berita->content) }}</textarea>
+            >{{ old('isi', $berita->isi) }}</textarea>
         </div>
 
         <button type="submit" class="btn btn-primary">

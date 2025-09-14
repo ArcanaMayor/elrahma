@@ -2,7 +2,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Info;
-use App\Models\Download;
 use App\Models\Galeri;
 use App\Models\Berita;
 use App\Model\Prodi;
@@ -23,10 +22,9 @@ class HomeController extends Controller
         $prodis = ModelsProdi::with(['infos', 'mataKuliahs'])->get();
 
         // Download
-        $downloads = Download::latest()->paginate(10); 
 
 
 
-        return view('home', compact('terbaru', 'populer', 'galeri', 'featured', 'beritas', 'prodis', 'downloads'));
+        return view('home', compact('terbaru', 'populer', 'galeri', 'featured', 'beritas', 'prodis'));
     }
 }

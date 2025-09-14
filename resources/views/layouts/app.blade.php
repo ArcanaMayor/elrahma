@@ -277,9 +277,9 @@
                         <div class="dropdown d-inline-block">
                             <button type="button" class="btn header-item bg-light-subtle border-start border-end" id="page-header-user-dropdown"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img class="rounded-circle header-profile-user" src="/themes/minia/assets/images/users/avatar-1.jpg"
+                                <img class="rounded-circle header-profile-user" src="/themes/minia/assets/images/users/avatar-7.jpg"
                                     alt="Header Avatar">
-                                <span class="d-none d-xl-inline-block ms-1 fw-medium">Adrian</span>
+                                <span class="d-none d-xl-inline-block ms-1 fw-medium">{{ Auth::user()->username ?? Auth::user()->name ?? 'User' }}</span>
                                 <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                             </button>
                             <div class="dropdown-menu dropdown-menu-end">
@@ -358,12 +358,6 @@
             <a href="{{ route('admin.berita.index') }}">
                 <i data-feather="file"></i>
                 <span data-key="t-horizontal">Berita</span>
-            </a>
-        </li>
-        <li>
-            <a href="{{ route('admin.downloads.index') }}">
-                <i data-feather="download"></i>
-                <span data-key="t-horizontal">File Download</span>
             </a>
         </li>
     </ul>

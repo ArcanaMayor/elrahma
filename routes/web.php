@@ -27,9 +27,9 @@ use App\Http\Controllers\Admin\MataKuliahController;
 | AUTH ROUTES
 |--------------------------------------------------------------------------
 */
-Route::get('/login', [AuthController::class,'showLogin'])->name('login');
-Route::post('/login', [AuthController::class,'login'])->name('login.submit');
-Route::post('/logout', [AuthController::class,'logout'])->name('logout');
+Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
+Route::post('/login', [AuthController::class, 'login'])->name('login.submit');
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
 /*
 |--------------------------------------------------------------------------
@@ -42,22 +42,13 @@ Route::middleware('auth')->group(function () {
 
 /*
 |--------------------------------------------------------------------------
-| RESOURCE UMUM
+| USER ROUTES
 |--------------------------------------------------------------------------
 */
-Route::resource('users', UserController::class);
-Route::resource('kategoris', KategoriController::class);
-Route::resource('infos', InfoController::class);
-Route::resource('menus', MenuController::class);
-
-/*
-|--------------------------------------------------------------------------
-| USER DASHBOARD
-|--------------------------------------------------------------------------
-*/
+// User dashboard → disamakan dengan konvensi resource index
 Route::get('/user/dashboard', function () {
     return view('users.index');
-})->middleware('auth')->name('user.dashboard');
+})->middleware('auth')->name('users.index');
 
 /*
 |--------------------------------------------------------------------------
@@ -68,10 +59,10 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
     // Galeri
     Route::resource('galeri', GaleriController::class);
 
-    // About (hanya index, create, store, edit, update)
+    // About
     Route::resource('about', AboutController::class)->only(['index', 'create', 'store', 'edit', 'update']);
 
-    // Berita → fix parameter supaya {berita}, bukan {beritum}
+    // Berita
     Route::resource('berita', BeritaController::class)->parameters([
         'berita' => 'berita'
     ]);
@@ -86,8 +77,6 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
     Route::get('/kontak/{kontak}', [KontakController::class, 'show'])->name('kontak.show');
     Route::delete('/kontak/{kontak}', [KontakController::class, 'destroy'])->name('kontak.destroy');
 
-    // Download (Admin) → CRUD penuh kecuali show
-    Route::resource('downloads', DownloadController::class)->except(['show']);
 });
 
 /*
@@ -98,14 +87,13 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
 // Halaman utama
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
-// Berita publik (hanya index & show)
+// Berita publik
 Route::resource('berita', BeritaController::class)->only(['index', 'show']);
 
 // Form kirim pesan kontak
 Route::post('/kontak/kirim', [KontakController::class, 'kirim'])->name('kontak.kirim');
 
-// Download publik (hanya lihat daftar & detail)
-Route::prefix('download')->group(function () {
-    Route::get('/', [DownloadController::class, 'index'])->name('download.index');
-    Route::get('/{slug}', [DownloadController::class, 'show'])->name('download.show');
-});
+
+// ✅ Menus publik (bukan admin)
+Route::resource('menus', MenuController::class)->only(['index', 'show']);
+
