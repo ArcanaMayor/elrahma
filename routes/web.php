@@ -48,9 +48,20 @@ Route::middleware('auth')->group(function () {
 | USER ROUTES
 |--------------------------------------------------------------------------
 */
-Route::get('/user/dashboard', function () {
-    return view('users.index');
-})->middleware('auth')->name('users.index');
+
+// ✅ Perbaikan: dashboard user diarahkan ke UserController@index
+Route::get('/user/dashboard', [UserController::class, 'index'])
+    ->middleware('auth')
+    ->name('users.index');
+
+// Create & Store User
+Route::get('/users/create', [UserController::class, 'create'])->name('users.create');
+Route::post('/users', [UserController::class, 'store'])->name('users.store');
+
+// Edit, Update, Delete User
+Route::get('/users/{user}/edit', [UserController::class, 'edit'])->name('users.edit');
+Route::put('/users/{user}', [UserController::class, 'update'])->name('users.update');
+Route::delete('/users/{user}', [UserController::class, 'destroy'])->name('users.destroy');
 
 /*
 |--------------------------------------------------------------------------
