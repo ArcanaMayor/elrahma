@@ -25,6 +25,8 @@ use App\Http\Controllers\Admin\DownloadController;
 // Frontend Berita Controller
 use App\Http\Controllers\BeritaController as FrontendBeritaController;
 
+use App\Http\Controllers\Admin\TentangElrahmaController;
+
 /*
 |--------------------------------------------------------------------------
 | AUTH ROUTES
@@ -114,3 +116,7 @@ Route::post('/kontak/kirim', [KontakController::class, 'kirim'])->name('kontak.k
 
 // Menus publik (bukan admin)
 Route::resource('menus', MenuController::class)->only(['index', 'show']);
+
+Route::prefix('admin')->name('admin.')->group(function () {
+    Route::resource('tentang_elrahma', App\Http\Controllers\Admin\TentangElrahmaController::class);
+});

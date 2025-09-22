@@ -1556,169 +1556,55 @@
     </section><!-- End Doctors Section --> --}}
 
     <!-- Tentang Section -->
-<section id="section-5f0491fdca748" class="s123-module s123-module-blogs layout-1" data-module-id="5f0491fdca748" data-module-type-num="52" data-overlay-opacity="true">
+<section id="section-tentang" class="s123-module s123-module-blogs layout-1" data-overlay-opacity="true">
   <div data-aos="fade-up" class="container-fluid page_header_style noBackground aos-init aos-animate">
     <div class="row">
       <div class="container moduleTitleContainer">
         <div class="row modulesTitle text-center">
           <div class="col-xs-12">
             <div class="page-header-wrap">
-              <h2 id="section-5f0491fdca748-title" class="s123-page-header">TENTANG EL RAHMA</h2>
+              <h2 id="section-tentang-title" class="s123-page-header">TENTANG EL RAHMA</h2>
               <br><br>
             </div>
             <div class="page-slogan-wrap">
-              <h4 id="section-5f0491fdca748-slogan" class="s123-page-slogan">JAGO IT - QUR'ANI - JUTAWAN</h4><br><br>
+              <h4 id="section-tentang-slogan" class="s123-page-slogan">JAGO IT - QUR'ANI - JUTAWAN</h4><br><br>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
+
   <div class="container aos-init aos-animate" data-aos="fade-up">
     <div class="row">
-      <!-- Row 1 -->
+      @foreach($tentang as $item)
       <div class="col-md-6 col-sm-12 mb-4">
         <div class="card h-100">
           <div class="row g-0">
             <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74a653e786.jpg" class="img-fluid rounded-start" alt="PROFIL STMIK EL RAHMA">
+              @if($item->gambar)
+                <img src="{{ asset('storage/'.$item->gambar) }}" class="img-fluid rounded-start" alt="{{ $item->judul }}">
+              @else
+                <img src="https://via.placeholder.com/400x300.png?text=No+Image" class="img-fluid rounded-start" alt="No image">
+              @endif
             </div>
             <div class="col-md-6">
               <div class="card-body">
-                <h5 class="card-title">PROFIL STMIK EL RAHMA</h5>
-                <p class="card-text">STMIK El Rahma Yogyakarta adalah Perguruan Tinggi Swasta di bawah naungan Yayasan El Rahma Yogyakarta dalam pembinaan Kementerian Pendidikan dan Kebudayaan Republik Indonesia.</p>
-                <a href="/tentang-el-rahma/profil-stmik-el-rahma" class="btn btn-link">Selanjutnya &raquo;</a>
+                <h5 class="card-title">{{ $item->judul }}</h5>
+                <p class="card-text">{{ Str::limit($item->deskripsi, 120) }}</p>
+                @if($item->link)
+                  <a href="{{ $item->link }}" class="btn btn-link">Selanjutnya &raquo;</a>
+                @endif
               </div>
             </div>
           </div>
         </div>
       </div>
-      
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_66277e37850fe.png" class="img-fluid rounded-start" alt="PRODI & PROFIL LULUSAN">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">PRODI & PROFIL LULUSAN</h5>
-                <p class="card-text">Seluruh program studi di STMIK EL RAHMA adalah program studi favorit dan memiliki prospek cerah dimasa depan.</p>
-                <a href="/tentang-el-rahma/prodi-profil-lulusan" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Row 2 -->
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74a848960d.jpg" class="img-fluid rounded-start" alt="BADAN PENYELENGGARA">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">BADAN PENYELENGGARA</h5>
-                <p class="card-text">STMIK EL RAHMA diselenggarakan oleh Badan Penyelenggara Yayasan El Rahma Yogyakarta di bawah pembinaan Kementerian Pendidikan dan Kebudayaan Republik Indonesia.</p>
-                <a href="/tentang-el-rahma/badan-penyelenggara" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74aa26abbe.jpg" class="img-fluid rounded-start" alt="KOMPETENSI LULUSAN & BIDANG KERJA">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">KOMPETENSI LULUSAN & BIDANG KERJA</h5>
-                <p class="card-text">Lulusan STMIK El Rahma memiliki kompetensi bidang IT sesuai dengan minatnya, bermental wirausaha dan berakhlaq qur'ani.</p>
-                <a href="/tentang-el-rahma/kompetensi-lulusan-bidang-kerja" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Row 3 -->
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74a93ecf4b.jpg" class="img-fluid rounded-start" alt="DOSEN MUDA PROFESIONAL">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">DOSEN MUDA PROFESIONAL</h5>
-                <p class="card-text">Dosen-dosen muda yang profesional, lulusan dari berbagai perguruan tinggi ternama.</p>
-                <a href="/tentang-el-rahma/dosen-dosen-muda-profesional" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74ac1cb8b4.jpg" class="img-fluid rounded-start" alt="PRESTASI EL RAHMA">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">PRESTASI EL RAHMA</h5>
-                <p class="card-text">EL Rahma berhasil memenangkan berbagai hibah dan kompetisi, baik tingkat lokal, regional maupun nasional.</p>
-                <a href="/tentang-el-rahma/prestasi-el-rahma" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Row 4 -->
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_5fe74acf6a2ef.jpg" class="img-fluid rounded-start" alt="UNTUNG BESAR KULIAH">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">UNTUNG BESAR KULIAH</h5>
-                <p class="card-text">Lulus cepat dan tepat waktu, Biaya paling ringan, Beasiswa ratusan juta dari Yayasan dan Pemerintah.</p>
-                <a href="/tentang-el-rahma/untung-besar-kuliah-di-el-rahma" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="card h-100">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="https://images.cdn-files-a.com/uploads/3881771/400_crop_60129bcecc600_60129bb41092a.jpg" class="img-fluid rounded-start" alt="JUTAWAN SEBELUM WISUDA">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">JUTAWAN SEBELUM WISUDA</h5>
-                <p class="card-text">Lulusan cepat terserap ke pasar kerja, baik sebagai PNS maupun perusahaan swasta.</p>
-                <a href="/tentang-el-rahma/jutawan-sebelum-wisuda" class="btn btn-link">Selanjutnya &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      @endforeach
     </div>
   </div>
 </section>
+
 <!-- End Tentang Section -->
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">

@@ -364,7 +364,15 @@
                 <i data-feather="download"></i>
                 <span data-key="t-horizontal">Downloads</span>
             </a>
+        </li>
+        <li>
+            <a href="{{ route('admin.tentang_elrahma.index') }}">
+                <i data-feather="info"></i>
+                <span data-key="t-horizontal">About (Content)</span>
+            </a>
+        </li>
     </ul>
+
 </div>
 
 

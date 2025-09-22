@@ -7,6 +7,7 @@ use App\Models\Berita;
 use App\Model\Prodi;
 use App\Models\Prodi as ModelsProdi;
 use App\Models\Download;
+use App\Models\TentangElrahma;
 
 class HomeController extends Controller
 {
@@ -25,6 +26,9 @@ class HomeController extends Controller
     // Download
     $downloads = Download::latest()->take(5)->get(); 
 
-    return view('home', compact('terbaru', 'populer', 'galeri', 'featured', 'beritas', 'prodis', 'downloads'));
+    // Tentang Elrahma
+    $tentang = TentangElrahma::all();
+
+    return view('home', compact('terbaru', 'populer', 'galeri', 'featured', 'beritas', 'prodis', 'downloads', 'tentang'));
 }
 }
