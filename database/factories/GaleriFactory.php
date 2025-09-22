@@ -10,8 +10,12 @@ class GaleriFactory extends Factory
     {
         return [
             'judul' => $this->faker->sentence(3),
-            // hanya judul + gambar
-            'gambar' => $this->faker->imageUrl(640, 480, 'campus', true, 'Galeri'),
+
+            // 🔹 Pilihan 1: gunakan picsum.photos (gambar random)
+            // 'gambar' => 'https://picsum.photos/640/480?random=' . $this->faker->unique()->numberBetween(1, 1000),
+
+            // 🔹 Pilihan 2: gunakan placeholder.com (stabil, bisa kasih teks)
+            'gambar' => 'https://via.placeholder.com/640x480.png?text=Galeri+' . $this->faker->word(),
         ];
     }
 }

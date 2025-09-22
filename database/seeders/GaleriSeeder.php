@@ -9,7 +9,7 @@ class GaleriSeeder extends Seeder
 {
     public function run(): void
     {
-        // generate 15 data galeri dummy tanpa deskripsi
-        Galeri::factory()->count(15)->create();
+        // generate 10 gambar dummy
+        Galeri::factory()->count(10)->create();
     }
 }
