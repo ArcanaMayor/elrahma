@@ -15,23 +15,23 @@ class BeritaSeeder extends Seeder
     {
         DB::table('beritas')->insert([
             [
-                'judul' => 'Peluncuran Website Bank Sampah',
-                'isi'   => 'Website bank sampah resmi diluncurkan untuk mempermudah masyarakat dalam mengelola sampah dan mendapatkan manfaat ekonomi.',
-                'gambar'=> 'bank-sampah-launch.jpg',
+                'judul' => 'Kuliah Umum Teknologi AI',
+                'isi'   => 'Jurusan mengadakan kuliah umum tentang perkembangan Artificial Intelligence dengan menghadirkan pembicara dari industri teknologi.',
+                'gambar'=> 'kuliah-umum-ai.jpg',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'judul' => 'Edukasi Pengelolaan Sampah Plastik',
-                'isi'   => 'Kegiatan edukasi ini bertujuan untuk meningkatkan kesadaran masyarakat tentang pentingnya mengurangi penggunaan plastik sekali pakai.',
-                'gambar'=> 'edukasi-plastik.jpg',
+                'judul' => 'Seminar Nasional Teknologi Informasi',
+                'isi'   => 'Mahasiswa mengikuti seminar nasional yang membahas tren terbaru dalam dunia teknologi informasi, termasuk cloud computing dan keamanan siber.',
+                'gambar'=> 'seminar-nasional.jpg',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'judul' => 'Kolaborasi dengan Sekolah Lingkungan',
-                'isi'   => 'Bank Sampah bekerja sama dengan sekolah untuk mengajarkan anak-anak bagaimana memilah sampah sejak dini.',
-                'gambar'=> 'sekolah-lingkungan.jpg',
+                'judul' => 'Lomba Inovasi Aplikasi',
+                'isi'   => 'Tim mahasiswa berhasil meraih juara 1 lomba inovasi aplikasi tingkat regional dengan aplikasi manajemen belajar berbasis web.',
+                'gambar'=> 'lomba-aplikasi.jpg',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
