@@ -3,7 +3,7 @@
 @section('content')
 <div class="container py-4">
     <h3>Edit Info Prodi</h3>
-    <form action="{{ route('admin.infos.update', $info) }}" method="POST">
+    <form action="{{ route('admin.prodi.infos.update', ['prodi' => $info->prodi_id, 'info' => $info]) }}" method="POST">
         @csrf @method('PUT')
         <div class="mb-3">
             <label class="form-label">Judul Info</label>

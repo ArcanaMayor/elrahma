@@ -22,7 +22,7 @@ use App\Http\Controllers\Admin\ProdiInfoController;
 use App\Http\Controllers\Admin\MataKuliahController;
 use App\Http\Controllers\Admin\DownloadController;
 
-// Frontend Berita Controller (jika ada, pisahkan namespace)
+// Frontend Berita Controller
 use App\Http\Controllers\BeritaController as FrontendBeritaController;
 
 /*
@@ -49,7 +49,7 @@ Route::middleware('auth')->group(function () {
 |--------------------------------------------------------------------------
 */
 
-// ✅ Perbaikan: dashboard user diarahkan ke UserController@index
+// ✅ dashboard user diarahkan ke UserController@index
 Route::get('/user/dashboard', [UserController::class, 'index'])
     ->middleware('auth')
     ->name('users.index');
@@ -80,8 +80,13 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
 
     // Prodi & child resources
     Route::resource('prodi', ProdiController::class);
-    Route::resource('prodi.infos', ProdiInfoController::class);
-    Route::resource('prodi.mataKuliahs', MataKuliahController::class);
+    Route::resource('prodi.infos', ProdiInfoController::class)->parameters([
+        'prodi' => 'prodi',
+        'infos' => 'info'
+    ]);
+
+    // MataKuliah pakai snake_case + parameter binding
+    Route::resource('prodi.mata_kuliah', MataKuliahController::class);
 
     // Kontak (Admin)
     Route::get('/kontak', [KontakController::class, 'index'])->name('kontak.index');
@@ -101,8 +106,8 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
 // Home
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
-// Berita publik
-Route::resource('berita', FrontendBeritaController::class)->only(['index', 'show']);
+// ✅ Berita publik pakai FrontendBeritaController
+Route::resource('berita', AdminBeritaController::class)->only(['index', 'show']);
 
 // Form kirim pesan kontak
 Route::post('/kontak/kirim', [KontakController::class, 'kirim'])->name('kontak.kirim');

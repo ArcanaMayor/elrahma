@@ -9,16 +9,19 @@ use Illuminate\Http\Request;
 
 class MataKuliahController extends Controller
 {
-    public function index(Prodi $prodi) {
+    public function index(Prodi $prodi)
+    {
         $mataKuliahs = $prodi->mataKuliahs;
-        return view('admin.mata_kuliah.index', compact('prodi','mataKuliahs'));
+        return view('admin.mata_kuliah.index', compact('prodi', 'mataKuliahs'));
     }
 
-    public function create(Prodi $prodi) {
+    public function create(Prodi $prodi)
+    {
         return view('admin.mata_kuliah.create', compact('prodi'));
     }
 
-    public function store(Request $request, Prodi $prodi) {
+    public function store(Request $request, Prodi $prodi)
+    {
         $request->validate([
             'kode' => 'required|string|max:20',
             'nama' => 'required|string|max:255',
@@ -30,15 +33,17 @@ class MataKuliahController extends Controller
         $prodi->mataKuliahs()->create($request->all());
 
         return redirect()
-            ->route('admin.prodi.mataKuliahs.index', $prodi)
-            ->with('success','Mata Kuliah berhasil ditambahkan');
+            ->route('admin.prodi.mata_kuliah.index', $prodi)
+            ->with('success', 'Mata Kuliah berhasil ditambahkan');
     }
 
-    public function edit(MataKuliah $mataKuliah) {
-        return view('admin.mata_kuliah.edit', compact('mataKuliah'));
+    public function edit(Prodi $prodi, MataKuliah $mataKuliah)
+    {
+        return view('admin.mata_kuliah.edit', compact('prodi', 'mataKuliah'));
     }
 
-    public function update(Request $request, MataKuliah $mataKuliah) {
+    public function update(Request $request, Prodi $prodi, MataKuliah $mataKuliah)
+    {
         $request->validate([
             'kode' => 'required|string|max:20',
             'nama' => 'required|string|max:255',
@@ -50,16 +55,16 @@ class MataKuliahController extends Controller
         $mataKuliah->update($request->all());
 
         return redirect()
-            ->route('admin.prodi.mataKuliahs.index', $mataKuliah->prodi)
-            ->with('success','Mata Kuliah berhasil diupdate');
+            ->route('admin.prodi.mata_kuliah.index', $prodi)
+            ->with('success', 'Mata Kuliah berhasil diupdate');
     }
 
-    public function destroy(MataKuliah $mataKuliah) {
-        $prodi = $mataKuliah->prodi;
+    public function destroy(Prodi $prodi, MataKuliah $mataKuliah)
+    {
         $mataKuliah->delete();
 
         return redirect()
-            ->route('admin.prodi.mataKuliahs.index', $prodi)
-            ->with('success','Mata Kuliah berhasil dihapus');
+            ->route('admin.prodi.mata_kuliah.index', $prodi)
+            ->with('success', 'Mata Kuliah berhasil dihapus');
     }
 }

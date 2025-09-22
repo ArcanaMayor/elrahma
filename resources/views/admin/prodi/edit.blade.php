@@ -13,8 +13,8 @@
             <label class="form-label">Akreditasi</label>
             <input type="text" name="akreditasi" value="{{ $prodi->akreditasi }}" class="form-control">
         </div>
-        <button class="btn btn-success">Update</button>
-        <a href="{{ route('admin.prodi.index') }}" class="btn btn-secondary">Batal</a>
+        <button class="btn btn-success"><i class="fas fa-check"></i></button>
+        <a href="{{ route('admin.prodi.index') }}" class="btn btn-secondary"><i class="fas fa-arrow-left"></i></a>
     </form>
 </div>
 @endsection

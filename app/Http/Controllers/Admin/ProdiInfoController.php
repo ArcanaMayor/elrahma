@@ -23,24 +23,41 @@ class ProdiInfoController extends Controller
             'judul' => 'required|string|max:255',
             'deskripsi' => 'required'
         ]);
+        
         $prodi->infos()->create($request->all());
         return redirect()->route('admin.prodi.infos.index', $prodi)->with('success','Info berhasil ditambahkan');
     }
 
-    public function edit(ProdiInfo $info) {
+    public function edit($info) {
+        // Handle both string/numeric ID and model instance
+        if (is_string($info) || is_numeric($info)) {
+            $info = ProdiInfo::findOrFail($info);
+        }
+        
         return view('admin.infos.edit', compact('info'));
     }
 
-    public function update(Request $request, ProdiInfo $info) {
+    public function update(Request $request, $info) {
+        // Handle both string/numeric ID and model instance
+        if (is_string($info) || is_numeric($info)) {
+            $info = ProdiInfo::findOrFail($info);
+        }
+        
         $request->validate([
             'judul' => 'required|string|max:255',
             'deskripsi' => 'required'
         ]);
+        
         $info->update($request->all());
         return redirect()->route('admin.prodi.infos.index', $info->prodi_id)->with('success','Info berhasil diupdate');
     }
 
-    public function destroy(ProdiInfo $info) {
+    public function destroy($info) {
+        // Handle both string/numeric ID and model instance
+        if (is_string($info) || is_numeric($info)) {
+            $info = ProdiInfo::findOrFail($info);
+        }
+        
         $prodiId = $info->prodi_id;
         $info->delete();
         return redirect()->route('admin.prodi.infos.index', $prodiId)->with('success','Info berhasil dihapus');

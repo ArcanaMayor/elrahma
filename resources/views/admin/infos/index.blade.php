@@ -2,15 +2,20 @@
 
 @section('content')
 <div class="container">
-    <h1 class="mb-4">Daftar Info Prodi</h1>
+    <h1 class="mb-4">Daftar Info Prodi: {{ $prodi->nama }}</h1>
 
     {{-- Notifikasi sukses --}}
     @if(session('success'))
         <div class="alert alert-success">{{ session('success') }}</div>
     @endif
 
-    {{-- Tombol tambah info --}}
-    <a href="{{ route('admin.prodi.infos.create', $prodi->id) }}" class="btn btn-primary mb-3">+ Tambah Info</a>
+    <div class="mb-3 d-flex justify-content-between align-items-center">
+        {{-- Tombol tambah info --}}
+        <a href="{{ route('admin.prodi.infos.create', $prodi->id) }}" class="btn btn-primary"><i class="fas fa-plus"></i></a>
+        
+        {{-- Tombol kembali ke halaman prodi --}}
+        <a href="{{ route('admin.prodi.index') }}" class="btn btn-secondary"><i class="fas fa-arrow-left"> Back</i></a>
+    </div>
 
     <table class="table table-bordered">
         <thead>
@@ -30,7 +35,7 @@
                     <td>
                         {{-- Tombol edit --}}
                         <a href="{{ route('admin.prodi.infos.edit', [$prodi->id, $info->id]) }}" 
-                           class="btn btn-warning btn-sm">Edit</a>
+                           class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
 
                         {{-- Tombol hapus --}}
                         <form action="{{ route('admin.prodi.infos.destroy', [$prodi->id, $info->id]) }}" 
@@ -38,7 +43,7 @@
                               onsubmit="return confirm('Yakin hapus info ini?')">
                             @csrf
                             @method('DELETE')
-                            <button class="btn btn-danger btn-sm">Hapus</button>
+                            <button class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>
                         </form>
                     </td>
                 </tr>
