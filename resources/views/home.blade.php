@@ -106,42 +106,21 @@
 
       <div class="carousel-inner" role="listbox">
 
-        <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(/themes/Medicio/assets/img/slide/slide-a.webp)">
+        <div class="carousel-item active" style="background-image: url(/themes/Medicio/assets/img/slide/slide.webp)">
           <div class="container">
-            <h2>SERTIFIKASI INTERNASIONAL MIKROTIK STMIK EL RAHMA Yogyakarta</h2>
-            <p>Alhamdulillah, STMIK EL RAHMA telah sukses menyelenggarakan Pelatihan dan Sertifikasi Mikrotik. Pelatihan dan sertifikasi ini diselenggarakan dalam dua periode.</p>
-            <a href="#about" class="btn-get-started scrollto">Read More</a>
+            <h2>Selamat Datang Di EL RAHMA YOGYAKARTA</h2>
+            <a href="#" class="btn-get-started scrollto">Daftar MHS Baru</a>
           </div>
         </div>
-
-        <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(/themes/Medicio/assets/img/slide/slide-b.webp)">
-          <div class="container">
-            <h2>LULUS SARJANA TANPA SKRIPSI</h2>
-            <p>Alhamdulillah, STMIK EL RAHMA Yogyakarta telah menerapkan ketentuan dalam Permendikbudristek Nomor 53 Tahun 2023 tentang Penjaminan Mutu Pendidikan Tinggi.</p>
-            <a href="#about" class="btn-get-started scrollto">Read More</a>
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(/themes/Medicio/assets/img/slide/slide-c.png)">
-          <div class="container">
-            <h2>AUDIT MUTU INTERNAL (AMI) STMIK EL RAHMA YOGYAKARTA</h2>
-            <p>Alhamdulillah, Lembaga Penjaminan Mutu STMIK EL RAHMA Yogyakarta sukses menyelenggarakan kegiatan Audit Mutu Internal (AMI) pada tanggal 20 Desember 2024</p>
-            <a href="#about" class="btn-get-started scrollto">Read More</a>
-          </div>
-        </div>
-
       </div>
 
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+      {{-- <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
       </a>
 
       <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a>
+      </a> --}}
 
     </div>
   </section><!-- End Hero -->
@@ -150,7 +129,7 @@
   <div class="container">
     <!-- Section Header -->
     <div class="section-header text-center" style="margin-bottom: 50px;">
-      <h2 style="color: #2c3e50; font-weight: 700; position: relative; display: inline-block;">
+      <h2 style="color: #2c3e50; font-weight: 700; position: relative; display: inline-block;" data-aos="zoom-in" data-aos-delay="100">
         EL RAHMA NEWS
         <span style="display: block; width: 80px; height: 3px; background: #e74c3c; margin: 15px auto 0;"></span>
       </h2>
@@ -161,7 +140,7 @@
 
     <!-- Featured News -->
     @isset($featured)
-    <div class="row featured-news" style="margin-bottom: 40px;">
+    <div class="row featured-news" style="margin-bottom: 40px;" data-aos="zoom-in" data-aos-delay="100">
       <div class="col-md-12">
         <div class="featured-card" style="border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
           <div class="row no-gutters">
@@ -196,7 +175,7 @@
     @endisset
 
     <!-- Regular News Grid -->
-    <div class="row news-grid">
+    <div class="row news-grid" data-aos="zoom-in" data-aos-delay="100">
       @foreach($beritas as $berita)
       <div class="col-lg-4 col-md-6 news-item" style="margin-bottom: 30px;">
         <div class="news-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.08); height: 100%; transition: transform 0.3s;">
@@ -238,7 +217,7 @@
   <main id="main">
     <!-- ======= About Us Section ======= -->
     <br>
-    <div class="section-title">
+    <div class="section-title" data-aos="zoom-in" data-aos-delay="100">
           <h2>INFO PMB</h2>
         </div>
     @php
@@ -246,7 +225,7 @@
     @endphp
 
 @if($about)
-<section id="about" class="about py-5">
+<section id="about" class="about py-5" data-aos="zoom-in" data-aos-delay="100">
     <div class="container">
         <div class="row align-items-center">
             <!-- Text -->
@@ -366,7 +345,7 @@
 
     <!-- ======= Informatika Prodi Section ======= -->
     <section id="services" class="services services">
-      <div class="container" data-aos="fade-up">
+      <div class="container" data-aos="zoom-in">
 
         <div class="section-title">
           <h2>INFO DAFTAR & BIAYA STUDI</h2>
@@ -478,16 +457,16 @@
 }
 </style>
 
-<h2 class="mb-5 text-center fw-bold">PROGRAM STUDI</h2>
+<h2 class="mb-5 text-center fw-bold" data-aos="zoom-in" data-aos-delay="100">PROGRAM STUDI</h2>
 
 @foreach($prodis as $prodi)
     {{-- Nama Prodi --}}
-    <h3 class="text-center text-uppercase mb-4">
+    <h3 class="text-center text-uppercase mb-4" data-aos="zoom-in" data-aos-delay="100">
         {{ $prodi->nama }} (Akreditasi {{ $prodi->akreditasi }})
     </h3>
 
     {{-- Informasi Prodi --}}
-    <div class="text-center mb-5">
+    <div class="text-center mb-5" data-aos="zoom-in" data-aos-delay="100">
         @foreach($prodi->infos as $info)
             <div class="mb-4">
                 <h5 class="fw-bold text-uppercase">{{ $info->judul }} :</h5>
@@ -497,13 +476,13 @@
     </div>
 
     {{-- Mata Kuliah --}}
-    <h5 class="fw-bold mt-5 mb-3 text-center">MATA KULIAH :</h5>
+    <h5 class="fw-bold mt-5 mb-3 text-center" data-aos="zoom-in" data-aos-delay="100">MATA KULIAH :</h5>
 
     @php
         $grouped = $prodi->mataKuliahs->groupBy('semester');
     @endphp
 
-    <div class="d-flex flex-column align-items-center">
+    <div class="d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
         @forelse($grouped as $semester => $mks)
             <div class="mb-4 table-container text-center" style="width: 100%; max-width: 900px;">
                 <h6 class="fw-bold text-uppercase mb-3">Semester {{ $semester }}</h6>
@@ -538,7 +517,7 @@
                 </table>
             </div>
         @empty
-            <p class="text-center">Belum ada data mata kuliah</p>
+            <p class="text-center" data-aos="zoom-in" data-aos-delay="100">Belum ada data mata kuliah</p>
         @endforelse
     </div>
 @endforeach
@@ -1113,14 +1092,14 @@
 
 
 <section id="section-5f06db20ab42b" class="s123-module s123-module-services layout-1" style="padding: 40px 0;">
-  <div class="container">
+  <div class="container" data-aos="zoom-in" data-aos-delay="100">
     <div class="row text-center">
       <div class="col-xs-12">
-        <h2 class="s123-page-header" style="margin-bottom: 30px;">BEASISWA PEDULI PANDEMI</h2> <br><br>
+        <h2 class="s123-page-header" style="margin-bottom: 30px;" data-aos="zoom-in" data-aos-delay="100">BEASISWA PEDULI PANDEMI</h2> <br><br>
       </div>
     </div>
     
-    <div class="row" style="display: flex; flex-wrap: nowrap; justify-content: center; gap: 30px;">
+    <div class="row" style="display: flex; flex-wrap: nowrap; justify-content: center; gap: 30px;" data-aos="zoom-in" data-aos-delay="100">
       <!-- Beasiswa 1 -->
       <div class="col-md-4 col-sm-6" style="flex: 1; min-width: 300px; max-width: 400px;">
         <div class="service-item" style="height: 100%; display: flex; flex-direction: column; align-items: center;">
@@ -1129,7 +1108,7 @@
                  alt="BEASISWA PROGRAM REGULER PEDULI PANDEMI (JR-PP)" 
                  style="width: 100%; height: 100%; object-fit: cover;">
           </div>
-          <h4 style="margin-top: 0; margin-bottom: 15px;"><strong>BEASISWA PROGRAM REGULER PEDULI PANDEMI (JR-PP)</strong></h4>
+          <h4 style="margin-top: 0; margin-bottom: 15px;" ><strong>BEASISWA PROGRAM REGULER PEDULI PANDEMI (JR-PP)</strong></h4>
           <p style="flex-grow: 1; margin-bottom: 20px;">Beasiswa bagi calon mahasiswa yang orang tua/walinya terdampak covid 19. Beasiswa program reguler peduli pandemi tersedia untuk 15 mahasiswa baru prodi INFORMATIKA dan 15 mahasiswa baru prodi SISTEM INFORMASI.</p>
           <a href="/beasiswa-peduli-pandemi/beasiswa-program-reguler-peduli-pandemi-jr-pp" 
              class="btn btn-primary" 
@@ -1163,7 +1142,7 @@
         <div class="row modulesTitle text-center">
           <div class="col-xs-12">
             <div class="page-header-wrap">
-              <h2 id="section-60c9fdd09d27f-title" class="s123-page-header" style="color: #2c3e50;">BEASISWA KIP KULIAH 2024</h2>
+              <h2 id="section-60c9fdd09d27f-title" class="s123-page-header" style="color: #2c3e50;" data-aos="zoom-in" data-aos-delay="100">BEASISWA KIP KULIAH 2024</h2>
               <hr class="small" style="border-color: #ddd;">
             </div>
           </div>
@@ -1172,7 +1151,7 @@
     </div>
   </div>
 
-  <div class="container preview-highlighter aos-init aos-animate" data-aos="fade-up" style="padding: 30px 0;">
+  <div class="container preview-highlighter aos-init aos-animate" data-aos="fade-up" style="padding: 30px 0;" data-aos="zoom-in" data-aos-delay="100">
     <div class="row">
       <!-- Kolom Gambar -->
       <div class="col-md-4 col-sm-12" style="margin-bottom: 20px;">
@@ -1186,7 +1165,7 @@
       </div>
       
       <!-- Kolom Konten -->
-      <div class="col-md-8 col-sm-12">
+      <div class="col-md-8 col-sm-12" data-aos="zoom-in" data-aos-delay="100">
         <div class="responsive-handler fr-view breakable" style="background-color: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
           <p style="font-size: 16px; line-height: 1.6;">Beasiswa KIP-KULIAH tahun 2024 diperuntukkan untuk siswa lulusan SMU/SMK/MA tahun 2024, 2023, dan 2022.</p>
           
@@ -1558,7 +1537,7 @@
     <!-- Tentang Section -->
 <section id="section-tentang" class="s123-module s123-module-blogs layout-1" data-overlay-opacity="true">
   <div data-aos="fade-up" class="container-fluid page_header_style noBackground aos-init aos-animate">
-    <div class="row">
+    <div class="row" data-aos="zoom-in" data-aos-delay="100">
       <div class="container moduleTitleContainer">
         <div class="row modulesTitle text-center">
           <div class="col-xs-12">
@@ -1576,7 +1555,7 @@
   </div>
 
   <div class="container aos-init aos-animate" data-aos="fade-up">
-    <div class="row">
+    <div class="row" data-aos="zoom-in" data-aos-delay="100">
       @foreach($tentang as $item)
       <div class="col-md-6 col-sm-12 mb-4">
         <div class="card h-100">
@@ -1608,9 +1587,9 @@
 <!-- End Tentang Section -->
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
-    <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="fade-up" data-aos="zoom-in" data-aos-delay="100">
 
-        <div class="section-title">
+        <div class="section-title" data-aos="zoom-in" data-aos-delay="100">
             <h2>Kegiatan Akademik & Pembinaan Plus</h2>
         </div>
 
@@ -1795,7 +1774,7 @@
     </section><!-- End Frequently Asked Questioins Section --> --}}
 
 {{-- Header Section --}}
-    <section class="page-header bg-light py-5">
+    <section class="page-header bg-light py-5" data-aos="zoom-in" data-aos-delay="100">
         <div class="container">
             <div class="page-header-wrap text-center">
                 <h2 class="fw-bold">DOWNLOAD</h2>
@@ -1805,7 +1784,7 @@
     </section>
 
     {{-- Download Section --}}
-    <section class="download-section py-5">
+    <section class="download-section py-5" data-aos="zoom-in" data-aos="fade-up" data-aos-delay="100">
         <div class="container">
             <div class="row">
                 @forelse($downloads as $download)
@@ -1837,41 +1816,41 @@
 
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" >
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title" data-aos="zoom-in" data-aos-delay="100">
           <h2>Kontak</h2>
         </div>
 
       </div>
 
-      <div>
+      <div data-aos="fade-up" data-aos-delay="500">
         <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4863.65702890828!2d110.37039767588675!3d-7.822984677697599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x2e7a57a69855edb3%3A0x41eb9794274b2092!2sSTMIK%20EL%20RAHMA!5e1!3m2!1sid!2sid!4v1754291119121!5m2!1sid!2sid" frameborder="0" allowfullscreen></iframe>
       </div>
 
-      <div class="container">
+      <div class="container" >
 
         <div class="row mt-5">
 
           <div class="col-lg-6">
 
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-md-12" data-aos="zoom-in" data-aos-delay="100">
                 <div class="info-box">
                   <i class="bx bx-map"></i>
                   <h3>Alamat Kami</h3>
                   <p>Jalan Sisingamangaraja No.76, Brontokusuman, Yogyakarta City, Special Region of Yogyakarta, Indonesia Kodepos 55153</p>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6" data-aos="zoom-in" data-aos-delay="200">
                 <div class="info-box mt-4">
                   <i class="bx bx-envelope"></i>
                   <h3>Email Us</h3>
                   <p>pmb@stmikelrahma.ac.ch</p>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6" data-aos="zoom-in" data-aos-delay="300">
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
                   <h3>Call Us</h3>
@@ -1882,7 +1861,7 @@
 
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <form action="{{ route('kontak.kirim') }}" method="post" role="form">
               @csrf
               <div class="row">
@@ -1922,7 +1901,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">Admin#123</a>
+        Designed by <a href="https://bootstrapmade.com/">Test User</a>
       </div>
     </div>
   </footer><!-- End Footer -->
